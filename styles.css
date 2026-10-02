@@ -115,3 +115,34 @@ nav a.active{background:#1e293b;color:white}
 .tip-listener-caption{position:absolute;left:0;right:0;bottom:0;padding:42px 26px 22px;background:linear-gradient(transparent,rgba(9,13,22,.94));display:flex;flex-direction:column;gap:4px}
 .tip-listener-caption strong{font-size:22px;color:#fff}.tip-listener-caption span{color:#cbd5e1;line-height:1.45}
 @media(max-width:760px){.tip-listener{margin-top:18px}.tip-listener img{max-height:none}.tip-listener-caption{position:static;background:#111827;padding:17px 19px}.tip-listener-caption strong{font-size:19px}}
+
+/* Compact tip-page introduction */
+.tip-intro-card{display:grid;grid-template-columns:minmax(260px,38%) minmax(0,1fr);gap:0;margin:20px 0 26px;border:1px solid #3b4658;border-radius:16px;overflow:hidden;background:#111827;box-shadow:0 14px 36px rgba(0,0,0,.18)}
+.tip-intro-card .tip-listener{margin:0;border:0;border-radius:0;box-shadow:none;min-height:100%;position:relative}
+.tip-intro-card .tip-listener img{width:100%;height:100%;max-height:390px;object-fit:cover;object-position:center 38%}
+.tip-intro-card .tip-copy{padding:26px 30px}
+.tip-intro-card .tip-copy h2{margin:3px 0 12px;font-size:31px}
+.tip-intro-card .tip-copy p{margin:0 0 10px}
+.tip-intro-card .tip-personal{font-weight:750;color:#e5e7eb}
+.tip-intro-card .tip-policy{margin-top:17px;padding:12px 14px}
+.tip-form-grid{display:block;margin-top:0}
+.tip-form-grid .tip-form{max-width:760px;margin:0 auto}
+@media(max-width:760px){
+ .tip-header{padding-bottom:8px}
+ .tip-header h1{margin-bottom:8px}
+ .tip-intro-card{grid-template-columns:112px minmax(0,1fr);align-items:stretch;margin:12px 0 18px;border-radius:12px}
+ .tip-intro-card .tip-listener{height:auto}
+ .tip-intro-card .tip-listener img{height:100%;max-height:none;object-fit:cover;object-position:48% center}
+ .tip-intro-card .tip-copy{padding:14px 15px}
+ .tip-intro-card .insider-tag{font-size:9px;padding:4px 6px;margin-bottom:5px}
+ .tip-intro-card .tip-copy h2{font-size:20px;margin:0 0 7px}
+ .tip-intro-card .tip-copy p{font-size:13px;line-height:1.42;margin-bottom:7px}
+ .tip-intro-card .tip-personal{display:none}
+ .tip-intro-card .tip-policy{margin-top:8px;padding:8px 10px;font-size:11px}
+ .tip-intro-card .tip-policy span{line-height:1.35;margin-top:2px}
+}
+@media(max-width:430px){
+ .tip-intro-card{grid-template-columns:92px minmax(0,1fr)}
+ .tip-intro-card .tip-copy{padding:12px}
+ .tip-intro-card .tip-copy h2{font-size:18px}
+}

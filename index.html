@@ -12,7 +12,7 @@ layout: null
 <body>
 <nav><div class="container nav-inner">
 <a class="league-brand" href="#home">Autocratic Association of Autism</a>
-<div class="nav-links"><a href="#home">Home</a><a href="ledger.html">AAA Insider</a><a href="#career">Career</a><a href="#records">Records</a><a href="#games">Games</a><a href="#multiweek">Playoffs</a><a href="#seasons">Seasons</a></div>
+<div class="nav-links"><a href="#home">Home</a><a href="ledger.html">AAA Insider</a><a class="tip-nav" href="submit-tip.html">Submit a Tip</a><a href="#career">Career</a><a href="#records">Records</a><a href="#games">Games</a><a href="#multiweek">Playoffs</a><a href="#seasons">Seasons</a></div>
 </div></nav>
 <main class="container" id="home">
 <header>
@@ -45,6 +45,15 @@ layout: null
     <p>{% if latest %}{{ latest.summary }}{% else %}Draft audits, weekly recaps, lineup crimes, trade reviews, awards, and investigations nobody requested.{% endif %}</p>
   </div>
   {% if latest %}<a class="button" href="{{ latest.url | relative_url }}">Read Issue No. {{ latest.issue_number }} →</a>{% else %}<a class="button" href="{{ '/ledger.html' | relative_url }}">Open AAA Insider →</a>{% endif %}
+</section>
+
+<section class="home-tip-promo">
+  <div>
+    <div class="insider-kicker">AAA Insider Tip Line</div>
+    <h2>Got information the league should know?</h2>
+    <p>Trades. League disputes. Commissioner activity. Suspicious roster decisions. Sacko developments. Private negotiations. AAA Insider accepts tips from named and confidential sources.</p>
+  </div>
+  <a class="button home-tip-button" href="submit-tip.html">Submit a Tip →</a>
 </section>
 
 <section class="eligibility-note scoring-policy">

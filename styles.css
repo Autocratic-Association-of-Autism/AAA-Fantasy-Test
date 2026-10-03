@@ -152,7 +152,7 @@ nav a.active{background:#1e293b;color:white}
 .home-insider-latest{margin:0 0 38px;padding:24px;border:1px solid #334155;border-radius:18px;background:linear-gradient(145deg,rgba(23,32,51,.96),rgba(15,23,42,.96))}
 .home-insider-heading{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;margin-bottom:18px}
 .home-insider-heading h2{margin:5px 0 7px}.home-insider-heading p{margin:0;color:var(--muted);max-width:760px;line-height:1.55}
-.home-story-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:14px}
+.home-story-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
 .home-story-card{display:block;border:1px solid #334155;border-radius:14px;padding:20px;background:#111827;transition:transform .16s ease,border-color .16s ease,background .16s ease}
 .home-story-card:hover{transform:translateY(-2px);border-color:#64748b;background:#172033}
 .home-story-card.home-story-lead{border-top:4px solid #dc2626}

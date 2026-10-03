@@ -219,6 +219,33 @@ The Tip Line remains open.
 
 Unfortunately.
 
+### Tip #006 — Frankenstein Has Entered the Chat
+**Submitted as:** Dr. Frankie  
+**Source status:** May be named publicly
+
+The Tip Line received what appears to be either a literary warning, a confession or the opening paragraph of an extremely low-budget horror movie:
+
+> “Why did you make me?”  
+> The monster cried.  
+> “You gave me a soul,  
+> Then left me outside.”  
+> Ryan kept running,  
+> But nowhere was far—  
+> You can’t outrun something  
+> You’ve made who you are.
+
+AAA Insider has reviewed the submission.
+
+The newsroom does not currently understand it.
+
+Given the name “Dr. Frankie,” the monster imagery and the repeated references to Ryan creating something he can no longer escape, our working theory is that **Ryan has somehow become Dr. Frankenstein in a metaphor nobody bothered to explain before filing it with the press.**
+
+**Status:** Meaning unclear. Threat level literary.
+
+The Tip Line remains open.
+
+Unfortunately.
+
 ## Transaction Desk: Some People Are Actually Managing Their Teams
 
 Amid the investigations, scandal and pouch-related medical questions, several managers quietly continued playing fantasy football.

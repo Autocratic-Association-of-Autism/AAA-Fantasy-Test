@@ -31,11 +31,11 @@ Ryan has Mahomes, Bijan, Skattebo, Diggs and Waller carrying the load. Denzel Bo
 The history here is subtle only if you consider an **84.46-point win** and a **78.58-point revenge beating** subtle. Ryan destroyed Zak in 2023. Zak returned the favor in 2025. Apparently these two treat mercy like an optional scoring category.
 
 ### Keys to Victory
-**Ryan:** Make Tyler Shough matter.  
-**Zak:** Have McCaffrey become the Red Cross.
+**Ryan:** Get a normal Mahomes-and-Bijan week and do not let Christian McCaffrey turn this into another one of those Ryan–Zak games where somebody gets publicly dismembered.  
+**Zak:** Get enough competence from Tyler Shough that the rest of the roster is not forced to perform CPR by halftime.
 
 ### Bold Prediction
-Zak hangs around, but Shough eventually turns into the reason everyone remembers why backup quarterbacks are called backups.
+McCaffrey gives Ryan at least one genuine scare, but Zak eventually reaches the part of the afternoon where having Tyler Shough at quarterback becomes less of a roster decision and more of a medical condition.
 
 ### Ryan's Pick
 **Bijan Mustard.** After a thorough internal review, AAA Insider has found Ryan Mays to be both qualified and handsome.
@@ -66,24 +66,24 @@ Casey wins, and by Sunday night the phrase “turning point” appears somewhere
 ## KENNETH SKYWALKER (2–1) vs. LAMBORGHINI MURCI (2–1)
 ### *The lineup screen remains available at no additional charge*
 
-Ryan Hutchins currently has a problem that advanced analytics cannot solve.
+Ryan Hutchins' lineup looks absurd, but this is not an accident.
 
-He has to start his players.
+He is **deliberately** leaving players on the bench, and everyone in the league knows it.
 
-Harold Fannin Jr. gave him **11.7 points** Thursday. DK Metcalf scored **16.5 on the bench**, which means Hutchins has already discovered the rare strategy of outscoring himself.
+Harold Fannin Jr. gave him **11.7 points** Thursday. DK Metcalf scored **16.5 on the bench**, so Hutchins has already willingly watched more points disappear than most managers would tolerate before opening ESPN in a cold sweat.
 
-Larry, meanwhile, has Ja'Marr Chase, Kenneth Walker III, Drake London, David Montgomery and Trevor Lawrence actually placed into active lineup slots, an innovative approach that deserves recognition.
+Larry, meanwhile, has Ja'Marr Chase, Kenneth Walker III, Drake London, David Montgomery and Trevor Lawrence in active lineup slots, choosing the comparatively traditional strategy of attempting to score as many points as possible.
 
 This comes in the same week Hutchins was reminded that he owns **five of the ten lowest weekly scores in league history** and after publicly telling Larry he would “sabotage” his team to avoid a third Sacko.
 
 That quote has aged beautifully.
 
 ### Keys to Victory
-**Larry:** Continue operating ESPN at a basic level.  
-**Hutchins:** Move the good players from the bench to the lineup before the games begin.
+**Larry:** Punish whatever the hell Hutchins is doing before it somehow turns into strategy.  
+**Hutchins:** Make the deliberate benching look calculated instead of deranged.
 
 ### Bold Prediction
-Hutchins fixes most of it, but the 16.5 Metcalf points become the exact number he stares at angrily Sunday night.
+Hutchins sticks with the bit long enough to make the matchup unnecessarily strange, and Metcalf's 16.5 bench points become part of the postgame argument no matter who wins.
 
 ### Ryan's Pick
 **Kenneth Skywalker.** Larry currently holds a commanding edge in the category of “players scheduled to count.”

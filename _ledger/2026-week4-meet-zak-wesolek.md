@@ -11,7 +11,7 @@ summary: "AAA Insider investigates Zak Wesolek: former pole vaulter, travel nurs
 draft: false
 ---
 
-*By Ryan Mays | AAA Insider*
+*By Ryan Mays — AAA Insider*
 
 AAA Insider believes fantasy football is about more than scores, standings and championships.
 
@@ -25,7 +25,7 @@ After an exhaustive, completely independent and unquestionably ethical selection
 
 This is his story.
 
-![Zak Wesolek competing in track and field]({{ '/zak-wesolek-pole-vault.webp' | relative_url }})
+<img src="{{ '/zak-wesolek-pole-vault.webp' | relative_url }}" alt="Zak Wesolek competing in track and field" style="display:block;width:100%;max-width:100%;height:auto;margin:24px auto 12px;">
 
 *Zak Wesolek competing for Norwich Free Academy, 2013. Photo via the Norwich Bulletin.*
 

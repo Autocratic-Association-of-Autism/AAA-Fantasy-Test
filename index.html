@@ -49,7 +49,8 @@ layout: null
 
   <div class="home-story-grid">
     {% for issue in issues limit:2 %}
-    <a class="home-story-card{% if forloop.first %} home-story-lead{% endif %}" href="{{ issue.url | relative_url }}">
+    <a class="home-story-card home-story-lead" href="{{ issue.url | relative_url }}">
+      <div class="insider-tag">Lead Story</div>
       <div class="issue-meta">
         <span>{% if issue.article_type %}{{ issue.article_type }}{% else %}Issue No. {{ issue.issue_number }}{% endif %}</span>
         <span>{{ issue.date | date: "%b %-d" }}</span>

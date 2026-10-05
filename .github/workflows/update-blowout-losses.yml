@@ -1,0 +1,34 @@
+name: Update 35+ Point Losses
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'build_blowout_losses.py'
+      - '.github/workflows/update-blowout-losses.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install espn-api
+      - name: Calculate record
+        env:
+          ESPN_SWID: ${{ secrets.ESPN_SWID }}
+          ESPN_S2: ${{ secrets.ESPN_S2 }}
+        run: python build_blowout_losses.py
+      - name: Commit generated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add blowout-losses.js
+          git diff --cached --quiet && exit 0
+          git commit -m "Update 35+ point loss records"
+          git push

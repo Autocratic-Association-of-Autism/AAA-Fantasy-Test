@@ -48,6 +48,12 @@ const weeklyCols=[
 ];
 table('#highest',D.highest,weeklyCols); table('#lowest',D.lowest,weeklyCols);
 
+table('#blowoutLosses',(window.BLOWOUT_LOSSES||[]),[
+ {key:'Rank',label:'Rank'},
+ {key:'Manager',label:'Manager'},
+ {key:'Losses',label:'35+ Point Losses',render:v=>`<span class="highlight">${v}</span>`}
+]);
+
 function normalizeGame(r){
   const winnerIsHome = r.Winner === r['Home Manager'];
   const loserIsHome = r.Loser === r['Home Manager'];

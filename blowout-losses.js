@@ -1,0 +1,1 @@
+window.BLOWOUT_LOSSES = [];

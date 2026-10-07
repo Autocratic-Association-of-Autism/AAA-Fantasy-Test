@@ -17,7 +17,7 @@ For more than five years, Larry Terrell has built one of the strongest résumés
 
 Statistics can tell you Larry won a championship. Statistics cannot explain why he once looked like the lead singer of a Christian rock band preparing to release its debut album exclusively through the church bookstore.
 
-<img src="{{ '/larry-soil-of-the-soul.webp' | relative_url }}" alt="Parody Christian rock album cover featuring Larry Terrell" style="display:block;width:100%;max-width:760px;height:auto;margin:24px auto 12px;">
+<img src="{{ '/larry-soil-of-the-soul.jpg' | relative_url }}" alt="Parody Christian rock album cover featuring Larry Terrell" style="display:block;width:100%;max-width:760px;height:auto;margin:24px auto 12px;">
 
 *Larry Terrell — **Soil of the Soul**. Featuring the hit single “Jesus, Take the Lineup.”*
 
@@ -37,27 +37,19 @@ The Vikings, meanwhile, have reached four Super Bowls and won zero. Larry reache
 
 Larry also attended NC State and studied **soil and water**, which is phenomenal news for a publication tasked with making fun of Larry Terrell.
 
-<img src="{{ '/larry-williams-hall.webp' | relative_url }}" alt="Larry Terrell posing with the Williams Hall sign at NC State" style="display:block;width:100%;max-width:720px;height:auto;margin:24px auto 12px;">
-
-*Four years of higher education eventually led to this man calling himself King of the Crips.*
-
 He now works in property valuation, so professionally Larry is trusted to determine what things are worth. Last Sunday he apparently valued ownership of his own fantasy-team name at roughly **four points less than necessary**. That is all AAA Insider needs from his résumé.
 
 ## A History of Being Carried
 
 The most important thing we learned about Larry has nothing to do with fantasy football. Larry has apparently spent his entire adult life being carried around by other men.
 
-<img src="{{ '/larry-carried-gallery.webp' | relative_url }}" alt="Three archival photos of Larry Terrell with other league members" style="display:block;width:100%;max-width:1100px;height:auto;margin:24px auto 12px;">
+<img src="{{ '/larry-archive.jpg' | relative_url }}" alt="AAA Insider archival collage of Larry Terrell" style="display:block;width:100%;max-width:760px;height:auto;margin:24px auto 12px;">
 
-*From left: Chance doing what apparently needed to be done. Another man doing Larry's work for him. And even here, somehow Larry looks like the one who needs help.*
+*The Larry Terrell archive: a college education, multiple grown men providing transportation, an unnecessary monument pose and the white suit.*
 
 Chance carried Larry. Another league member carried Larry. Years later, Ryan Hutchins beat him by 39.8 points and carried what remained of **Kenneth Skywalker** directly into **Mangled Prison Pocket**. At this point, Larry being supported by another grown man is less of a photograph theme and more of a lifestyle.
 
-AAA Insider also found two additional images that felt important to preserve for historical reasons.
-
-<img src="{{ '/larry-monument-white-suit.webp' | relative_url }}" alt="Two archival photos of Larry Terrell, including a monument pose and white formalwear" style="display:block;width:100%;max-width:1100px;height:auto;margin:24px auto 12px;">
-
-*Left: Larry posing beneath a monument as though someone had finally commemorated the 2023 title. Right: we were going to make fun of this outfit, but Larry already wore it in public.*
+The white suit requires no additional reporting. Larry already wore it in public.
 
 ## The Mangled Prison Pocket Incident
 

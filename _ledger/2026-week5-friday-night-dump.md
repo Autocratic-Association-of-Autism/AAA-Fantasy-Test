@@ -4,7 +4,7 @@ issue_number: 7
 article_type: "Friday News Dump + Weekend Preview · Week 5"
 week: 5
 season: 2026
-date: 2026-10-09 21:30:00 -0400
+date: 2026-10-09
 read_time: "~9 min read"
 deck: "The Tip Line is deteriorating, Chance is undefeated at the one sport he isn't watching, and Sunday is about to make several people miserable."
 summary: "AAA Insider reviews fresh anonymous tips, Chance's Cowboys-related suffering, the lingering Larry situation and all five Week 5 matchups in a single Friday-night edition."

@@ -5,9 +5,9 @@ article_type: "Friday News Dump + Weekend Preview · Week 5"
 week: 5
 season: 2026
 date: 2026-10-09
-read_time: "~10 min read"
-deck: "A forklift-related tip, a humiliated Cowboys fan, a tribute to Iron Mike and five matchups that have not yet been ruined."
-summary: "Prison Mike unloads on Frankie, Chance suffers in Dallas, Mike Ditka is remembered, and the league heads into five Week 5 matchups."
+read_time: "~9 min read"
+deck: "Anonymous nonsense, Frankie discovers 5G, Hutchins voluntarily visits Ohio, and the Bears are more important than your fantasy team."
+summary: "Frankie ignores the league at 5G speed, Ryan Hutchins flies to Ohio to play him, Chance's Cowboys lose again, and the weekend gets personal."
 draft: false
 ---
 
@@ -15,7 +15,7 @@ draft: false
 
 There is something deeply reassuring about reaching Friday night and discovering that absolutely nobody in this league has used the week productively.
 
-The Tip Line has produced an anime conspiracy about Larry, a lengthy letter about Frankie and industrial safety, and proof that at least one anonymous source has far too much time on their hands. Chance Robinson is undefeated in fantasy football but is a Cowboys fan, so nature is doing its best to restore balance. Meanwhile, there are five matchups to preview, and the Chicago Bears are playing the Green Bay Packers on Sunday, which is considerably more important than anything else anyone has going on.
+The Tip Line has produced an anime conspiracy about Larry and a letter about Frankie that somehow requires working knowledge of forklift safety. Frankie, as usual, has no idea what anyone in the league is saying about him. Ryan Hutchins is flying to Ohio to see Frankie in person, a trip that really raises questions about what was wrong with every other state. Chance Robinson's Cowboys have lost again. And the Bears are playing Green Bay, so you will also be getting Chicago football coverage whether you asked for it or not.
 
 All of that is now in one place. You're welcome.
 
@@ -42,41 +42,35 @@ But the week's most ambitious submission came from **Prison Mike**, who delivere
 
 The allegations are unverified. What is indisputable is that someone typed all of this into a fantasy football website at two in the morning and thought, *yes, the people need to know.*
 
-The submission begins like a confidential intelligence briefing, takes a hard left into Frankie's love life, detours through the dangers of operating a forklift while intoxicated, and arrives at a place called **Hotel Ohio** without ever explaining why we were supposed to be there. It is magnificent nonsense.
+The submission starts as a confidential intelligence briefing, takes a sharp left into Frankie's personal life, pauses to review the dangers of operating a forklift while intoxicated, and somehow ends at **Hotel Ohio**. It's an incredible journey for a tip written about a man who never reads the Tip Line, GroupMe or anything AAA Insider publishes.
 
-Frankie has been in this league long enough to deserve the occasional anonymous hit piece, but he must be particularly confused to discover that the most damaging attack on his reputation this week came from somebody who appears to have memorized the forklift employee handbook.
+Frankie will probably never see any of this. He doesn't read the group chat, he doesn't read these articles, and we're beginning to suspect he thinks the league communicates exclusively through the ESPN matchup screen. This entire sidebar is an elaborate way of leaving a note for somebody who isn't home.
 
 And that is exactly why the Tip Line exists. Please continue submitting material. Particularly if it gets stranger than this.
 
 <div class="insider-clear"></div>
 
-## Chance Robinson Has Been Called Embarrassing by Association
+## Chance Robinson Is 4–0. Dallas Is Doing Its Part.
 
-Chance is **4–0**, the only undefeated manager remaining. There has never been a worse time to be required to compliment Chance Robinson.
+Chance Robinson is the last undefeated manager in the league, which continues to be an irritating fact. Fortunately, he is also a Cowboys fan, so nobody has to spend too long feeling happy for him.
 
-Fortunately, he is also a Dallas Cowboys fan, and the Cowboys lost **24–16 at home to Tampa Bay on Thursday night**. As Dak Prescott headed off the field, [someone believed to be a stadium employee called the performance “embarrassing”](https://nypost.com/2026/10/09/sports/dak-prescott-glares-at-employee-who-calls-cowboys-loss-embarrassing/). Imagine playing quarterback for the Dallas Cowboys and getting your postgame review from someone who may have been assigned to help people find their cars.
+Dallas lost **24–16 to Tampa Bay** on Thursday. As Dak Prescott walked off the field, [someone believed to be a stadium employee reportedly called the performance “embarrassing”](https://nypost.com/2026/10/09/sports/dak-prescott-glares-at-employee-who-calls-cowboys-loss-embarrassing/). There's a certain point in a bad football season where everyone stops trying to find a polite way to talk about it. Apparently that point has now been reached by the people working inside the building.
 
-The really impressive part is that Dak reportedly acknowledged the criticism had merit. When even the people working at the stadium have abandoned the usual pleasantries, you know things are going well in Dallas.
+Josh had already addressed Chance's difficulties in a group chat: **“Tough day yesterday Chance. Between Wordle and the Cowboys.”** Casey followed with the more relevant question: **“Will this week be a trifecta for Chance? Will he also lose at fantasy?!”** It's a fair question. Chance's fantasy team has been doing an impressive job of compensating for the rest of his sporting interests, but 4–0 doesn't come with a lifetime guarantee.
 
-Elsewhere, Josh had already taken notice of Chance's recent suffering in a group chat: **“Tough day yesterday Chance. Between Wordle and the Cowboys.”** Casey Hutchins then asked the only important follow-up: **“Will this week be a trifecta for Chance? Will he also lose at fantasy?!”**
+Chance also sent a Snapchat of himself holding a Halloween Kool-Aid pouch, captioned **“Capri sun drinking a capri sun?”** We don't have anything to add. He wrote that himself.
 
-Chance has also been circulating a Snapchat captioned **“Capri sun drinking a capri sun?”** while holding a Halloween Kool-Aid pouch. That's the whole joke. This is the man at the top of our standings.
+Now Zak gets the undefeated team. If Chance loses on Sunday, it will complete a week in which his Cowboys embarrassed him, Josh made sure he knew it, and the only game he was actually winning at got away from him. It would be a wonderfully efficient collapse.
 
-Chance has now lost the confidence of Dallas stadium personnel, at least one word game, and much of his dignity. Fantasy football is the final remaining branch of his personal empire. Zak Wesolek has the chance to finish the job Sunday.
+## A Brief, Entirely Mandatory Chicago Bears Statement
 
-## A Moment for Iron Mike, Followed by Mandatory Bears Coverage
+**[Mike Ditka died Friday at age 86](https://www.chicagobears.com/news/bears-legend-mike-ditka-passes-away-at-86).** The Bears lost a giant, and Ryan Mays lost a man whose name he has already incorporated into his fantasy football identity. Ditka gave Chicago a Super Bowl, a lifetime of good stories, and an attitude that made him the most Chicago person ever to walk into a room. There isn't a joke better than that. Rest in peace, Coach.
 
-On Friday, the Chicago Bears announced that **[Mike Ditka had died at the age of 86](https://www.chicagobears.com/news/bears-legend-mike-ditka-passes-away-at-86)**. Ditka was a Hall of Fame tight end, a member of the Bears' 1963 championship team, and the coach who led Chicago to the Super Bowl XX title after the legendary 1985 season. He wasn't just a football personality. For generations of Bears fans, he *was* Chicago football: uncompromising, loud, stubborn and impossible to mistake for anyone else.
+Now, the real reason everyone else in the league has been made to read this section: **Bears–Packers on Sunday.** Chicago heads to Green Bay, where the Packers will once again attempt to convince the world that living in Wisconsin is a personality. The Bears have already spent the week dealing with a real loss. They do not need a second one delivered by people wearing giant foam cheese on their heads.
 
-It is a sad day for Bears fans and an appropriate moment to appreciate what he meant to the franchise.
+For anyone wondering what this has to do with your Week 5 fantasy matchup, it doesn't. Ryan writes the articles. Ryan likes the Bears. Ryan's team is called **Big Ditka Energy**. There was never going to be a version of this website where you could escape Bears–Packers coverage.
 
-The league will also be pleased to learn that there is a Bears–Packers game this weekend, and you are absolutely going to hear about it. **Chicago (3–1) visits Green Bay (2–2) on Sunday at 1 p.m. Eastern.** This is the first meeting of the season between the oldest and most important enemies in professional football. Everything else on the NFL schedule has been temporarily downgraded to background programming.
-
-Tyson Bagent is set to start for the injured Caleb Williams, and Kyle Monangai has been ruled out with a toe injury. Neither development alters the central moral truth of the weekend: the Bears are good, the Packers are bad, and the only acceptable result is one that causes significant disappointment in Wisconsin.
-
-Ryan Mays happens to manage a fantasy team called **Big Ditka Energy**. The name has taken on added meaning this week. A win over Larry would be appropriate. A Bears win at Lambeau would be considerably more important. Ideally, both.
-
-No, this section was not necessary to preview fantasy football. It was necessary because Ryan controls the website.
+The rest of you may now return to your considerably less important football games.
 
 ## Before Sunday: Pick Your Matchup
 
@@ -116,20 +110,26 @@ Chance's unbeaten streak is in genuine danger. Zak has an opportunity to do some
 <a id="week5-frankie-hutchins"></a>
 ### Coach (1–3) vs. Lamborghini Murci (3–1)
 
-Frankie finally has something positive to discuss that doesn't involve prison, heavy machinery or somebody else's alleged misconduct: **George Pickens gave him 28 points on Thursday**, and Brandon Aubrey chipped in five. For a 1–3 manager, that's an excellent way to open a weekend.
+Frankie Yentz opened Week 5 with **28 points from George Pickens** and another five from Brandon Aubrey. That's an excellent start for a 1–3 team, and it's not even the best news Frankie has received this week. Apparently, **he finally got 5G internet**.
 
-Ryan Hutchins sits at 3–1 after demolishing Larry and renaming him Mangled Prison Pocket. On the Friday snapshot, Hutchins has **2.9 points from CeeDee Lamb** and a lineup with multiple empty starting spots. We have seen Hutchins do unusual things with his lineup before. Whether this is strategic theater or an expensive form of performance art disguised as roster management remains an open question.
+It took until 2026, but Frankie now has the technology to ignore GroupMe at significantly higher speeds.
 
-Frankie could use a win, and it would be especially satisfying to beat a man who spent last Sunday feeling so pleased with himself that he reportedly described the experience of facing Larry in terms usually reserved for a very different kind of recreational activity. Hutchins may be 3–1, but Pickens has already made the weekend considerably harder than it needed to be.
+We cannot overstate how little Frankie knows about what is said in this league. He doesn't read the group chat. He doesn't read AAA Insider. Entire articles have been published about him and reached every member of the league except the person they were about. There's now an anonymous submission about his personal life sitting in a beautifully formatted sidebar several paragraphs above this sentence, and the odds of Frankie ever seeing it are approximately the same as the odds of him choosing to move out of Ohio.
 
-If Frankie pulls this off, perhaps someone can submit a Tip Line report about the safe operation of fantasy lineups. It would finally be relevant.
+Which brings us to Ryan Hutchins, who is **flying to Ohio this weekend to spend time with Frankie**. These two are literally playing each other in fantasy football at the same time. It's an outstanding setup: one man paid for an airline ticket to visit another man who could have communicated with him at any point over the past several years simply by opening GroupMe.
+
+Hutchins is 3–1 and coming off the 39.80-point beating that turned Larry into Mangled Prison Pocket. But his Week 5 start has been rough: **CeeDee Lamb scored 2.9 points**, while Frankie's Pickens had already put up 28. The Friday lineup snapshot also showed several empty starting slots for Hutchins, whose relationship with conventional lineup management has always been complicated.
+
+So Hutchins could travel all the way to Ohio, sit beside Frankie, and watch himself lose to a man who just discovered internet speeds the rest of the country has been discussing for years. At least Frankie will finally hear what's been written about him. Assuming Hutchins can get him to put down the router.
+
+**What to watch:** Whether Hutchins fixes his lineup, whether Frankie holds the lead, and whether the first person to tell Frankie about AAA Insider turns out to be his opponent sitting on his couch.
 
 <a id="week5-louis-macon"></a>
 ### la porta potty (1–3) vs. Coke(r) Caine (2–2)
 
 Louis Swanson and Macon Moore have a matchup that will matter considerably more to the standings than the league's conversation currently suggests. Louis is 1–3 and needs to stop losing. Macon is 2–2 and wants to prove last week's demolition of Casey was the beginning of something instead of a temporary burst of cruelty.
 
-Louis already has **14.2 points from Javonte Williams**. Macon has **12.64 from Dak Prescott**, who also received a highly unfavorable performance review from his own stadium on Thursday. Apparently Macon is paying fantasy points to a quarterback whose own stadium workforce is running out of patience.
+Louis already has **14.2 points from Javonte Williams**. Macon has **12.64 from Dak Prescott**, who was not exactly in a position to carry anybody Thursday. Macon will need his running backs to do more of the work.
 
 Macon's running backs give him a real path to victory, but Louis has enough talent to make this close. Neither manager wants to be the guy who loses this particular game, largely because the winner will insist it was a turning point and the loser will have to listen to it.
 
@@ -142,18 +142,18 @@ Larry Terrell spent the week being introduced to the league in approximately 2,0
 
 Larry remains a very good fantasy manager, which is the least amusing part of his biography. His roster is strong enough that ESPN favors him on Friday, **123.91–112.60**. ESPN has also never been forced to read the phrase *Mangled Prison Pocket* aloud in front of a room of adults, so its projections have obvious limitations.
 
-Ryan enters at 2–2, coming off a win over Zak and carrying the **Big Ditka Energy** name into an emotional weekend for Bears fans. Bijan Robinson gives Ryan a legitimate weapon, and there's enough on the roster to win this matchup without anyone needing to publish another personal investigation before kickoff.
+Ryan enters at 2–2, coming off a win over Zak and carrying the **Big Ditka Energy** name into a Bears–Packers weekend that really should count for double in the standings. Bijan Robinson gives Ryan a legitimate weapon, and there's enough on the roster to win without another personal investigation of Larry being necessary. That investigation, of course, remains an option.
 
 The timing of Larry's profile was entirely coincidental. So was the timing of Hutchins humiliating him the week before. So is the fact that Ryan is now positioned to benefit from whatever psychological damage remains.
 
-Ryan wins, Larry moves on to another week of being Mangled Prison Pocket, and everyone else gets to watch the Bears beat Green Bay. That is a perfectly reasonable vision for Sunday.
+Ryan wins, Larry spends another week as Mangled Prison Pocket, and the Bears beat Green Bay. The first two would be satisfying. The third is a matter of public importance.
 
 ## See You After the Games
 
-Casey has a real opportunity to win her first game. Frankie is already making Hutchins nervous. Chance is one bad fantasy Sunday away from completing a week that will be studied by future generations of Cowboys fans. And Larry is once again being forced to play a game he would probably prefer to skip.
+Casey has a real shot at her first win, Chance has a chance to join the Cowboys in the loss column, and Ryan Hutchins has booked a flight to Ohio for the privilege of watching Frankie score points against him in person. Frankie finally has fast enough internet to read this article. He won't.
 
 The Tip Line remains open. If you've got a ridiculous theory, a suspicious photograph, or an incomprehensible piece of league gossip, send it in. Judging by this week's submissions, the standard has never been lower and interest has never been higher.
 
-And to anyone upset that they were forced to read an extended tribute to Mike Ditka and a preview of Bears–Packers while looking for fantasy football information: you know who runs this website.
+And to anyone who came here for fantasy football and ended up reading about Mike Ditka and the Bears: this is Ryan's website. You knew the risks.
 
 Bear down.

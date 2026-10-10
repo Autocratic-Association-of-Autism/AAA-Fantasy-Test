@@ -5,122 +5,155 @@ article_type: "Friday News Dump + Weekend Preview · Week 5"
 week: 5
 season: 2026
 date: 2026-10-09
-read_time: "~9 min read"
-deck: "The Tip Line is deteriorating, Chance is undefeated at the one sport he isn't watching, and Sunday is about to make several people miserable."
-summary: "AAA Insider reviews fresh anonymous tips, Chance's Cowboys-related suffering, the lingering Larry situation and all five Week 5 matchups in a single Friday-night edition."
+read_time: "~10 min read"
+deck: "A forklift-related tip, a humiliated Cowboys fan, a tribute to Iron Mike and five matchups that have not yet been ruined."
+summary: "Prison Mike unloads on Frankie, Chance suffers in Dallas, Mike Ditka is remembered, and the league heads into five Week 5 matchups."
 draft: false
 ---
 
 *By Ryan Mays — AAA Insider*
 
-A fantasy league is supposed to be a pleasant diversion from everyday life. Ten people set football lineups, a few games are played, and somebody spends Monday night staring silently at a kicker who needs eleven points.
+There is something deeply reassuring about reaching Friday night and discovering that absolutely nobody in this league has used the week productively.
 
-That arrangement has largely collapsed here. By Friday evening, the newsroom had received allegations involving a cartoon character, a forklift certification and at least one person's highly suspicious personal judgment. An undefeated manager had been mocked in a Wordle group chat. The league's former champion had been assigned a new identity that should not be spoken aloud in a workplace. Meanwhile, actual NFL games have begun, because apparently this is still a fantasy football league.
+The Tip Line has produced an anime conspiracy about Larry, a lengthy letter about Frankie and industrial safety, and proof that at least one anonymous source has far too much time on their hands. Chance Robinson is undefeated in fantasy football but is a Cowboys fan, so nature is doing its best to restore balance. Meanwhile, there are five matchups to preview, and the Chicago Bears are playing the Green Bay Packers on Sunday, which is considerably more important than anything else anyone has going on.
 
-In the interest of efficiency, AAA Insider is consolidating the week's outstanding nonsense and the full weekend preview into one issue. Everyone can therefore be offended in a single sitting.
+All of that is now in one place. You're welcome.
 
-## The Tip Line Has Become a Public Utility for Insults
+## From the Tip Line: People Have Completely Lost the Plot
 
-Earlier this week, we published [the life story of Larry Terrell]({{ '/ledger/2026-week5-meet-larry-terrell.html' | relative_url }}). AAA Insider believed it had conducted an appropriately exhaustive investigation of Larry's background, career, championship and wedding reception. Our readers apparently disagreed.
+Wednesday's [Meet the League profile of Larry Terrell]({{ '/ledger/2026-week5-meet-larry-terrell.html' | relative_url }}) apparently inspired a reader calling himself **Vag-eeta** to submit a theory that Larry was the inspiration for **Krillin** in *Dragon Ball Z*. The source pointed to the hairline, the temper, the Napoleon complex and the recurring habit of getting demolished by stronger opponents.
 
-A new tip arrived under the name **Vag-eeta**, pointing out that Larry bears what the source considers a suspicious resemblance to **Krillin** from *Dragon Ball Z*. The submission argued that the similarities go beyond the hairline, touching on temper, misplaced confidence and a recurring tendency to get destroyed by stronger opponents.
+For legal purposes, nobody here is claiming that a Japanese animation studio secretly based a character on a man who studied soil at NC State. For comedic purposes, the resemblance has been entered into the record.
 
-Ordinarily, comparing a former fantasy champion to a supporting anime character would require some degree of justification. Unfortunately, Larry has just been beaten by 39.80 points, lost custody of his own team name and become the subject of an article featuring a Christian rock album cover. The newsroom is not prepared to endorse the allegation, but we do understand why someone made the connection. Larry has requested neither a correction nor a Dragon Ball.
+But the week's most ambitious submission came from **Prison Mike**, who delivered an astonishing account of Frankie Yentz's alleged personal life that somehow turned into an extended lecture about forklift certification. We could summarize it, but that would deprive readers of the experience of watching a man construct an entire character assassination around workplace vehicle safety.
 
-Another submission, this one attributed to **Prison Mike**, arrived concerning Frankie Yentz. It contained an elaborate story involving Frankie, an alleged personal relationship, someone else's alleged arrest and an extraordinary amount of concern about forklift safety certification. None of the personal allegations has been substantiated, and AAA Insider is not repeating them as established facts. The genuinely interesting revelation is that someone felt the need to write several paragraphs of what amounts to a workplace safety seminar in order to insult a fantasy manager.
+<aside class="insider-tip-float">
+  <div class="insider-tip-kicker">AAA INSIDER TIP LINE</div>
+  <div class="insider-tip-title">The Prison Mike submission</div>
+  <div class="insider-tip-source">Submitted as: Prison Mike · Anonymous · Unverified</div>
+  <div class="insider-tip-copy">
+    <p>I may or may not have insider information that will need to be disguised in colorful rhetoric so as not to arouse suspicion should an unintended reader find themselves peering into League official business.</p>
+    <p>I happen to know Frankie has had sexual intercourse with a jail bird. A jail bird with an official arrest record indicating intoxication whilst operating heavy machinery.</p>
+    <p>The irony of all this is, as a responsible forklift certified individual, how does he live with himself for fraternizing with such irresponsible and reckless individuals. He literally takes a yearly indoctrination class about safe habits to develop should you find yourself the operator of a motorized vehicle.</p>
+    <p>Alcoholism is not, in fact, one of those safe habits. As a matter of fact, it's prohibited. I only bring this up because this behavior is clearly a call for help under the guise of a one-third life crisis, and an intervention may happen soon.</p>
+    <p>It's no secret Frank Paul III has had a troublesome life since he packed his bags and left for Hotel Ohio.</p>
+  </div>
+</aside>
 
-The source appeared particularly disturbed by the idea that a person trained in safe operation of heavy machinery might make questionable choices outside the warehouse. We cannot explain the connection. We can, however, confirm that forklift certification has now entered the league's journalistic discourse, something our founding editorial charter failed to anticipate.
+The allegations are unverified. What is indisputable is that someone typed all of this into a fantasy football website at two in the morning and thought, *yes, the people need to know.*
 
-**The Tip Line is open for leads, not a substitute for evidence.** Submissions are not independently verified merely because someone managed to locate the form. If future sources would like to provide fantasy-related information instead of an unsolicited criminal-justice screenplay, the newsroom would appreciate the change of pace.
+The submission begins like a confidential intelligence briefing, takes a hard left into Frankie's love life, detours through the dangers of operating a forklift while intoxicated, and arrives at a place called **Hotel Ohio** without ever explaining why we were supposed to be there. It is magnificent nonsense.
 
-## Chance Robinson Is Undefeated at Exactly One Thing
+Frankie has been in this league long enough to deserve the occasional anonymous hit piece, but he must be particularly confused to discover that the most damaging attack on his reputation this week came from somebody who appears to have memorized the forklift employee handbook.
 
-Chance enters Week 5 at **4–0**, the league's last undefeated manager. This is a legitimate accomplishment and a deeply inconvenient development for a publication that has spent several weeks questioning his judgment.
+And that is exactly why the Tip Line exists. Please continue submitting material. Particularly if it gets stranger than this.
 
-Chance is also a Dallas Cowboys fan, which provides the rest of the league with a more reliable source of entertainment.
+<div class="insider-clear"></div>
 
-Over in the **Wordle Cha(u)mps** group chat, Josh summarized Chance's recent circumstances: **“Tough day yesterday Chance. Between Wordle and the Cowboys.”** A boxing clip followed. Casey Hutchins then asked whether Chance might complete the trifecta by also losing in fantasy this week. Josh responded with a SpongeBob clip and the words **“Chance POV.”**
+## Chance Robinson Has Been Called Embarrassing by Association
 
-There is a lot to admire about a man who has assembled the league's only undefeated fantasy roster while maintaining a personal relationship with one of the NFL's most dependable disappointment factories. It suggests an unusual capacity to compartmentalize suffering. Every week Chance puts on his Cowboys fan hat, endures whatever happens next and then turns around to watch **Njigba please** win again. The team is 4–0. The owner is not necessarily having a good time.
+Chance is **4–0**, the only undefeated manager remaining. There has never been a worse time to be required to compliment Chance Robinson.
 
-Chance also circulated a Snapchat featuring a Halloween-themed Kool-Aid pouch and the caption **“Capri sun drinking a capri sun?”** This is the same manager who has somehow outperformed nine other adults for a month. AAA Insider has referred the photograph to the relevant authorities, who advised us that being unfunny in Snapchat is not presently a league violation.
+Fortunately, he is also a Dallas Cowboys fan, and the Cowboys lost **24–16 at home to Tampa Bay on Thursday night**. As Dak Prescott headed off the field, [someone believed to be a stadium employee called the performance “embarrassing”](https://nypost.com/2026/10/09/sports/dak-prescott-glares-at-employee-who-calls-cowboys-loss-embarrassing/). Imagine playing quarterback for the Dallas Cowboys and getting your postgame review from someone who may have been assigned to help people find their cars.
 
-The question for Sunday is whether fantasy football finally catches up with the rest of Chance's week. Casey, who remains undefeated in her ability to identify an excellent insult, would clearly welcome that outcome.
+The really impressive part is that Dak reportedly acknowledged the criticism had merit. When even the people working at the stadium have abandoned the usual pleasantries, you know things are going well in Dallas.
 
-## Mangled Prison Pocket Enters Its Second Week of Existence
+Elsewhere, Josh had already taken notice of Chance's recent suffering in a group chat: **“Tough day yesterday Chance. Between Wordle and the Cowboys.”** Casey Hutchins then asked the only important follow-up: **“Will this week be a trifecta for Chance? Will he also lose at fantasy?!”**
 
-Larry Terrell has not had an ideal week. He lost to Ryan Hutchins by nearly 40 points, was renamed **Mangled Prison Pocket**, and then watched AAA Insider publish an extensive investigation of his wedding photographs and supposed Christian music career.
+Chance has also been circulating a Snapchat captioned **“Capri sun drinking a capri sun?”** while holding a Halloween Kool-Aid pouch. That's the whole joke. This is the man at the top of our standings.
 
-For the avoidance of doubt, Larry does not *own* Mangled Prison Pocket. **Larry is Mangled Prison Pocket.** The distinction matters, because this week he must answer to it while playing Ryan Mays.
+Chance has now lost the confidence of Dallas stadium personnel, at least one word game, and much of his dignity. Fantasy football is the final remaining branch of his personal empire. Zak Wesolek has the chance to finish the job Sunday.
 
-Following last week's victory, Hutchins offered Ryan an unsolicited endorsement: **“I found the matchup against Larry to be ‘pleasurable’. I hope you find your matchup to be the same.”** AAA Insider has reviewed this statement again and remains uncomfortable with how eagerly Hutchins recommended the experience to another man.
+## A Moment for Iron Mike, Followed by Mandatory Bears Coverage
 
-We have also learned that Larry has now been compared to Krillin. At some point the newsroom may consider whether he has endured enough attention for one week. That point has not yet arrived.
+On Friday, the Chicago Bears announced that **[Mike Ditka had died at the age of 86](https://www.chicagobears.com/news/bears-legend-mike-ditka-passes-away-at-86)**. Ditka was a Hall of Fame tight end, a member of the Bears' 1963 championship team, and the coach who led Chicago to the Super Bowl XX title after the legendary 1985 season. He wasn't just a football personality. For generations of Bears fans, he *was* Chicago football: uncompromising, loud, stubborn and impossible to mistake for anyone else.
 
-## The Weekend: Five Matchups, Several Immediate Problems
+It is a sad day for Bears fans and an appropriate moment to appreciate what he meant to the franchise.
 
-The first Week 5 games are already in the books. The live lineup snapshot is still changing, so the following is a Friday-night look at the matchups rather than a claim that anyone has already won Sunday. At least two managers have already managed to make this difficult.
+The league will also be pleased to learn that there is a Bears–Packers game this weekend, and you are absolutely going to hear about it. **Chicago (3–1) visits Green Bay (2–2) on Sunday at 1 p.m. Eastern.** This is the first meeting of the season between the oldest and most important enemies in professional football. Everything else on the NFL schedule has been temporarily downgraded to background programming.
 
+Tyson Bagent is set to start for the injured Caleb Williams, and Kyle Monangai has been ruled out with a toe injury. Neither development alters the central moral truth of the weekend: the Bears are good, the Packers are bad, and the only acceptable result is one that causes significant disappointment in Wisconsin.
+
+Ryan Mays happens to manage a fantasy team called **Big Ditka Energy**. The name has taken on added meaning this week. A win over Larry would be appropriate. A Bears win at Lambeau would be considerably more important. Ideally, both.
+
+No, this section was not necessary to preview fantasy football. It was necessary because Ryan controls the website.
+
+## Before Sunday: Pick Your Matchup
+
+Thursday's games have already created a few early leads. The numbers below are a Friday-night snapshot, not a final score, and there is still ample opportunity for everyone to make things worse.
+
+<div class="matchup-jump">
+  <div class="matchup-jump-label">Jump to a Week 5 matchup</div>
+  <a href="#week5-casey-glen">Casey vs. Glen</a>
+  <a href="#week5-chance-zak">Chance vs. Zak</a>
+  <a href="#week5-frankie-hutchins">Frankie vs. Ryan Hutchins</a>
+  <a href="#week5-louis-macon">Louis vs. Macon</a>
+  <a href="#week5-larry-ryan">Larry vs. Ryan Mays</a>
+</div>
+
+<a id="week5-casey-glen"></a>
 ### ChanceforChange2027 (0–4) vs. Champ (3–1)
 
-It has been a painful first month for Commissioner Casey Hutchins. At 0–4, she is overseeing a league in which everyone else appears capable of winning football games and she has, through remarkable restraint, declined to use executive authority to do anything about it. That is public service.
+Casey Hutchins is 0–4, which is an unfortunate football record and an excellent opportunity to demonstrate resilience. More importantly, she enters Sunday with **38.5 points already on the board**, thanks largely to **31.5 from Bucky Irving**. Glen has zero so far. For once, the commissioner gets to spend a Friday night looking at ESPN without immediately reconsidering every decision that led her here.
 
-Casey finally got the sort of start she has been waiting for: **Bucky Irving scored 31.5 points**, and Chase McLaughlin added seven. At the snapshot, Casey leads **38.5–0**, although Glen still has his major lineup pieces yet to play. Glen brings Jonathan Taylor, Ashton Jeanty, Trey McBride, Brock Bowers, Davante Adams and Joe Burrow. The roster is formidable, but the early math now includes one very inconvenient number next to Casey's name.
+Glen, of course, is 3–1 and has a strong roster. He also **blew off Casey's baby shower**, which is an absolutely terrible piece of information to hand to the person responsible for writing about your next fantasy matchup. The man couldn't show up when Casey was celebrating an actual human child. Now he has the nerve to show up in the standings at 3–1 and expect everybody to respect his football team.
 
-A Casey win would be interpreted by this publication as the beginning of a historic turnaround. A Glen comeback would be a failure of public imagination and probably the kicker's fault. More importantly, Casey has a chance to prove that an undefeated record is not a prerequisite for competent government.
+Casey has a head start and the moral high ground, which makes this the most straightforward rooting interest of the weekend. Glen has the talent to erase the deficit, but that would merely prove that he can attend a fantasy matchup when he couldn't attend a baby shower.
 
-**What to watch:** Whether Casey's early cushion holds up against Glen's full complement of stars. An upset would be excellent for both the standings and the editorial board.
+If Casey wins, it's the start of a historic comeback. If Glen loses, it's what happens when you neglect your family obligations. Those are the rules.
 
+<a id="week5-chance-zak"></a>
 ### Njigba please (4–0) vs. Warren Hormuz (2–2)
 
-Chance's fantasy team is the only remaining undefeated operation associated with Chance Robinson. The Cowboys and Wordle have not been so kind, but Josh Allen, Derrick Henry and Jaxon Smith-Njigba have been generous enough to compensate.
+Chance is undefeated and has built an excellent fantasy roster. It has clearly been the only stabilizing force in his life. The Cowboys continue to embarrass him nationally, Josh is keeping track of his other failures, and now Casey is openly rooting for a three-part collapse.
 
-Zak Wesolek, now playing as **Warren Hormuz**, is 2–2 after losing to Ryan Mays last week. The roster still features Christian McCaffrey, Chris Olave, Tyler Warren and Jayden Daniels. These are legitimate weapons, and this is not a comfortable matchup for a man who has begun to attract “will the streak end?” speculation from the GroupMe.
+Zak comes in at 2–2 after losing to Ryan last week. He has Christian McCaffrey and enough offensive talent to make Chance uncomfortable. The question is whether Zak can put together the sort of complete performance he needed last week, when he managed to lose to Ryan despite Ryan politely leaving a small mountain of points on his bench.
 
-There is a poetic possibility here: Zak was profiled just before losing to Ryan, Larry was profiled just before playing Ryan, and now Zak could be the person who ends Chance's unbeaten season. It would be nice to discover that *Meet the League* is merely journalism rather than a curse transferred between opponents.
+An upset would be devastating for Chance, not because 4–1 is a bad record, but because the group chat is already waiting with material. It's difficult to convince people you're building a dynasty when an employee at your favorite team's stadium is calling the quarterback embarrassing.
 
-**What to watch:** Zak's star power versus Chance's undefeated consistency. Casey has already proposed a trifecta of disappointment for Chance; Zak has an opportunity to make her prediction look prophetic.
+Chance's unbeaten streak is in genuine danger. Zak has an opportunity to do something useful for the entire league.
 
+<a id="week5-frankie-hutchins"></a>
 ### Coach (1–3) vs. Lamborghini Murci (3–1)
 
-Frankie Yentz began Week 5 with **28 points from George Pickens** and another five from Brandon Aubrey. That is a substantial head start for a team currently sitting at 1–3. It is also substantially more useful than anything the anonymous forklift tip provided.
+Frankie finally has something positive to discuss that doesn't involve prison, heavy machinery or somebody else's alleged misconduct: **George Pickens gave him 28 points on Thursday**, and Brandon Aubrey chipped in five. For a 1–3 manager, that's an excellent way to open a weekend.
 
-Ryan Hutchins is 3–1 after dismantling Larry and taking over the naming rights to his identity. This week, however, the latest league snapshot shows only **CeeDee Lamb's 2.9 points** in Hutchins' active slots, with the rest of the starters conspicuously absent from that snapshot. Given Hutchins' documented history of unconventional lineup behavior, AAA Insider is not prepared to guess what happens before kickoff. We simply note that an empty lineup is an unconventional way to pursue a fourth win.
+Ryan Hutchins sits at 3–1 after demolishing Larry and renaming him Mangled Prison Pocket. On the Friday snapshot, Hutchins has **2.9 points from CeeDee Lamb** and a lineup with multiple empty starting spots. We have seen Hutchins do unusual things with his lineup before. Whether this is strategic theater or an expensive form of self-harm disguised as roster management remains an open question.
 
-Frankie has spent much of this season looking for a reason to be optimistic. Hutchins has spent much of his fantasy career finding creative methods to make optimism disappear.
+Frankie could use a win, and it would be especially satisfying to beat a man who spent last Sunday feeling so pleased with himself that he reportedly described the experience of facing Larry in terms usually reserved for a very different kind of recreational activity. Hutchins may be 3–1, but Pickens has already made the weekend considerably harder than it needed to be.
 
-**What to watch:** Whether Hutchins fills his lineup before Sunday and whether Frankie can protect an early lead. If Hutchins leaves points on the bench again, the newsroom requests that he at least prepare an explanation in advance.
+If Frankie pulls this off, perhaps someone can submit a Tip Line report about the safe operation of fantasy lineups. It would finally be relevant.
 
+<a id="week5-louis-macon"></a>
 ### la porta potty (1–3) vs. Coke(r) Caine (2–2)
 
-Louis Swanson and Macon Moore have already contributed some early points. **Javonte Williams scored 14.2** for Louis, while **Dak Prescott recorded 12.64** for Macon. Macon is coming off a 44.48-point win over Casey, which is impressive if one chooses to overlook that it involved beating an 0–4 commissioner dealing with a tremendous amount of real-life activity.
+Louis Swanson and Macon Moore have a matchup that will matter considerably more to the standings than the league's conversation currently suggests. Louis is 1–3 and needs to stop losing. Macon is 2–2 and wants to prove last week's demolition of Casey was the beginning of something instead of a temporary burst of cruelty.
 
-Macon has Jahmyr Gibbs and Kyren Williams poised to carry a significant load. Louis counters with Justin Jefferson, Sam LaPorta, Deebo Samuel and a long history of needing one more good performance than the roster actually provides.
+Louis already has **14.2 points from Javonte Williams**. Macon has **12.64 from Dak Prescott**, who also received a highly unfavorable performance review from his own stadium on Thursday. Apparently Macon is paying fantasy points to a quarterback whose real-world employers are running out of patience.
 
-Neither team is operating from an especially secure position. Macon wants to move above .500; Louis needs to prevent 1–3 from becoming 1–4. That may not sound like a dramatic rivalry, but the league's basement is crowded enough that even a routine win matters.
+Macon's running backs give him a real path to victory, but Louis has enough talent to make this close. Neither manager wants to be the guy who loses this particular game, largely because the winner will insist it was a turning point and the loser will have to listen to it.
 
-**What to watch:** Whether Macon's running backs take command or Louis finds enough across the roster to stop the slide. AAA Insider suspects at least one manager will finish Sunday explaining how different things might have been with a different flex decision.
+This matchup deserves attention even without a scandal. We apologize for the oversight.
 
+<a id="week5-larry-ryan"></a>
 ### Mangled Prison Pocket (2–2) vs. Big Ditka Energy (2–2)
 
-A former champion has spent a week being publicly humiliated, and his reward is a matchup against the editor of the publication responsible for much of it.
+Larry Terrell spent the week being introduced to the league in approximately 2,000 words, several wedding photographs and an imaginary Christian rock album. In other circumstances, that might inspire a man to lay low. Unfortunately, he still has to play football.
 
-Larry still has real talent. Ja'Marr Chase, Drake London, David Montgomery, Trevor Lawrence and Tucker Kraft are perfectly capable of producing a competitive score. ESPN's Friday projection favors Mangled Prison Pocket, **123.91–112.60**, a number that looks threatening until you remember the computer cannot measure what happens to a man psychologically after someone publishes seven paragraphs about his wedding.
+Larry remains a very good fantasy manager, which is the least amusing part of his biography. His roster is strong enough that ESPN favors him on Friday, **123.91–112.60**. ESPN has also never been forced to read the phrase *Mangled Prison Pocket* aloud in front of a room of adults, so its projections have obvious limitations.
 
-Ryan Mays, now operating as **Big Ditka Energy**, enters at 2–2 with Bijan Robinson, Cam Skattebo, Colston Loveland and a defense drawn from the **Chicago Bears**, an institution for which this newsroom maintains an entirely reasonable level of affection. Ryan's listed quarterback is Tyler Huntley, meaning the publication must regretfully acknowledge that not every positional decision on his roster is designed to inspire public confidence.
+Ryan enters at 2–2, coming off a win over Zak and carrying the **Big Ditka Energy** name into an emotional weekend for Bears fans. Bijan Robinson gives Ryan a legitimate weapon, and there's enough on the roster to win this matchup without anyone needing to publish another personal investigation before kickoff.
 
-Last week Larry learned what it means to be Mangled Prison Pocket. This week he faces a man who has spent days explaining that distinction to the entire league. It is, again, entirely coincidental that Larry's opponent is also the person responsible for his biography.
+The timing of Larry's profile was entirely coincidental. So was the timing of Hutchins humiliating him the week before. So is the fact that Ryan is now positioned to benefit from whatever psychological damage remains.
 
-**What to watch:** Whether Larry can turn a week of humiliation into actual production, or whether Ryan delivers the sort of matchup Hutchins described with such unsettling enthusiasm. AAA Insider believes Ryan has a path to victory, and the newsroom's independence will not be compromised by identifying it.
+Ryan wins, Larry moves on to another week of being Mangled Prison Pocket, and everyone else gets to watch the Bears beat Green Bay. That is a perfectly reasonable vision for Sunday.
 
-## A Final Word Before Sunday
+## See You After the Games
 
-As things stand, Chance is undefeated, Casey is still searching for her first win, Frankie has made an excellent start, Ryan Hutchins may need to rediscover the concept of a starting lineup, and Larry is preparing to take the field as a phrase that nobody should have to explain to their coworkers.
+Casey has a real opportunity to win her first game. Frankie is already making Hutchins nervous. Chance is one bad fantasy Sunday away from completing a week that will be studied by future generations of Cowboys fans. And Larry is once again being forced to play a game he would probably prefer to skip.
 
-Meanwhile, the Tip Line remains open, and the inbox contains an anime conspiracy, forklift-related speculation and evidence that someone has been taking Halloween beverage packaging far too seriously.
+The Tip Line remains open. If you've got a ridiculous theory, a suspicious photograph, or an incomprehensible piece of league gossip, send it in. Judging by this week's submissions, the standard has never been lower and interest has never been higher.
 
-This is a fantasy football league in the loosest possible sense.
+And to anyone upset that they were forced to read an extended tribute to Mike Ditka and a preview of Bears–Packers while looking for fantasy football information: you know who runs this website.
 
-AAA Insider will be back after the games, once the outcomes are known, the excuses have been submitted and at least one person has had time to claim the projections were wrong.
-
-Until then, enjoy Sunday. Somebody won't.
+Bear down.

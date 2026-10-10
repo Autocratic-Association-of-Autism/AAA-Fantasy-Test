@@ -118,7 +118,7 @@ Chance's unbeaten streak is in genuine danger. Zak has an opportunity to do some
 
 Frankie finally has something positive to discuss that doesn't involve prison, heavy machinery or somebody else's alleged misconduct: **George Pickens gave him 28 points on Thursday**, and Brandon Aubrey chipped in five. For a 1–3 manager, that's an excellent way to open a weekend.
 
-Ryan Hutchins sits at 3–1 after demolishing Larry and renaming him Mangled Prison Pocket. On the Friday snapshot, Hutchins has **2.9 points from CeeDee Lamb** and a lineup with multiple empty starting spots. We have seen Hutchins do unusual things with his lineup before. Whether this is strategic theater or an expensive form of self-harm disguised as roster management remains an open question.
+Ryan Hutchins sits at 3–1 after demolishing Larry and renaming him Mangled Prison Pocket. On the Friday snapshot, Hutchins has **2.9 points from CeeDee Lamb** and a lineup with multiple empty starting spots. We have seen Hutchins do unusual things with his lineup before. Whether this is strategic theater or an expensive form of performance art disguised as roster management remains an open question.
 
 Frankie could use a win, and it would be especially satisfying to beat a man who spent last Sunday feeling so pleased with himself that he reportedly described the experience of facing Larry in terms usually reserved for a very different kind of recreational activity. Hutchins may be 3–1, but Pickens has already made the weekend considerably harder than it needed to be.
 
@@ -129,7 +129,7 @@ If Frankie pulls this off, perhaps someone can submit a Tip Line report about th
 
 Louis Swanson and Macon Moore have a matchup that will matter considerably more to the standings than the league's conversation currently suggests. Louis is 1–3 and needs to stop losing. Macon is 2–2 and wants to prove last week's demolition of Casey was the beginning of something instead of a temporary burst of cruelty.
 
-Louis already has **14.2 points from Javonte Williams**. Macon has **12.64 from Dak Prescott**, who also received a highly unfavorable performance review from his own stadium on Thursday. Apparently Macon is paying fantasy points to a quarterback whose real-world employers are running out of patience.
+Louis already has **14.2 points from Javonte Williams**. Macon has **12.64 from Dak Prescott**, who also received a highly unfavorable performance review from his own stadium on Thursday. Apparently Macon is paying fantasy points to a quarterback whose own stadium workforce is running out of patience.
 
 Macon's running backs give him a real path to victory, but Louis has enough talent to make this close. Neither manager wants to be the guy who loses this particular game, largely because the winner will insist it was a turning point and the loser will have to listen to it.
 

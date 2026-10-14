@@ -6,8 +6,8 @@
 {% capture chance_audit_inline %}<figure class="recap-art recap-art-float-left recap-art-campaign"><a href="{{ '/chance-robinson-campaign-under-review.png' | relative_url }}" target="_blank" rel="noopener noreferrer" title="View campaign review at full size"><img src="{{ '/chance-robinson-campaign-under-review.png' | relative_url }}" alt="Satirical campaign integrity review poster for Chance Robinson" loading="lazy"></a><figcaption>Integrity: a central theme of Chance's campaign materials.</figcaption></figure>{% endcapture %}
 {% capture chance_open_replace %}determining whether he is, in fact, a Capri Sun.</p>{{ chance_opposition_inline }}{% endcapture %}
 {% assign recap_content = content | replace: 'determining whether he is, in fact, a Capri Sun.</p>', chance_open_replace %}
-{% capture chance_middle_replace %}somehow emerge looking like a genius. It's infuriating.</p><div class="recap-clear"></div>{{ chance_audit_inline }}{% endcapture %}
-{% assign recap_content = recap_content | replace: "somehow emerge looking like a genius. It's infuriating.</p>", chance_middle_replace %}
+{% capture chance_middle_replace %}providing further evidence that Hutchins should stop offering predictions of any kind.</p><div class="recap-clear"></div>{{ chance_audit_inline }}{% endcapture %}
+{% assign recap_content = recap_content | replace: "providing further evidence that Hutchins should stop offering predictions of any kind.</p>", chance_middle_replace %}
 {% capture chance_end_replace %}warnings about tyranny a little more seriously.</p><div class="recap-clear"></div>{% endcapture %}
 {% assign recap_content = recap_content | replace: 'warnings about tyranny a little more seriously.</p>', chance_end_replace %}
 {{ recap_content }}

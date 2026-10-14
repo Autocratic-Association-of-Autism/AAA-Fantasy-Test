@@ -36,7 +36,7 @@ What began as another ordinary week of football ended with accusations of tyrann
 ---
 
 <a id="week5-casey-glen"></a>
-## Glen Hutchins 174.00, Casey Hutchins 166.52
+## Champ 174.00, ChanceforChange2027 166.52
 ### A Historic Performance, a Constitutional Crisis, and a Possible Repetitive Stress Injury
 
 Commissioner Casey Hutchins delivered one of the finest performances of the 2026 fantasy season, putting up an extraordinary 166.52 points while approaching the end of her pregnancy, managing a household, and running a league of grown men who apparently require more supervision than the child she's about to give birth to. Her husband, meanwhile, was in Ohio visiting Frankie Yentz, leaving Casey to manage everything back home. It was a remarkable display of strength, resilience, and leadership.

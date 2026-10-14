@@ -253,3 +253,11 @@ nav a.active{background:#1e293b;color:white}
   .editable-ledger .recap-art-pair{grid-template-columns:1fr;gap:22px;max-width:350px}
   .editable-ledger .recap-art-pair .recap-art{max-width:350px}
 }
+
+/* Week 5 campaign posters: newspaper floats integrated with article copy */
+.editable-ledger .recap-art-float-left{float:left;clear:left;width:39%;max-width:285px;margin:4px 23px 22px 0}
+.editable-ledger .recap-art-campaign{width:34%;max-width:235px}
+.editable-ledger .recap-art-campaign a{display:block}
+@media(max-width:640px){
+  .editable-ledger .recap-art-float-left,.editable-ledger .recap-art-campaign{float:none;clear:both;width:100%;max-width:350px;margin:20px auto}
+}

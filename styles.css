@@ -261,3 +261,6 @@ nav a.active{background:#1e293b;color:white}
 @media(max-width:640px){
   .editable-ledger .recap-art-float-left,.editable-ledger .recap-art-campaign{float:none;clear:both;width:100%;max-width:350px;margin:20px auto}
 }
+
+/* The Week 5 posters are server-rendered beside the text; suppress the legacy gallery only after the new art exists. */
+.editable-ledger.week5-recap:has(figure.recap-art-campaign) .recap-art-pair{display:none}

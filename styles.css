@@ -321,3 +321,37 @@ nav a.active{background:#1e293b;color:white}
  .editable-ledger .campaign-ad .campaign-ad-headline{font-size:clamp(26px,6.8vw,38px)}
  .editable-ledger .campaign-ad-wide{padding:19px 20px}
 }
+
+
+/* Tip-line election advertisements: portraits and deliberately obvious caricature */
+.editable-ledger .campaign-ad-image{
+ display:block;margin:12px auto 13px;
+ max-width:100%;border-radius:3px;
+ box-shadow:0 5px 13px rgba(29,25,25,.17);
+}
+.editable-ledger .campaign-ad-casey-image{
+ width:205px;height:210px;object-fit:cover;object-position:center 43%;border:3px solid #b59b6d;
+}
+.editable-ledger .campaign-ad-chance-photo{
+ width:100%;max-width:218px;aspect-ratio:1;object-fit:cover;
+ border:4px dashed #9f1d2f;transform:rotate(-3deg);
+ image-rendering:pixelated;box-shadow:6px 6px 0 #c27a7a;
+}
+.editable-ledger .campaign-ad-photo-caption{
+ text-transform:uppercase;letter-spacing:.075em;font-size:9px;font-weight:900;
+ color:#9f1d2f;margin:5px 0 11px;
+}
+.editable-ledger .campaign-ad-photo-pair{
+ display:grid;grid-template-columns:1fr 1fr;gap:7px;margin:11px auto;max-width:240px;
+}
+.editable-ledger .campaign-ad-photo-pair img{
+ display:block;max-width:100%;width:100%;height:120px;
+ object-fit:cover;object-position:center 42%;
+ border:2px solid #ac9a83;border-radius:2px;box-shadow:0 3px 8px rgba(0,0,0,.14);
+}
+@media(max-width:700px){
+ .editable-ledger .campaign-ad-casey-image{width:210px;height:225px}
+ .editable-ledger .campaign-ad-photo-pair{max-width:300px}
+ .editable-ledger .campaign-ad-photo-pair img{height:155px}
+ .editable-ledger .campaign-ad-chance-photo{max-width:240px}
+}

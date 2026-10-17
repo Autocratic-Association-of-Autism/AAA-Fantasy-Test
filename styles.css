@@ -678,3 +678,126 @@ nav a.active{background:#1e293b;color:white}
 .editable-ledger .results-poster-approved{max-width:650px;padding:0;margin:35px auto 44px;overflow:hidden;background:#f7f1e5}
 .editable-ledger .results-poster-approved img.results-poster-final-image{display:block;width:100%;height:auto;max-width:100%;object-fit:contain;border:0;margin:0;padding:0}
 @media(max-width:600px){.editable-ledger .results-poster-approved{margin:24px auto 32px;width:100%}}
+
+
+/* Tip Line issue 9: floated campaign placements, integrated with editorial copy. */
+.editable-ledger .insider-ad-clear{clear:both;height:0;font-size:0;line-height:0}
+.editable-ledger .results-over-noise-poster.results-poster-approved.insider-ad-casey{
+  float:left;
+  clear:left;
+  display:block;
+  width:43%;
+  max-width:318px;
+  margin:4px 24px 18px 0;
+  padding:0;
+  overflow:hidden;
+  box-shadow:0 6px 17px rgba(31,27,22,.16);
+}
+.editable-ledger .insider-ad-casey a{display:block;line-height:0}
+.editable-ledger .insider-ad-casey img.results-poster-final-image{
+  display:block;
+  width:100%;
+  height:auto;
+  border:0;
+  margin:0;
+}
+.editable-ledger .chance-trust-poster.chance-poster-inline{
+  float:right;
+  clear:right;
+  display:block;
+  width:47%;
+  max-width:342px;
+  margin:6px 0 22px 24px;
+  box-shadow:0 6px 19px rgba(17,20,27,.2);
+  overflow:hidden;
+}
+.editable-ledger .chance-poster-inline .chance-poster-main{
+  display:flex;
+  flex-direction:column;
+}
+.editable-ledger .chance-poster-inline .chance-poster-right{
+  display:contents;
+}
+.editable-ledger .chance-poster-inline .chance-poster-topline{
+  order:0;
+  padding:15px 13px 16px;
+}
+.editable-ledger .chance-poster-inline .chance-poster-topline span,
+.editable-ledger .chance-poster-inline .chance-poster-topline strong{
+  font-size:clamp(27px,3vw,35px);
+  letter-spacing:-.03em;
+}
+.editable-ledger .chance-poster-inline .chance-poster-topline small{
+  font-size:clamp(18px,2.1vw,22px);
+}
+.editable-ledger .chance-poster-inline .chance-poster-photo{
+  order:1;
+  min-height:235px;
+  max-height:235px;
+  height:235px;
+}
+.editable-ledger .chance-poster-inline .chance-poster-photo img{
+  object-fit:cover;
+  object-position:50% 29%;
+}
+.editable-ledger .chance-poster-inline .chance-poster-paper{
+  order:2;
+  flex:none;
+  padding:17px 17px 15px;
+}
+.editable-ledger .chance-poster-inline .chance-poster-paper p{
+  font-size:13px;
+  line-height:1.35;
+  margin:0 0 11px;
+}
+.editable-ledger .chance-poster-inline .chance-poster-name{
+  font-size:clamp(25px,2.9vw,31px);
+  line-height:1.06;
+  letter-spacing:-.04em;
+  overflow-wrap:anywhere;
+}
+.editable-ledger .chance-poster-inline .chance-poster-bottom{
+  padding:12px 10px 0;
+}
+.editable-ledger .chance-poster-inline .chance-poster-office{
+  font-size:12px;
+  letter-spacing:.16em;
+  margin:6px 0 13px;
+}
+.editable-ledger .chance-poster-inline .chance-poster-doubt{
+  font-size:clamp(17px,1.8vw,21px);
+  margin:0 4px 12px;
+  padding:10px 8px 12px;
+}
+.editable-ledger .chance-poster-inline .chance-poster-final{
+  font-size:clamp(17px,1.9vw,21px);
+  padding:11px 8px;
+  margin:0 -10px;
+  letter-spacing:.02em;
+}
+.editable-ledger .chance-poster-inline .chance-poster-payfor{
+  font-size:10px;
+  margin:0 -10px;
+  padding:0 8px 11px;
+}
+@media(max-width:700px){
+  .editable-ledger .results-over-noise-poster.results-poster-approved.insider-ad-casey,
+  .editable-ledger .chance-trust-poster.chance-poster-inline{
+    float:none;
+    clear:both;
+    display:block;
+    width:100%;
+    max-width:420px;
+    margin:22px auto 25px;
+  }
+  .editable-ledger .chance-poster-inline .chance-poster-photo{
+    min-height:270px;
+    max-height:270px;
+    height:270px;
+  }
+  .editable-ledger .chance-poster-inline .chance-poster-paper{padding:19px 21px}
+  .editable-ledger .chance-poster-inline .chance-poster-paper p{font-size:14px;line-height:1.4}
+  .editable-ledger .chance-poster-inline .chance-poster-name{font-size:clamp(27px,7vw,36px)}
+  .editable-ledger .chance-poster-inline .chance-poster-topline span,
+  .editable-ledger .chance-poster-inline .chance-poster-topline strong{font-size:clamp(32px,9vw,40px)}
+}

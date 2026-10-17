@@ -170,7 +170,7 @@ Unfortunately, a new submission suggests his political problems may begin at hom
 
 <figure class="chance-trust-poster" aria-label="He Wants the Title, Has He Earned the Trust — commissioner campaign advertisement">
   <div class="chance-poster-main">
-    <div class="chance-poster-photo"><img src="{{ '/chance-he-wants-the-title-portrait.webp' | relative_url }}" alt="Stylized campaign portrait representing Chance Robinson in sunglasses and a suit" loading="lazy"></div>
+    <div class="chance-poster-photo"><img src="{{ '/chance-approved-real-portrait.webp' | relative_url }}" alt="Chance Robinson in the approved campaign portrait, wearing a dark blazer and pink shirt" loading="lazy"></div>
     <div class="chance-poster-right">
       <div class="chance-poster-topline">
         <span>HE WANTS</span>

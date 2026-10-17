@@ -6,7 +6,7 @@ week: 6
 season: 2026
 date: 2026-10-16
 permalink: /ledger/2026-week6-tip-line-special.html
-read_time: "~11 min read"
+read_time: "~12 min read"
 deck: "Twelve tips. Seven subjects. A dead crab, a disappointed God, and serious concerns about Larry's feet."
 summary: "AAA Insider sorts twelve October 14 Tip Line submissions by target: Zak, Louis, Larry, Chance, Frankie and Macon, plus one allegation rejected for publication."
 draft: false
@@ -27,6 +27,17 @@ AAA Insider launched the Tip Line to encourage investigative journalism. Instead
 The newsroom has reviewed the October 14 submissions and organized them by the people who seem to have inspired this remarkable outpouring of concern. The messages range from first-person recollections to outright threats to something that could only have been written by an extremely distressed mushroom. We have included more of the submissions' original flavor, with attribution and context; any personal allegations remain unverified, and graphic allegations involving a minor are not reproduced. **A tip is something someone typed, not something the newsroom proved.**
 
 Welcome to **The Friday News Dump: Tip Line Special Edition**.
+
+<aside class="campaign-ad campaign-ad-casey campaign-ad-wide" aria-label="Satirical pro-Casey commissioner campaign advertisement">
+  <div class="campaign-ad-label">POLITICAL ADVERTISEMENT · AAA COMMISSIONER ELECTION</div>
+  <div class="campaign-ad-stars">★ ★ ★ ★ ★</div>
+  <div class="campaign-ad-eyebrow">Experienced leadership. Selective clemency.</div>
+  <div class="campaign-ad-headline">CASEY HAS THE POWER TO REMOVE GLEN.</div>
+  <div class="campaign-ad-tagline">AND THE MERCY TO LET HIM BACK.</div>
+  <p class="campaign-ad-quote">“I’m the most democratic member of this league.” <small>— Casey Hutchins, GroupMe, Oct. 13</small></p>
+  <div class="campaign-ad-footer">CASEY HUTCHINS · ORDER, FAIRNESS &amp; THE OCCASIONAL TIMEOUT</div>
+  <div class="campaign-ad-fineprint">A satirical league election ad. No actual campaign payment implied.</div>
+</aside>
 
 <div class="matchup-jump">
   <div class="matchup-jump-label">Open a file</div>
@@ -163,6 +174,16 @@ Chance Robinson is undefeated at 5–0, campaigning for commissioner and assurin
 
 Unfortunately, a new submission suggests his political problems may begin at home.
 
+<aside class="campaign-ad campaign-ad-chance campaign-ad-float-right" aria-label="Satirical opposition campaign advertisement about Chance's integrity poster">
+  <div class="campaign-ad-label">OPPOSITION AD · COMMISSIONER RACE</div>
+  <div class="campaign-ad-headline">INTEGRITY.<br>INTEGRITY.</div>
+  <div class="campaign-ad-tagline">ON THE POSTER TWICE.<br>QUESTIONED ONCE.</div>
+  <p class="campaign-ad-quote">Casey: “I need you to explain why integrity is on the poster twice.”</p>
+  <p class="campaign-ad-quote">Chance: “I feel that strongly about integrity.”</p>
+  <div class="campaign-ad-footer">CHANCE FOR CHANGE: SAME WORD, TWICE THE CONFIDENCE.</div>
+  <div class="campaign-ad-fineprint">Actual GroupMe exchange, Oct. 11. All slogans are satire.</div>
+</aside>
+
 A contributor calling itself **“Yam”** filed a statement about a “human male” who answers to Chance. The source presents itself as an animal in Chance's household and describes a domestic operation in which Chance provides food, cleans up messes and occasionally endures the antics of a dog named **Bo Bo**.
 
 > “What another glorious day to have a dumb bitch feed me and clean up my shit.”
@@ -246,6 +267,16 @@ But as a piece of league folklore, it contains the same essential ingredients as
 <a id="tip-editorial"></a>
 ## FROM THE EDITOR'S DESK
 ### Not every allegation deserves a headline
+
+<aside class="campaign-ad campaign-ad-casey campaign-ad-float-left" aria-label="Satirical pro-Casey advertisement celebrating the league free press">
+  <div class="campaign-ad-label">POLITICAL ADVERTISEMENT · A FREE PRESS</div>
+  <div class="campaign-ad-eyebrow">She respects the fourth estate.</div>
+  <div class="campaign-ad-headline">CASEY BELIEVES IN OUR NY TIMES BEST SELLING AUTHOR.</div>
+  <p class="campaign-ad-quote">“Our very own NY Times best selling author.” <small>— Casey Hutchins, describing AAA Insider's editor in GroupMe, Oct. 14</small></p>
+  <p class="campaign-ad-small">The newsroom cannot verify that there is a book. We do appreciate being recognized.</p>
+  <div class="campaign-ad-footer">CASEY: A COMMISSIONER WHO READS THE PAPER.</div>
+  <div class="campaign-ad-fineprint">A satirical league election ad, not an actual publishing credential.</div>
+</aside>
 
 One additional submission alleges serious inappropriate conduct involving a minor. It provides no corroborating evidence. The newsroom is acknowledging its receipt but will not identify the accused or the minor, quote its graphic particulars, or present the claim as established. This allegation is not an appropriate punchline.
 

@@ -801,3 +801,43 @@ nav a.active{background:#1e293b;color:white}
   .editable-ledger .chance-poster-inline .chance-poster-topline span,
   .editable-ledger .chance-poster-inline .chance-poster-topline strong{font-size:clamp(32px,9vw,40px)}
 }
+
+
+/* AAA Insider Week 6: one integrated Casey + original commissioner endorsement poster. */
+.editable-ledger .insider-endorsement-inline{
+  display:block;
+  float:left;
+  clear:left;
+  box-sizing:border-box;
+  width:43%;
+  max-width:318px;
+  margin:5px 24px 20px 0;
+  padding:0;
+  background:transparent;
+  border:0;
+  border-radius:0;
+  box-shadow:0 6px 18px rgba(20,24,35,.18);
+  overflow:hidden;
+}
+.editable-ledger .insider-endorsement-inline a{
+  display:block;
+  line-height:0;
+}
+.editable-ledger .insider-endorsement-inline img{
+  display:block;
+  width:100%;
+  max-width:100%;
+  height:auto;
+  margin:0;
+  padding:0;
+  border:0;
+}
+@media(max-width:700px){
+  .editable-ledger .insider-endorsement-inline{
+    float:none;
+    clear:both;
+    width:100%;
+    max-width:420px;
+    margin:22px auto 26px;
+  }
+}

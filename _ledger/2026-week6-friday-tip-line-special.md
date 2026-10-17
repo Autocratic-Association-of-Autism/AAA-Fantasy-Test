@@ -348,17 +348,11 @@ But as a piece of league folklore, it contains the same essential ingredients as
 ## FROM THE EDITOR'S DESK
 ### Not every allegation deserves a headline
 
-<aside class="campaign-ad campaign-ad-casey campaign-ad-float-left campaign-2026-endorsement" aria-label="Casey Hutchins campaign feature with AAA Insider editor Ryan Mays">
-  <div class="campaign-ad-label">CASEY HUTCHINS FOR COMMISSIONER</div>
-  <div class="campaign-ad-duo">
-    <div class="campaign-ad-portrait"><img src="{{ '/casey-hutchins-steady-leadership.png' | relative_url }}" alt="Casey Hutchins" loading="lazy"><span>THE COMMISSIONER</span></div>
-    <div class="campaign-ad-portrait"><img src="{{ '/ryan-mays-aaa-insider.png' | relative_url }}" alt="Ryan Mays, AAA Insider" loading="lazy"><span>THE EDITOR</span></div>
-  </div>
-  <div class="campaign-ad-headline">STEADY LEADERSHIP.</div>
-  <div class="campaign-ad-tagline">FOR A CHAOTIC LEAGUE.</div>
-  <p class="campaign-ad-quote">“Our very own NY Times best selling author.” <small>— Casey Hutchins on AAA Insider's editor</small></p>
-  <div class="campaign-ad-footer">CASEY HUTCHINS · EXPERIENCE. ORDER. ACCOUNTABILITY.</div>
-</aside>
+<figure class="insider-endorsement-inline" aria-label="Casey Hutchins commissioner reelection endorsement by original commissioner Ryan Mays">
+  <a href="{{ '/casey-ryan-endorsement-commissioner-2026.avif' | relative_url }}" target="_blank" rel="noopener noreferrer" title="View the Casey–Ryan campaign poster full size">
+    <img src="{{ '/casey-ryan-endorsement-commissioner-2026.avif' | relative_url }}" alt="Casey Hutchins for commissioner with original commissioner Ryan Mays, whose suit sleeves are torn away to reveal his exaggerated wrestler physique. Steady leadership, trusted support, and a stronger future." loading="lazy" width="400" height="500">
+  </a>
+</figure>
 
 One additional submission alleges serious inappropriate conduct involving a minor. It provides no corroborating evidence. The newsroom is acknowledging its receipt but will not identify the accused or the minor, quote its graphic particulars, or present the claim as established. This allegation is not an appropriate punchline.
 
@@ -381,6 +375,8 @@ If you're responding to a particular submission, tell us which one. We can publi
 Our Tip Line remains open for stories, jokes, actual evidence, reckless political opinions and—apparently—posthumous testimony from local marine life.
 
 The newsroom's position is simple: **you may submit anything; that does not mean we will publish everything.**
+
+<div class="insider-ad-clear"></div>
 
 ---
 

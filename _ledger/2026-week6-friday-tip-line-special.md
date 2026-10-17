@@ -28,15 +28,27 @@ The newsroom has reviewed the October 14–17 submissions and organized them by 
 
 Welcome to **The Friday News Dump: Tip Line Special Edition**.
 
-<aside class="campaign-ad campaign-ad-casey campaign-ad-wide campaign-2026-primary" aria-label="Casey Hutchins commissioner campaign message">
-  <div class="campaign-ad-label">CASEY HUTCHINS · COMMISSIONER 2027</div>
-  <div class="campaign-ad-patriotic">★ ★ ★</div>
-  <img class="campaign-ad-casey-hero" src="{{ '/casey-hutchins-steady-leadership.png' | relative_url }}" alt="Commissioner Casey Hutchins" loading="lazy">
-  <div class="campaign-ad-headline">STEADY HAND. FIRM RULES.</div>
-  <div class="campaign-ad-tagline">THE LEAGUE NEEDS A LEADER. NOT ANOTHER GROUP CHAT.</div>
-  <p class="campaign-ad-quote">“I’m the most democratic member of this league.” <small>— Casey Hutchins</small></p>
-  <div class="campaign-ad-footer">CASEY FOR COMMISSIONER · ANOTHER TERM OF GETTING THINGS DONE</div>
-</aside>
+<figure class="results-over-noise-poster" aria-label="Casey Hutchins Results Over Noise reelection poster">
+  <div class="results-poster-top">
+    <div class="results-poster-stars">★ ★ ★</div>
+    <div class="results-poster-slogan">RESULTS OVER NOISE.</div>
+  </div>
+  <div class="results-poster-portrait">
+    <img src="{{ '/casey-hutchins-steady-leadership.png' | relative_url }}" alt="Casey Hutchins smiling in her commissioner campaign portrait" loading="lazy">
+  </div>
+  <div class="results-poster-copy">
+    <p class="results-poster-lede">Anyone can talk about leadership.<br>Casey Hutchins has actually done it.</p>
+    <p>For years, Casey has managed the disputes, the personalities, the confusion, and the endless stream of unsolicited opinions that come with leading this league.</p>
+    <p>Not every decision has been easy.<br>Not every decision has been popular.<br>And not everyone who was removed from GroupMe agreed with the decision.</p>
+    <p class="results-poster-conclusion">But leadership isn’t about comfort.<br>It’s about responsibility.</p>
+    <div class="results-poster-stars results-poster-stars-bottom">★ ★ ★</div>
+    <div class="results-poster-name">CASEY HUTCHINS</div>
+    <div class="results-poster-role">FOR COMMISSIONER</div>
+    <div class="results-poster-coda">Experience you can argue with. Results you can’t ignore.</div>
+    <div class="results-poster-vote">★ &nbsp; RE-ELECT CASEY &nbsp; ★</div>
+    <div class="results-poster-disclaimer">Paid for by Friends of Casey Hutchins for Commissioner.</div>
+  </div>
+</figure>
 
 <div class="matchup-jump">
   <div class="matchup-jump-label">Open a file</div>

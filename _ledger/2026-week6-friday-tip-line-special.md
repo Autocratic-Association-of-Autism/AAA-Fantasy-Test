@@ -34,7 +34,7 @@ Welcome to **The Friday News Dump: Tip Line Special Edition**.
     <div class="results-poster-slogan">RESULTS OVER NOISE.</div>
   </div>
   <div class="results-poster-portrait">
-    <img src="{{ '/casey-hutchins-steady-leadership.png' | relative_url }}" alt="Casey Hutchins smiling in her commissioner campaign portrait" loading="lazy">
+    <img src="{{ '/casey-results-over-noise-portrait.webp' | relative_url }}" alt="Casey Hutchins smiling in a professional campaign portrait" loading="lazy">
   </div>
   <div class="results-poster-copy">
     <p class="results-poster-lede">Anyone can talk about leadership.<br>Casey Hutchins has actually done it.</p>

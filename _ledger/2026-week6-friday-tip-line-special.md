@@ -28,26 +28,34 @@ The newsroom has reviewed the October 14–17 submissions and organized them by 
 
 Welcome to **The Friday News Dump: Tip Line Special Edition**.
 
-<figure class="results-over-noise-poster" aria-label="Casey Hutchins Results Over Noise reelection poster">
-  <div class="results-poster-top">
-    <div class="results-poster-stars">★ ★ ★</div>
-    <div class="results-poster-slogan">RESULTS OVER NOISE.</div>
+<figure class="results-over-noise-poster results-poster-real-casey" aria-label="Casey Hutchins Results Over Noise reelection poster">
+  <div class="results-real-top">
+    <div class="results-real-headline">RESULTS<br><span>OVER</span> NOISE.</div>
+    <div class="results-real-stars">★ ★ ★</div>
   </div>
-  <div class="results-poster-portrait">
-    <img src="{{ '/casey-results-over-noise-portrait.webp' | relative_url }}" alt="Casey Hutchins smiling in a professional campaign portrait" loading="lazy">
+  <div class="results-real-main">
+    <div class="results-real-copy">
+      <p class="results-real-lede">Anyone can talk about leadership.<br><strong>Casey Hutchins has actually done it.</strong></p>
+      <div class="results-real-rule">★ ★ ★</div>
+      <p>For years, Casey has managed the disputes, the personalities, the confusion, and the endless stream of unsolicited opinions that come with leading this league.</p>
+      <div class="results-real-points">
+        <p>Not every decision has been easy.</p>
+        <p>Not every decision has been popular.</p>
+        <p>And not everyone who was removed from GroupMe agreed with the decision.</p>
+      </div>
+      <p class="results-real-conclusion">But leadership isn’t about comfort.<br><strong>It’s about responsibility.</strong></p>
+    </div>
+    <div class="results-real-portrait" aria-label="Casey Hutchins smiling, from the original campaign artwork">
+      <img src="{{ '/casey-hutchins-steady-leadership.png' | relative_url }}" alt="Real portrait of Casey Hutchins from the campaign artwork supplied for the league" loading="lazy">
+    </div>
   </div>
-  <div class="results-poster-copy">
-    <p class="results-poster-lede">Anyone can talk about leadership.<br>Casey Hutchins has actually done it.</p>
-    <p>For years, Casey has managed the disputes, the personalities, the confusion, and the endless stream of unsolicited opinions that come with leading this league.</p>
-    <p>Not every decision has been easy.<br>Not every decision has been popular.<br>And not everyone who was removed from GroupMe agreed with the decision.</p>
-    <p class="results-poster-conclusion">But leadership isn’t about comfort.<br>It’s about responsibility.</p>
-    <div class="results-poster-stars results-poster-stars-bottom">★ ★ ★</div>
-    <div class="results-poster-name">CASEY HUTCHINS</div>
-    <div class="results-poster-role">FOR COMMISSIONER</div>
-    <div class="results-poster-coda">Experience you can argue with. Results you can’t ignore.</div>
-    <div class="results-poster-vote">★ &nbsp; RE-ELECT CASEY &nbsp; ★</div>
-    <div class="results-poster-disclaimer">Paid for by Friends of Casey Hutchins for Commissioner.</div>
+  <div class="results-real-candidate">
+    <div class="results-real-name">★ CASEY ★<br><span>HUTCHINS</span></div>
+    <div class="results-real-role">FOR COMMISSIONER</div>
+    <div class="results-real-coda">Experience you can argue with. Results you can’t ignore.</div>
   </div>
+  <div class="results-real-vote">★ &nbsp; RE-ELECT CASEY &nbsp; ★</div>
+  <div class="results-real-disclaimer">Paid for by Friends of Casey Hutchins for Commissioner.</div>
 </figure>
 
 <div class="matchup-jump">

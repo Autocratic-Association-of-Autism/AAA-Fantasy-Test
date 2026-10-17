@@ -355,3 +355,61 @@ nav a.active{background:#1e293b;color:white}
  .editable-ledger .campaign-ad-photo-pair img{height:155px}
  .editable-ledger .campaign-ad-chance-photo{max-width:240px}
 }
+
+
+/* October tip-line issue: campaign ads presented straight, without meta-joke labels. */
+.editable-ledger .campaign-2026-primary,
+.editable-ledger .campaign-2026-chance,
+.editable-ledger .campaign-2026-endorsement{
+  transform:none;
+  border:3px solid #102943;
+  border-radius:1px;
+  box-shadow:0 4px 0 rgba(17,39,63,.2);
+  background:#f8f3e8;
+  color:#102943;
+  text-align:center;
+  padding:17px;
+}
+.editable-ledger .campaign-2026-primary{border-top:10px solid #a51d27;border-bottom:9px solid #102943;background:linear-gradient(#f9f6ec,#eae4d5)}
+.editable-ledger .campaign-2026-chance{border-color:#781e27;border-top:9px solid #781e27;background:#e9dfd0;}
+.editable-ledger .campaign-2026-endorsement{border-top:9px solid #112c4d;border-bottom:8px solid #9d2631;background:linear-gradient(160deg,#f9f5e9,#e7e1d4);}
+.editable-ledger .campaign-2026-primary .campaign-ad-label,
+.editable-ledger .campaign-2026-chance .campaign-ad-label,
+.editable-ledger .campaign-2026-endorsement .campaign-ad-label{
+  font-size:10px;letter-spacing:.085em;border-bottom:2px solid currentColor;
+}
+.editable-ledger .campaign-2026-primary .campaign-ad-patriotic{font-size:17px;color:#a51d27;letter-spacing:.5em;padding:4px;}
+.editable-ledger .campaign-2026-primary img.campaign-ad-casey-hero{
+  display:block;height:230px;width:190px;max-width:100%;margin:14px auto 13px;
+  border:4px solid #dfd2ba;box-shadow:0 4px 10px #0002;object-fit:cover;object-position:50% 42%;
+}
+.editable-ledger .campaign-2026-chance img.campaign-ad-chance-editorial-photo{
+  width:100%;height:215px;object-fit:cover;object-position:center 35%;
+  display:block;box-shadow:0 5px 14px #0003;margin:13px auto 15px;border:1px solid #9b9084;
+}
+.editable-ledger .campaign-2026-primary .campaign-ad-headline{font-size:clamp(22px,3.1vw,35px);line-height:1.03;}
+.editable-ledger .campaign-2026-primary .campaign-ad-tagline{font-size:clamp(13px,1.9vw,20px);letter-spacing:.01em}
+.editable-ledger .campaign-2026-chance .campaign-ad-headline{font-size:clamp(26px,3vw,33px);margin-top:4px}
+.editable-ledger .campaign-2026-chance .campaign-ad-tagline{font-size:clamp(14px,2vw,19px);color:#811f27}
+.editable-ledger .campaign-2026-chance .campaign-ad-footer{background:#811f27;}
+.editable-ledger .campaign-2026-endorsement .campaign-ad-duo{
+  display:grid;grid-template-columns:1fr 1fr;gap:7px;margin:14px auto 10px;
+}
+.editable-ledger .campaign-2026-endorsement .campaign-ad-portrait{position:relative;min-width:0;overflow:hidden;background:#efe3d1;border:2px solid #b9ac99;}
+.editable-ledger .campaign-2026-endorsement .campaign-ad-portrait img{display:block;width:100%;height:145px;object-fit:cover;object-position:center 41%}
+.editable-ledger .campaign-2026-endorsement .campaign-ad-portrait span{
+ display:block;background:#102943;color:#fff;padding:5px 2px;font:800 9px/1.3 ui-sans-serif,system-ui,Arial,sans-serif;letter-spacing:.04em;
+}
+.editable-ledger .campaign-2026-endorsement .campaign-ad-headline{font-size:clamp(20px,2.2vw,30px);line-height:1}
+.editable-ledger .campaign-2026-endorsement .campaign-ad-tagline{font-size:clamp(15px,1.7vw,19px);color:#9d2631}
+.editable-ledger .campaign-2026-primary .campaign-ad-footer,
+.editable-ledger .campaign-2026-endorsement .campaign-ad-footer{background:#102943;color:#fff}
+.editable-ledger .campaign-2026-endorsement .campaign-ad-footer{font-size:9px;line-height:1.4}
+.editable-ledger .insider-tip-full{max-width:385px;width:52%;padding:18px 19px;margin-right:0}
+.editable-ledger .insider-tip-full .insider-tip-copy p{font-size:14px;line-height:1.55;white-space:normal;overflow-wrap:anywhere}
+@media(max-width:700px){
+ .editable-ledger .campaign-2026-primary img.campaign-ad-casey-hero{height:220px;width:210px}
+ .editable-ledger .campaign-2026-chance img.campaign-ad-chance-editorial-photo{height:250px;}
+ .editable-ledger .campaign-2026-endorsement .campaign-ad-portrait img{height:205px}
+ .editable-ledger .insider-tip-full{width:100%;max-width:none;margin:18px auto 25px}
+}

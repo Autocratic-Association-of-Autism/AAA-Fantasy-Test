@@ -42,7 +42,7 @@ Welcome to **The Friday News Dump: Tip Line Special Edition**.
 ---
 
 <a id="tip-zak"></a>
-## THE ZAK WESELOK FILE
+## THE ZAK WESOLEK FILE
 ### A Slovenian cliff, a deceased crab and a childhood now under review
 
 **Submissions: 3 · Sources: “A core memory,” “Rocky,” and “Cassidy”**
@@ -221,7 +221,7 @@ To be clear, the newsroom cannot verify the roommate story or the conduct attrib
 
 But as a piece of league folklore, it contains the same essential ingredients as Macon's fantasy transactions: optimism at the beginning, confusion in the middle and somebody else holding the bag at the end.
 
-**AAA Insider finding:** Roommate referral practices under informal review. Glen Hutchins has declined to return Brock Bowers.
+**AAA Insider finding:** Roommate referral practices under informal review. Glen Hutchins still has Brock Bowers.
 
 ---
 

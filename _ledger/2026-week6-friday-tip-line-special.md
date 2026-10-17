@@ -186,14 +186,35 @@ Chance Robinson is undefeated at 5–0, campaigning for commissioner and assurin
 
 Unfortunately, a new submission suggests his political problems may begin at home.
 
-<aside class="campaign-ad campaign-ad-chance campaign-ad-float-right campaign-2026-chance" aria-label="Commissioner election message concerning Chance Robinson">
-  <div class="campaign-ad-label">COMMISSIONER ELECTION · CHANCE ROBINSON</div>
-  <img class="campaign-ad-chance-editorial-photo" src="{{ '/chance-robinson-opposition-poster.png' | relative_url }}" alt="Chance Robinson campaign portrait" loading="lazy">
-  <div class="campaign-ad-headline">TALKS BIG.</div>
-  <div class="campaign-ad-tagline">BUT WHO'S ACTUALLY RUNNING THE LEAGUE?</div>
-  <p class="campaign-ad-quote">“I feel that strongly about integrity.” <small>— Chance Robinson, responding to a question about using the word twice</small></p>
-  <div class="campaign-ad-footer">FIVE WINS. ZERO DAYS OF COMMISSIONER EXPERIENCE.</div>
-</aside>
+<figure class="chance-trust-poster" aria-label="He Wants the Title, Has He Earned the Trust — commissioner campaign advertisement">
+  <div class="chance-poster-main">
+    <div class="chance-poster-photo"><img src="{{ '/chance-he-wants-the-title-portrait.webp' | relative_url }}" alt="Stylized campaign portrait representing Chance Robinson in sunglasses and a suit" loading="lazy"></div>
+    <div class="chance-poster-right">
+      <div class="chance-poster-topline">
+        <span>HE WANTS</span>
+        <strong>THE TITLE.</strong>
+        <small>HAS HE EARNED<br>THE TRUST?</small>
+      </div>
+      <div class="chance-poster-paper">
+        <p>Chance Robinson has made himself the loudest voice in the race.</p>
+        <p>He talks about integrity.<br>He talks about change.<br>He talks like the job is already his.</p>
+        <p>Asked why <em>integrity</em> appeared twice on his campaign poster, Chance explained: <strong>“I feel that strongly about integrity.”</strong></p>
+        <div class="chance-poster-rule"></div>
+        <p>But when you strip away the slogans, what's left?</p>
+        <p><strong>An undefeated record? Sure.</strong><br>A proven leader? <em class="chance-poster-red">Not so fast.</em></p>
+        <p>Winning matchups is one thing. Earning trust is another.</p>
+        <p>Because running for commissioner is easy. <strong class="chance-poster-red">Actually deserving it is harder.</strong></p>
+      </div>
+    </div>
+  </div>
+  <div class="chance-poster-bottom">
+    <div class="chance-poster-name">CHANCE ROBINSON</div>
+    <div class="chance-poster-office">FOR COMMISSIONER</div>
+    <div class="chance-poster-doubt">STRONG ON CAMPAIGNING.<br>UNPROVEN ON CHARACTER.</div>
+    <div class="chance-poster-final">LEADERSHIP DEMANDS MORE.</div>
+    <div class="chance-poster-payfor">Paid for by Citizens for Responsible League Governance.</div>
+  </div>
+</figure>
 
 A contributor calling itself **“Yam”** filed a statement about a “human male” who answers to Chance. The source presents itself as an animal in Chance's household and describes a domestic operation in which Chance provides food, cleans up messes and occasionally endures the antics of a dog named **Bo Bo**.
 

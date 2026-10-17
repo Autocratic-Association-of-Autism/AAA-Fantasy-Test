@@ -349,8 +349,8 @@ But as a piece of league folklore, it contains the same essential ingredients as
 ### Not every allegation deserves a headline
 
 <figure class="insider-endorsement-inline" aria-label="Casey Hutchins commissioner reelection endorsement by original commissioner Ryan Mays">
-  <a href="{{ '/casey-ryan-endorsement-commissioner-2026.avif' | relative_url }}" target="_blank" rel="noopener noreferrer" title="View the Casey–Ryan campaign poster full size">
-    <img src="{{ '/casey-ryan-endorsement-commissioner-2026.avif' | relative_url }}" alt="Casey Hutchins for commissioner with original commissioner Ryan Mays, whose suit sleeves are torn away to reveal his exaggerated wrestler physique. Steady leadership, trusted support, and a stronger future." loading="lazy" width="400" height="500">
+  <a href="{{ '/casey-ryan-endorsement-sharp-960.avif' | relative_url }}" target="_blank" rel="noopener noreferrer" title="View the Casey–Ryan campaign poster full size">
+    <img src="{{ '/casey-ryan-endorsement-sharp-960.avif' | relative_url }}" alt="Casey Hutchins for commissioner with original commissioner Ryan Mays, whose suit sleeves are torn away to reveal his exaggerated wrestler physique. Steady leadership, trusted support, and a stronger future." loading="lazy" width="960" height="1200">
   </a>
 </figure>
 

@@ -520,3 +520,155 @@ nav a.active{background:#1e293b;color:white}
   .editable-ledger .results-poster-portrait{height:245px}
   .editable-ledger .results-poster-vote{font-size:clamp(19px,6vw,27px)}
 }
+
+
+/* 2026 commissioner contest: Chance negative campaign poster, issue #9. */
+.editable-ledger .chance-trust-poster {
+  display:block;
+  box-sizing:border-box;
+  max-width:650px;
+  margin:35px auto 44px;
+  padding:0;
+  overflow:hidden;
+  color:#faf2e4;
+  background:#101a2a;
+  border:1px solid #08111c;
+  border-radius:0;
+  box-shadow:0 11px 29px rgba(20,18,19,.3);
+  font-family:Georgia,'Times New Roman',serif;
+  text-align:center;
+}
+.editable-ledger .chance-trust-poster *{box-sizing:border-box}
+.editable-ledger .chance-poster-main{
+  display:grid;
+  grid-template-columns:43% 57%;
+  align-items:stretch;
+  background:#111c2c;
+}
+.editable-ledger .chance-poster-photo{
+  background:#101826;
+  position:relative;
+  overflow:hidden;
+  min-height:610px;
+}
+.editable-ledger .chance-poster-photo img{
+  position:absolute;inset:0;
+  display:block;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position:52% 37%;
+  filter:saturate(.83) contrast(1.12);
+}
+.editable-ledger .chance-poster-right{min-width:0;display:flex;flex-direction:column}
+.editable-ledger .chance-poster-topline{
+  padding:16px 15px 20px;
+  color:#f7eedf;
+  background:#101a2a;
+  border-top:5px solid #b52232;
+  text-align:center;
+}
+.editable-ledger .chance-poster-topline span,
+.editable-ledger .chance-poster-topline strong{
+  display:block;
+  font:900 clamp(29px,5vw,49px)/.99 Georgia,'Times New Roman',serif;
+  letter-spacing:-.045em;
+}
+.editable-ledger .chance-poster-topline strong{
+  background:#b52232;
+  padding:5px 3px 6px;
+  margin:9px -5px 7px;
+  color:#fbf1e5;
+}
+.editable-ledger .chance-poster-topline small{
+  display:block;
+  font:900 clamp(18px,2.7vw,26px)/1.12 Georgia,'Times New Roman',serif;
+  letter-spacing:.005em;
+}
+.editable-ledger .chance-poster-paper{
+  background:#f2eadb;
+  color:#142038;
+  padding:17px 20px 22px;
+  text-align:left;
+  flex:1;
+  border-top:4px solid #d8caba;
+  border-bottom:4px solid #d8caba;
+}
+.editable-ledger .chance-poster-paper p{
+  font:normal clamp(12px,1.62vw,15px)/1.35 Georgia,'Times New Roman',serif;
+  color:#142038;
+  margin:0 0 13px;
+}
+.editable-ledger .chance-poster-paper p:last-child{margin-bottom:0}
+.editable-ledger .chance-poster-paper strong{font-weight:800}
+.editable-ledger .chance-poster-paper .chance-poster-red{color:#aa2532;font-weight:800}
+.editable-ledger .chance-poster-rule{
+  height:1px;
+  background:#9d2b35;
+  opacity:.8;
+  margin:10px 0 13px;
+}
+.editable-ledger .chance-poster-bottom{
+  background:#111b2d;
+  border-top:5px solid #0c1320;
+  padding:18px 14px 0;
+  color:#f8efdd;
+}
+.editable-ledger .chance-poster-name{
+  font:900 clamp(30px,6.7vw,60px)/1.03 Georgia,'Times New Roman',serif;
+  letter-spacing:-.035em;
+}
+.editable-ledger .chance-poster-office{
+  color:#faf2e3;
+  font:normal clamp(13px,2.3vw,21px)/1.2 Georgia,'Times New Roman',serif;
+  letter-spacing:.31em;
+  margin:7px 0 19px;
+}
+.editable-ledger .chance-poster-doubt{
+  color:#fff8ed;
+  background:#b32332;
+  font:900 clamp(18px,3.4vw,31px)/1.2 Georgia,'Times New Roman',serif;
+  padding:14px 10px 16px;
+  margin:0 10px 18px;
+}
+.editable-ledger .chance-poster-final{
+  background:#f2eadb;
+  color:#18243a;
+  font:900 clamp(17px,3vw,27px)/1.17 Georgia,'Times New Roman',serif;
+  letter-spacing:.065em;
+  padding:16px 8px;
+  margin:0 -14px;
+}
+.editable-ledger .chance-poster-payfor{
+  background:#f2eadb;
+  color:#363333;
+  font:normal 11px/1.25 Georgia,'Times New Roman',serif;
+  padding:0 10px 13px;
+  margin:0 -14px;
+}
+@media(max-width:600px){
+ .editable-ledger .chance-poster-photo{min-height:575px}
+ .editable-ledger .chance-poster-topline{padding:12px 9px 16px}
+ .editable-ledger .chance-poster-topline span,
+ .editable-ledger .chance-poster-topline strong{font-size:clamp(25px,6vw,37px)}
+ .editable-ledger .chance-poster-topline small{font-size:clamp(15px,3.65vw,21px)}
+ .editable-ledger .chance-poster-paper{padding:15px 14px}
+ .editable-ledger .chance-poster-paper p{font-size:13px;line-height:1.32}
+}
+@media(max-width:460px){
+ .editable-ledger .chance-trust-poster{margin:23px -3px 32px;}
+ .editable-ledger .chance-poster-main{display:flex;flex-direction:column}
+ .editable-ledger .chance-poster-photo{order:1;min-height:320px;max-height:320px}
+ .editable-ledger .chance-poster-photo img{object-position:center 25%}
+ .editable-ledger .chance-poster-right{display:contents}
+ .editable-ledger .chance-poster-topline{order:0;padding:18px 14px 15px}
+ .editable-ledger .chance-poster-topline span,
+ .editable-ledger .chance-poster-topline strong{font-size:clamp(33px,10vw,46px)}
+ .editable-ledger .chance-poster-topline small{font-size:clamp(21px,6vw,25px)}
+ .editable-ledger .chance-poster-paper{order:2;padding:19px 22px 20px}
+ .editable-ledger .chance-poster-paper p{font-size:15px;line-height:1.38}
+ .editable-ledger .chance-poster-name{font-size:clamp(27px,8vw,35px)}
+ .editable-ledger .chance-poster-office{font-size:13px;letter-spacing:.23em}
+ .editable-ledger .chance-poster-doubt{font-size:21px}
+ .editable-ledger .chance-poster-final{font-size:19px;letter-spacing:.04em}
+}

@@ -6,9 +6,9 @@ week: 6
 season: 2026
 date: 2026-10-17
 permalink: /ledger/2026-week6-tip-line-special.html
-read_time: "~13 min read"
-deck: "Thirteen tips, eight targets, dueling campaign ads, a dead crab, and a commissioner facing a household budget scandal."
-summary: "AAA Insider sorts thirteen October 14–17 tips by target, adds Casey’s latest domestic-budget scandal, and presents three satirical commissioner campaign ads."
+read_time: "~15 min read"
+deck: "Fourteen tips, eight targets, competing campaign messages, a dead crab, and a commissioner facing a household budget scandal."
+summary: "AAA Insider sorts fourteen October 14–17 tips by target, adds Casey’s latest domestic-budget scandal, and presents three satirical commissioner campaign ads."
 draft: false
 ---
 
@@ -20,7 +20,7 @@ Five minutes later, a crab filed a complaint against the same man.
 
 By that evening, God had weighed in on Louis Swanson, someone claiming to live with Chance Robinson had begun airing domestic grievances, and the newsroom was examining whether Larry Terrell might accidentally become the origin point of a worldwide fungal uprising.
 
-**Thirteen submissions. Two dates. Eight named subjects.**
+**Fourteen submissions. Two dates. Eight named subjects.**
 
 AAA Insider launched the Tip Line to encourage investigative journalism. Instead, the league has apparently established an international witness-protection program for people who want to call their friends idiots under names like *Brosif Stalin*.
 
@@ -28,16 +28,14 @@ The newsroom has reviewed the October 14–17 submissions and organized them by 
 
 Welcome to **The Friday News Dump: Tip Line Special Edition**.
 
-<aside class="campaign-ad campaign-ad-casey campaign-ad-wide" aria-label="Satirical pro-Casey commissioner campaign advertisement">
-  <div class="campaign-ad-label">POLITICAL ADVERTISEMENT · AAA COMMISSIONER ELECTION</div>
-  <div class="campaign-ad-stars">★ ★ ★ ★ ★</div>
-  <img class="campaign-ad-image campaign-ad-casey-image" src="{{ '/casey-hutchins-steady-leadership.png' | relative_url }}" alt="AAA Insider satirical pro-Casey commissioner campaign artwork" loading="lazy">
-  <div class="campaign-ad-eyebrow">Experienced leadership. Selective clemency.</div>
-  <div class="campaign-ad-headline">CASEY HAS THE POWER TO REMOVE GLEN.</div>
-  <div class="campaign-ad-tagline">AND THE MERCY TO LET HIM BACK.</div>
-  <p class="campaign-ad-quote">“I’m the most democratic member of this league.” <small>— Casey Hutchins, GroupMe, Oct. 13</small></p>
-  <div class="campaign-ad-footer">CASEY HUTCHINS · ORDER, FAIRNESS &amp; THE OCCASIONAL TIMEOUT</div>
-  <div class="campaign-ad-fineprint">A satirical league election ad. No actual campaign payment implied.</div>
+<aside class="campaign-ad campaign-ad-casey campaign-ad-wide campaign-2026-primary" aria-label="Casey Hutchins commissioner campaign message">
+  <div class="campaign-ad-label">CASEY HUTCHINS · COMMISSIONER 2027</div>
+  <div class="campaign-ad-patriotic">★ ★ ★</div>
+  <img class="campaign-ad-casey-hero" src="{{ '/casey-hutchins-steady-leadership.png' | relative_url }}" alt="Commissioner Casey Hutchins" loading="lazy">
+  <div class="campaign-ad-headline">STEADY HAND. FIRM RULES.</div>
+  <div class="campaign-ad-tagline">THE LEAGUE NEEDS A LEADER. NOT ANOTHER GROUP CHAT.</div>
+  <p class="campaign-ad-quote">“I’m the most democratic member of this league.” <small>— Casey Hutchins</small></p>
+  <div class="campaign-ad-footer">CASEY FOR COMMISSIONER · ANOTHER TERM OF GETTING THINGS DONE</div>
 </aside>
 
 <div class="matchup-jump">
@@ -176,16 +174,13 @@ Chance Robinson is undefeated at 5–0, campaigning for commissioner and assurin
 
 Unfortunately, a new submission suggests his political problems may begin at home.
 
-<aside class="campaign-ad campaign-ad-chance campaign-ad-float-right" aria-label="Satirical opposition campaign advertisement about Chance's integrity poster">
-  <div class="campaign-ad-label">OPPOSITION AD · COMMISSIONER RACE</div>
-  <img class="campaign-ad-image campaign-ad-chance-photo" src="{{ '/chance-crude-campaign-caricature.jpg' | relative_url }}" alt="Obviously altered satirical caricature of Chance, with exaggerated belly and cartoon pimples; not an authentic photograph" loading="lazy">
-  <div class="campaign-ad-photo-caption">ARTIST’S VERY OBVIOUSLY ALTERED IMPRESSION</div>
-  <div class="campaign-ad-headline">INTEGRITY.<br>INTEGRITY.</div>
-  <div class="campaign-ad-tagline">ON THE POSTER TWICE.<br>QUESTIONED ONCE.</div>
-  <p class="campaign-ad-quote">Casey: “I need you to explain why integrity is on the poster twice.”</p>
-  <p class="campaign-ad-quote">Chance: “I feel that strongly about integrity.”</p>
-  <div class="campaign-ad-footer">CHANCE FOR CHANGE: SAME WORD, TWICE THE CONFIDENCE.</div>
-  <div class="campaign-ad-fineprint">Actual GroupMe exchange, Oct. 11. All slogans are satire.</div>
+<aside class="campaign-ad campaign-ad-chance campaign-ad-float-right campaign-2026-chance" aria-label="Commissioner election message concerning Chance Robinson">
+  <div class="campaign-ad-label">COMMISSIONER ELECTION · CHANCE ROBINSON</div>
+  <img class="campaign-ad-chance-editorial-photo" src="{{ '/chance-robinson-opposition-poster.png' | relative_url }}" alt="Chance Robinson campaign portrait" loading="lazy">
+  <div class="campaign-ad-headline">TALKS BIG.</div>
+  <div class="campaign-ad-tagline">BUT WHO'S ACTUALLY RUNNING THE LEAGUE?</div>
+  <p class="campaign-ad-quote">“I feel that strongly about integrity.” <small>— Chance Robinson, responding to a question about using the word twice</small></p>
+  <div class="campaign-ad-footer">FIVE WINS. ZERO DAYS OF COMMISSIONER EXPERIENCE.</div>
 </aside>
 
 A contributor calling itself **“Yam”** filed a statement about a “human male” who answers to Chance. The source presents itself as an animal in Chance's household and describes a domestic operation in which Chance provides food, cleans up messes and occasionally endures the antics of a dog named **Bo Bo**.
@@ -214,20 +209,16 @@ Sometimes leadership is about the little things.
 ## THE CASEY HUTCHINS FILE
 ### Commissioner accused of redistributing family funds to books and babies
 
-**Submission: 1 · Source: “Financial Ruin” · Received October 17, 2:21 AM · May be attributed**
+**Submissions: 2 · Sources: “Financial Ruin” and “Brandon” · October 17**
 
 An October 17 tip claims the league's sitting commissioner has orchestrated a household financial crisis so severe that someone calling themselves **“Financial Ruin”** has decided to alert the press.
 
-<aside class="insider-tip-float">
-  <div class="insider-tip-kicker">AAA INSIDER TIP LINE · SOURCE EXCERPT</div>
+<aside class="insider-tip-float insider-tip-full">
+  <div class="insider-tip-kicker">AAA INSIDER TIP LINE · ORIGINAL SUBMISSION</div>
   <div class="insider-tip-title">The Commish</div>
-  <div class="insider-tip-source">Submitted as: Financial Ruin · Attribution authorized · Unverified · Excerpts verbatim</div>
-  <div class="insider-tip-copy">
-    <p>A lot of the sperm donor's alcohol and gambling money is being directed towards frivolous items such as nursery furniture, onesies that are medium dog sized (we, I mean the commissioner, doesn't even own a dog), and toys that were so 1993.</p>
-    <p>However, our literature collection has expanded greatly, and these volumes of knowledge are full of cinema worthy graphic images to accompany the written narrative.</p>
-    <p>But the sperm donor has to ask, "Does the value of this hidden knowledge of hungry caterpillars and Noah's arc compare to the gains the sperm donor could rake from a black jack table?"</p>
-    <p><em>Editor's note: Selected passages reproduced verbatim. The submission also contains unverified, graphic claims about private sexual conduct, which are not reproduced here.</em></p>
-  </div>
+  <div class="insider-tip-source">Financial Ruin · Oct. 17, 2:21 AM · Attribution authorized</div>
+  <div class="insider-tip-copy"><p>I have inside-her information regarding our current commissioner's pregnancy. I have reasonable suspicion that the sperm donor was more or less forced to expel his seed whilst in a precarious position. This sperm donor, allegedly, was planning to climax the baby goop onto the stomach of the commissioner, but during the vinegar strokes the commissioner proposed a trade that could not be refused in the moment. The information provided at the time of this great offer was very limited, and now some financial regret has happened due to this offer the sperm donor could not refuse. A lot of the sperm donor's alcohol and gambling money is being directed towards frivolous items such as nursery furniture, onesies that are medium dog sized (we, I mean the commissioner, doesn't even own a dog), and toys that were so 1993. However, our literature collection has expanded greatly, and these volumes of knowledge are full of cinema worthy graphic images to accompany the written narrative. But the sperm donor has to ask, &quot;Does the value of this hidden knowledge of hungry caterpillars and Noah's arc compare to the gains the sperm donor could rake from a black jack table?&quot; The sperm donor has doubt, and I think we should bring into question the motives of the commissioner. We must ask ourselves &quot;was this squeezed juice done with force, or softly with consent from the lemon?&quot;</p></div>
+  <div class="insider-tip-source">Unverified contributor submission. The passage is quoted, not independently confirmed reporting.</div>
 </aside>
 
 The complaint concerns the entirely shocking discovery that preparing for a baby requires spending money on baby things.
@@ -236,7 +227,7 @@ The anonymous financial analyst—who does not seem especially enthusiastic abou
 
 This appears to be the first documented political scandal in league history in which **The Very Hungry Caterpillar** has been presented as a competing financial asset to a blackjack table.
 
-The writer's complaint also contains an allegation about an intimate encounter. The newsroom has no independent evidence of that claim and is not treating it as fact.
+The source's purported account of a private intimate encounter is unverified. AAA Insider has no evidence establishing its truth, and the fact that it was submitted is not proof.
 
 The actual budget question, however, is worth considering. Is a nursery dresser an inappropriate use of household funds? Is educating a child a more irresponsible investment than gambling? And is it possible the person writing the submission has just discovered what babies cost?
 
@@ -249,6 +240,28 @@ The commissioner continues preparing for her baby, and the source may soon disco
 **AAA Insider finding:** No evidence of household corruption. The next blackjack trip may have been postponed indefinitely.
 
 <div class="insider-clear"></div>
+
+
+### A late-breaking allegation: the Mustang years
+
+A second tip reached the newsroom at **2:42 AM**, submitted under the name **“Brandon”** with an explicit request for anonymous attribution. It takes a more traditional election-season approach: going after the commissioner's driving record, her teenage punctuality and, most of all, her marriage.
+
+The source asks:
+
+> “Do we want a commissioner who is bearing the child of a Hutchins?”
+
+This is perhaps the strongest line of attack the Chance campaign has produced, because it requires no research into commissioner policy, fantasy football or anything else resembling qualifications.
+
+The submission alleges that Casey drove a **Mustang in high school**, was chronically late and sometimes yelled at her brothers to get in the car. AAA Insider has not independently verified those childhood accounts.
+
+The source then makes the devastating concession that Casey **takes care of the league** and **“is a great woman”**, before ending with **“Chance Robinson 027”** and the hashtag **#Shaneapussy**.
+
+The argument, then, is that Casey is a good person who takes care of everybody, but she once owned a Mustang and married a Hutchins.
+
+Even Chance's supporters seem to have trouble identifying a disqualifying flaw in the incumbent.
+
+**AAA Insider finding:** A Mustang is not grounds for impeachment. Marriage to a Hutchins remains a matter of personal judgment.
+
 
 ---
 
@@ -314,15 +327,16 @@ But as a piece of league folklore, it contains the same essential ingredients as
 ## FROM THE EDITOR'S DESK
 ### Not every allegation deserves a headline
 
-<aside class="campaign-ad campaign-ad-casey campaign-ad-float-left" aria-label="Satirical pro-Casey advertisement celebrating the league free press">
-  <div class="campaign-ad-label">POLITICAL ADVERTISEMENT · A FREE PRESS</div>
-  <div class="campaign-ad-eyebrow">She respects the fourth estate.</div>
-  <div class="campaign-ad-photo-pair"><img src="{{ '/casey-hutchins-steady-leadership.png' | relative_url }}" alt="Satirical campaign portrait of Commissioner Casey Hutchins" loading="lazy"><img src="{{ '/ryan-mays-aaa-insider.png' | relative_url }}" alt="AAA Insider editor Ryan Mays newspaper portrait" loading="lazy"></div>
-  <div class="campaign-ad-headline">CASEY BELIEVES IN OUR NY TIMES BEST SELLING AUTHOR.</div>
-  <p class="campaign-ad-quote">“our very own NY Times best selling author.” <small>— Casey Hutchins, describing AAA Insider's editor in GroupMe, Oct. 14</small></p>
-  <p class="campaign-ad-small">The newsroom cannot verify that there is a book. We do appreciate being recognized.</p>
-  <div class="campaign-ad-footer">CASEY: A COMMISSIONER WHO READS THE PAPER.</div>
-  <div class="campaign-ad-fineprint">A satirical league election ad, not an actual publishing credential.</div>
+<aside class="campaign-ad campaign-ad-casey campaign-ad-float-left campaign-2026-endorsement" aria-label="Casey Hutchins campaign feature with AAA Insider editor Ryan Mays">
+  <div class="campaign-ad-label">CASEY HUTCHINS FOR COMMISSIONER</div>
+  <div class="campaign-ad-duo">
+    <div class="campaign-ad-portrait"><img src="{{ '/casey-hutchins-steady-leadership.png' | relative_url }}" alt="Casey Hutchins" loading="lazy"><span>THE COMMISSIONER</span></div>
+    <div class="campaign-ad-portrait"><img src="{{ '/ryan-mays-aaa-insider.png' | relative_url }}" alt="Ryan Mays, AAA Insider" loading="lazy"><span>THE EDITOR</span></div>
+  </div>
+  <div class="campaign-ad-headline">STEADY LEADERSHIP.</div>
+  <div class="campaign-ad-tagline">FOR A CHAOTIC LEAGUE.</div>
+  <p class="campaign-ad-quote">“Our very own NY Times best selling author.” <small>— Casey Hutchins on AAA Insider's editor</small></p>
+  <div class="campaign-ad-footer">CASEY HUTCHINS · EXPERIENCE. ORDER. ACCOUNTABILITY.</div>
 </aside>
 
 One additional submission alleges serious inappropriate conduct involving a minor. It provides no corroborating evidence. The newsroom is acknowledging its receipt but will not identify the accused or the minor, quote its graphic particulars, or present the claim as established. This allegation is not an appropriate punchline.
@@ -351,11 +365,11 @@ The newsroom's position is simple: **you may submit anything; that does not mean
 
 ## THE FINAL TALLY
 
-The October 14–17 inbox produced **thirteen tips about eight league members**. Three targeted Zak. Three targeted Louis. Two targeted Larry. Chance, Casey, Frankie, Macon and one withheld subject each received one.
+The October 14–17 inbox produced **fourteen tips about eight league members**. Three targeted Zak. Three targeted Louis. Two targeted Larry. Casey received two. Chance, Frankie, Macon and one withheld subject each received one.
 
 Of the submissions we could responsibly mine for comedy, the resulting picture is deeply concerning.
 
-Zak may owe an apology to a crab. Louis is facing opposition from both his alleged family and the Almighty. Larry has been accused of being too weak to lift weights and too biologically dangerous to remain near human civilization. Macon may need a background-check policy. Frankie needs a pantry inventory. Casey is accused of buying books for a baby rather than funding blackjack. And Chance, the self-appointed future of league government, cannot even be certain his alleged pets are on his side.
+Zak may owe an apology to a crab. Louis is facing opposition from both his alleged family and the Almighty. Larry has been accused of being too weak to lift weights and too biologically dangerous to remain near human civilization. Macon may need a background-check policy. Frankie needs a pantry inventory. Casey is accused of buying books for a baby rather than funding blackjack, and of having driven a Mustang in high school. And Chance, the self-appointed future of league government, cannot even be certain his alleged pets are on his side.
 
 Somewhere in the middle of all this is an actual fantasy-football league.
 

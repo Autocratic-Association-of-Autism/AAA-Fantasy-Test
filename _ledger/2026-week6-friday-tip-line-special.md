@@ -6,7 +6,7 @@ week: 6
 season: 2026
 date: 2026-10-16
 permalink: /ledger/2026-week6-tip-line-special.html
-read_time: "~9 min read"
+read_time: "~11 min read"
 deck: "Twelve tips. Seven subjects. A dead crab, a disappointed God, and serious concerns about Larry's feet."
 summary: "AAA Insider sorts twelve October 14 Tip Line submissions by target: Zak, Louis, Larry, Chance, Frankie and Macon, plus one allegation rejected for publication."
 draft: false
@@ -24,7 +24,7 @@ By that evening, God had weighed in on Louis Swanson, someone claiming to live w
 
 AAA Insider launched the Tip Line to encourage investigative journalism. Instead, the league has apparently established an international witness-protection program for people who want to call their friends idiots under names like *Brosif Stalin*.
 
-The newsroom has reviewed the October 14 submissions and organized them by the people who seem to have inspired this remarkable outpouring of concern. Some have been condensed. Material involving unsupported serious accusations, intimate details or threats has been withheld. None of the allegations below should be mistaken for verified findings merely because somebody had access to a web form at 4 a.m.
+The newsroom has reviewed the October 14 submissions and organized them by the people who seem to have inspired this remarkable outpouring of concern. The messages range from first-person recollections to outright threats to something that could only have been written by an extremely distressed mushroom. We have included more of the submissions' original flavor, with attribution and context; any personal allegations remain unverified, and graphic allegations involving a minor are not reproduced. **A tip is something someone typed, not something the newsroom proved.**
 
 Welcome to **The Friday News Dump: Tip Line Special Edition**.
 
@@ -63,7 +63,13 @@ The crab narrates the story in the first person. It also reports being dead.
 
 AAA Insider takes all witness statements seriously, but **conducting a follow-up interview with a deceased crustacean has presented logistical challenges**. At press time, the newsroom had not established whether the story happened, whether Rocky ever existed, or why this particular crab was apparently capable of typing.
 
-A third submission, attributed to “Cassidy,” was too explicit and personally accusatory to publish as reporting. The newsroom has no basis to substantiate it.
+The third submission, credited to **“Cassidy,”** takes a much more adult turn. The writer offers a graphic first-person account of an alleged intimate encounter, complains at considerable length about Zak's conversational abilities, and then appears to begin shopping for a rather specific adult novelty product.
+
+> “I'm definitely ordering that bad dragon tonight.”
+
+That line is in the submission. The newsroom is not entirely sure why.
+
+The alleged encounter, source's identity and relationship to Zak have not been verified, and AAA Insider will not present intimate claims about a private person as fact. But one thing is clear: **of Zak's three supposed witnesses, the only one who might agree to a follow-up interview is also the one whose story probably shouldn't be read at work.**
 
 What remains is a deeply unusual picture: Zak has been accused of needing parental supervision near cliffs and attracting hostile testimony from marine life.
 
@@ -85,7 +91,9 @@ The source estimates the family contains **“17 or 23 people.”**
 
 This is a troublingly wide range from someone offering authoritative testimony about the family. AAA Insider will refrain from drawing conclusions until the missing six Swansons are accounted for.
 
-Another submission, from **“Peppa Jack,”** consists mainly of an increasingly aggressive assessment of Louis's attitude. The newsroom has declined to republish its threats. We would remind contributors that fantasy football is intended to provide entertainment, and that ESPN's waiver system generally offers fewer felony opportunities than the alternatives.
+Another submission, from **“Peppa Jack,”** calls Louis an exceptionally bad “hoe,” criticizes his habit of talking back and threatens an in-person attitude adjustment. The source invokes a **Red Robin Black and Bleu cheeseburger** to describe what Louis's face might resemble afterward.
+
+That's an impressively specific restaurant comparison for a threatening message. The newsroom is reporting the threat as part of what was submitted, **not endorsing it or suggesting the author intends to act on it**. If your league grievance requires a menu reference and a potential police report, consider trading a bench receiver instead.
 
 But Louis's most consequential critic submitted under a considerably more recognizable name.
 
@@ -129,7 +137,9 @@ A separate contributor, requesting anonymity, submitted what is ostensibly a med
 
 That description dramatically understates the document.
 
-The source claims the alleged fungus is approaching a stage at which it could spread, develop something resembling collective intelligence and ultimately threaten human civilization. By the end, the report has stopped discussing feet and started describing a global mushroom takeover.
+The source claims the alleged fungus is approaching a stage at which it could spread, develop something resembling collective intelligence and ultimately threaten human civilization. At one point the report predicts a **“spongy AI baby Jesus”** and concludes with the warning that **“We will soon become one with the shroom singularity.”**
+
+This started as a tip about toes and ended as the plot of the most upsetting science-fiction movie ever pitched. The writer even claims Larry's alleged fungus would reproduce and raise an army of mushrooms. No part of that scenario should be confused with medical information.
 
 **No medical records, test results or other corroboration accompanied the submission.** This is not a diagnosis. It is, at most, an unusually aggressive pitch for a science-fiction franchise.
 
@@ -154,6 +164,10 @@ Chance Robinson is undefeated at 5–0, campaigning for commissioner and assurin
 Unfortunately, a new submission suggests his political problems may begin at home.
 
 A contributor calling itself **“Yam”** filed a statement about a “human male” who answers to Chance. The source presents itself as an animal in Chance's household and describes a domestic operation in which Chance provides food, cleans up messes and occasionally endures the antics of a dog named **Bo Bo**.
+
+> “What another glorious day to have a dumb bitch feed me and clean up my shit.”
+
+Those are Yam's alleged words, not a newsroom assessment of the candidate. The remainder of the message calls for Bo Bo to destroy more of Chance's property and for Chance to experience a long-overdue Sunday fantasy defeat.
 
 Yam's outlook on its caretaker is not favorable.
 
@@ -181,7 +195,9 @@ A contributor identifying as **“Not Chance”** submitted a story about Franki
 
 Six.
 
-The source strongly implies the syrup was being used for purposes beyond ordinary breakfast preparation, but the newsroom has not verified those suggestions and is not republishing the intimate allegations.
+According to the source, Frankie and Sabrina routinely arrived home with groceries while trying to conceal a bag containing **approximately six bottles of syrup**. The submission then advances a very personal, sexually explicit theory for the consumption. The newsroom cannot substantiate that alleged private behavior and will not reproduce the graphic description.
+
+There is also the question of the source's identity. **“Not Chance”** is a particularly reassuring name, in the way that **“Not the Police”** would be a reassuring name for someone knocking on your door at 2 a.m.
 
 What we are left with is a simpler and arguably more compelling mystery.
 
@@ -209,7 +225,9 @@ Macon Moore has recently faced scrutiny for a trade that helped strengthen Glen 
 
 A contributor calling itself **“The Gray Wolf of the Village”** describes living with a man identified as **“Boston,”** whom the source says Macon recommended as a roommate.
 
-What follows is a chaotic account of apartment drama, unexpected visitors and a confrontation the writer compares to witnessing a *Jerry Springer* episode unfold in real time.
+The writer claims to have been watching *South Park* when sounds from Boston's bedroom suggested an intimate visitor was present. Minutes later, according to the tip, another woman—identified only by a pseudonym—arrived, pounded on Boston's door and loudly demanded answers. Boston allegedly stayed in the room until the visitor left.
+
+What follows is a chaotic account of apartment drama, unexpected visitors and a confrontation the writer compares to witnessing a *Jerry Springer* episode unfold in real time. These allegations about people outside the league are unverified, and the newsroom is not naming them.
 
 The most remarkable part is that **Macon does not appear to have been present for most of the incident**.
 
@@ -229,9 +247,23 @@ But as a piece of league folklore, it contains the same essential ingredients as
 ## FROM THE EDITOR'S DESK
 ### Not every allegation deserves a headline
 
-One additional submission has been withheld because it made an unsupported, serious personal accusation. AAA Insider will not identify the subject or turn an unverified form submission into a public allegation.
+One additional submission alleges serious inappropriate conduct involving a minor. It provides no corroborating evidence. The newsroom is acknowledging its receipt but will not identify the accused or the minor, quote its graphic particulars, or present the claim as established. This allegation is not an appropriate punchline.
 
-Other submissions were abbreviated because they included graphic personal claims or language threatening real-world harm. Anonymity, pseudonyms and the ability to press “Submit” do not turn allegations into facts.
+Other submissions contain graphic assertions about identifiable people's private lives and a threat of violence. We have described these as allegations or statements made by contributors, not independently verified events.
+
+Anonymity, pseudonyms and the ability to press “Submit” do not turn allegations into facts.
+
+### An open invitation to respond
+
+**Every person mentioned in this report has a right of reply.** Want to dispute a story, correct a detail, provide evidence, offer your side of events or simply tell the newsroom to go fuck itself? AAA Insider welcomes all of those options.
+
+**Reach AAA Insider through any of these channels:**
+
+- [Submit a tip]({{ '/submit-tip.html' | relative_url }}) through the website
+- **Phone call or text** directly to the editor
+- **Email:** [aaainsider.news@gmail.com](mailto:aaainsider.news@gmail.com)
+
+If you're responding to a particular submission, tell us which one. We can publish your response or correction with appropriate attribution. The newsroom welcomes substantive rebuttals and, where warranted, public humiliation of its own reporting.
 
 Our Tip Line remains open for stories, jokes, actual evidence, reckless political opinions and—apparently—posthumous testimony from local marine life.
 
@@ -252,3 +284,5 @@ Somewhere in the middle of all this is an actual fantasy-football league.
 AAA Insider intends to locate it eventually.
 
 **Until then, keep sending tips. Preferably from witnesses who are still alive.**
+
+*Featured in this report and want to respond? Email **aaainsider.news@gmail.com**, use the Tip Line, or call or text the editor directly. The record is open.*

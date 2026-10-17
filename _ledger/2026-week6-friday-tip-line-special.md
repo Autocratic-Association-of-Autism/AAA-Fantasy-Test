@@ -28,34 +28,8 @@ The newsroom has reviewed the October 14–17 submissions and organized them by 
 
 Welcome to **The Friday News Dump: Tip Line Special Edition**.
 
-<figure class="results-over-noise-poster results-poster-real-casey" aria-label="Casey Hutchins Results Over Noise reelection poster">
-  <div class="results-real-top">
-    <div class="results-real-headline">RESULTS<br><span>OVER</span> NOISE.</div>
-    <div class="results-real-stars">★ ★ ★</div>
-  </div>
-  <div class="results-real-main">
-    <div class="results-real-copy">
-      <p class="results-real-lede">Anyone can talk about leadership.<br><strong>Casey Hutchins has actually done it.</strong></p>
-      <div class="results-real-rule">★ ★ ★</div>
-      <p>For years, Casey has managed the disputes, the personalities, the confusion, and the endless stream of unsolicited opinions that come with leading this league.</p>
-      <div class="results-real-points">
-        <p>Not every decision has been easy.</p>
-        <p>Not every decision has been popular.</p>
-        <p>And not everyone who was removed from GroupMe agreed with the decision.</p>
-      </div>
-      <p class="results-real-conclusion">But leadership isn’t about comfort.<br><strong>It’s about responsibility.</strong></p>
-    </div>
-    <div class="results-real-portrait" aria-label="Casey Hutchins smiling, from the original campaign artwork">
-      <img src="{{ '/casey-hutchins-steady-leadership.png' | relative_url }}" alt="Real portrait of Casey Hutchins from the campaign artwork supplied for the league" loading="lazy">
-    </div>
-  </div>
-  <div class="results-real-candidate">
-    <div class="results-real-name">★ CASEY ★<br><span>HUTCHINS</span></div>
-    <div class="results-real-role">FOR COMMISSIONER</div>
-    <div class="results-real-coda">Experience you can argue with. Results you can’t ignore.</div>
-  </div>
-  <div class="results-real-vote">★ &nbsp; RE-ELECT CASEY &nbsp; ★</div>
-  <div class="results-real-disclaimer">Paid for by Friends of Casey Hutchins for Commissioner.</div>
+<figure class="results-over-noise-poster results-poster-approved">
+  <img class="results-poster-final-image" src="{{ '/casey-results-over-noise-approved.avif' | relative_url }}" alt="Casey Hutchins Results Over Noise campaign poster with her real likeness, campaign messaging and Re-elect Casey slogan" loading="lazy" width="800" height="999">
 </figure>
 
 <div class="matchup-jump">

@@ -18,6 +18,10 @@ At 3:09 Wednesday morning, the AAA Insider Tip Line received a story about Zak W
 
 Five minutes later, a crab filed a complaint against the same man.
 
+<figure class="results-over-noise-poster results-poster-approved insider-ad-inline insider-ad-casey">
+  <a href="{{ '/casey-results-over-noise-approved.avif' | relative_url }}" target="_blank" rel="noopener noreferrer" title="View the Casey Hutchins campaign poster full size"><img class="results-poster-final-image" src="{{ '/casey-results-over-noise-approved.avif' | relative_url }}" alt="Casey Hutchins Results Over Noise campaign poster featuring her real likeness and Re-elect Casey messaging" loading="lazy" width="800" height="999"></a>
+</figure>
+
 By that evening, God had weighed in on Louis Swanson, someone claiming to live with Chance Robinson had begun airing domestic grievances, and the newsroom was examining whether Larry Terrell might accidentally become the origin point of a worldwide fungal uprising.
 
 **Fourteen submissions. Two dates. Eight named subjects.**
@@ -28,9 +32,9 @@ The newsroom has reviewed the October 14–17 submissions and organized them by 
 
 Welcome to **The Friday News Dump: Tip Line Special Edition**.
 
-<figure class="results-over-noise-poster results-poster-approved">
-  <img class="results-poster-final-image" src="{{ '/casey-results-over-noise-approved.avif' | relative_url }}" alt="Casey Hutchins Results Over Noise campaign poster with her real likeness, campaign messaging and Re-elect Casey slogan" loading="lazy" width="800" height="999">
-</figure>
+
+
+<div class="insider-ad-clear"></div>
 
 <div class="matchup-jump">
   <div class="matchup-jump-label">Open a file</div>
@@ -168,7 +172,7 @@ Chance Robinson is undefeated at 5–0, campaigning for commissioner and assurin
 
 Unfortunately, a new submission suggests his political problems may begin at home.
 
-<figure class="chance-trust-poster" aria-label="He Wants the Title, Has He Earned the Trust — commissioner campaign advertisement">
+<figure class="chance-trust-poster chance-poster-inline" aria-label="He Wants the Title, Has He Earned the Trust — commissioner campaign advertisement">
   <div class="chance-poster-main">
     <div class="chance-poster-photo"><img src="{{ '/chance-approved-real-portrait.webp' | relative_url }}" alt="Chance Robinson in the approved campaign portrait, wearing a dark blazer and pink shirt" loading="lazy"></div>
     <div class="chance-poster-right">
@@ -217,6 +221,8 @@ Commissioner Casey Hutchins, by contrast, has not been publicly denounced by a h
 Sometimes leadership is about the little things.
 
 **AAA Insider finding:** Yam's voting eligibility under review. Chance's undefeated record remains intact.
+
+<div class="insider-ad-clear"></div>
 
 ---
 

@@ -229,7 +229,7 @@ But as a piece of league folklore, it contains the same essential ingredients as
 ## FROM THE EDITOR'S DESK
 ### Not every allegation deserves a headline
 
-One additional October 14 submission concerned Gooey Johnson and made a serious, unsubstantiated accusation involving a minor. AAA Insider is not repeating the allegation or presenting its existence as evidence of wrongdoing. The source provided no corroboration that would justify publication.
+One additional submission has been withheld because it made an unsupported, serious personal accusation. AAA Insider will not identify the subject or turn an unverified form submission into a public allegation.
 
 Other submissions were abbreviated because they included graphic personal claims or language threatening real-world harm. Anonymity, pseudonyms and the ability to press “Submit” do not turn allegations into facts.
 
@@ -241,7 +241,7 @@ The newsroom's position is simple: **you may submit anything; that does not mean
 
 ## THE FINAL TALLY
 
-The October 14 haul produced **twelve tips about seven league members**. Three targeted Zak. Three targeted Louis. Two targeted Larry. Chance, Frankie, Macon and Gooey each received one.
+The October 14 haul produced **twelve tips about seven league members**. Three targeted Zak. Three targeted Louis. Two targeted Larry. Chance, Frankie, Macon and one withheld subject each received one.
 
 Of the submissions we could responsibly mine for comedy, the resulting picture is deeply concerning.
 

@@ -841,3 +841,54 @@ nav a.active{background:#1e293b;color:white}
     margin:22px auto 26px;
   }
 }
+
+
+/* AAA Insider rolling newsroom: chronological mixed feed and individual Wire stories. */
+.wire-feed-section{margin:30px 0 42px;border:1px solid #334155;border-radius:14px;background:#111827;overflow:hidden}
+.wire-feed-header{padding:26px 28px 22px;border-bottom:1px solid #334155;display:flex;align-items:flex-end;justify-content:space-between;gap:20px}
+.wire-feed-header h2{font-family:Georgia,'Times New Roman',serif;font-size:clamp(37px,5vw,53px);margin:4px 0 6px;letter-spacing:-.035em;color:#f8fafc}
+.wire-feed-header p{color:#94a3b8;line-height:1.5;margin:0;font-size:14px}
+.wire-feed-label{font-size:10px;color:#94a3b8;letter-spacing:.17em;font-weight:800;white-space:nowrap}
+.wire-feed-list{display:flex;flex-direction:column}
+.wire-feed-card{display:grid;grid-template-columns:94px minmax(0,1fr) 22px;align-items:start;gap:20px;padding:22px 26px;color:#e5e7eb;border-bottom:1px solid #283448;transition:background .15s ease}
+.wire-feed-card:last-child{border-bottom:0}
+.wire-feed-card:hover,.wire-feed-card:focus-visible{background:#1b273b}
+.wire-feed-date{display:flex;flex-direction:column;gap:3px;padding-top:6px;font-variant-numeric:tabular-nums}
+.wire-feed-date strong{font-size:13px;color:#e2e8f0;text-transform:uppercase;letter-spacing:.055em}
+.wire-feed-date span{font-size:12px;color:#64748b}
+.wire-feed-meta{display:flex;align-items:center;gap:10px;flex-wrap:wrap;text-transform:uppercase;color:#94a3b8;letter-spacing:.09em;font-size:10px;font-weight:850}
+.wire-feed-pill{color:#ffbbbb;background:#522127;border:1px solid #7f2932;border-radius:4px;padding:3px 7px}
+.wire-feed-copy h3{font-family:Georgia,'Times New Roman',serif;color:#f8fafc;font-size:clamp(21px,2.7vw,27px);line-height:1.15;letter-spacing:-.02em;margin:8px 0 8px}
+.wire-feed-copy p{color:#aebacd;font-size:14px;line-height:1.5;margin:0}
+.wire-feed-arrow{color:#94a3b8;font-size:20px;line-height:1;padding-top:7px}
+.wire-feed-empty{padding:22px 28px;color:#94a3b8}
+.wire-feature-archive{margin:40px 0;border:1px solid #334155;border-radius:12px;overflow:hidden;background:#111827}
+.wire-feature-archive>summary{cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:18px;padding:20px 24px;list-style:none;color:#f8fafc}
+.wire-feature-archive>summary::-webkit-details-marker{display:none}
+.wire-feature-archive>summary strong{display:block;font-family:Georgia,'Times New Roman',serif;font-size:24px}
+.wire-feature-archive>summary small{display:block;color:#94a3b8;margin-top:5px;font-size:13px;font-weight:400}
+.wire-feature-archive>summary>span:last-child{font-size:22px}
+.wire-feature-archive[open]>summary{border-bottom:1px solid #334155}
+.wire-feature-archive[open]>summary>span:last-child{transform:rotate(45deg)}
+.wire-feature-archive .archive-grid{padding:18px}
+.wire-article-wrap{max-width:790px}
+.wire-article{border-top:7px solid #a51e2a}
+.wire-article-header{text-align:left;border-bottom:2px solid #c6bcac;padding:0 0 20px;margin-bottom:25px}
+.wire-story-eyebrow{font-size:11px;font-weight:900;letter-spacing:.13em;text-transform:uppercase;color:#a51e2a}
+.wire-story-eyebrow span{color:#a8a29e;margin:0 7px}
+.wire-article-header h1{font-size:clamp(37px,6vw,57px);margin:18px 0 14px;max-width:none}
+.wire-article-header .article-deck{max-width:none;font-size:19px;margin:0 0 19px}
+.wire-story-byline{display:flex;gap:10px 18px;flex-wrap:wrap;color:#78716c;font-size:12px;text-transform:uppercase;letter-spacing:.07em;font-weight:700}
+.wire-story-status{padding:12px 16px;background:#e7ded1;border-left:4px solid #991b1b;font-size:15px!important}
+.wire-story-return{text-align:center;padding:23px 0}
+.wire-story-return a{font-weight:800;color:#e5e7eb}
+.wire-story-return a:hover{text-decoration:underline}
+@media(max-width:640px){
+  .wire-feed-header{padding:21px 19px;align-items:flex-start}
+  .wire-feed-label{display:none}
+  .wire-feed-card{grid-template-columns:minmax(0,1fr) 18px;gap:8px 12px;padding:19px}
+  .wire-feed-date{grid-column:1/-1;flex-direction:row;gap:9px;padding:0}
+  .wire-feed-copy{grid-column:1;grid-row:2}
+  .wire-feed-arrow{grid-column:2;grid-row:2}
+  .wire-feature-archive .archive-grid{grid-template-columns:1fr}
+}

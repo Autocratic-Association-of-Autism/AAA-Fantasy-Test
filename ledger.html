@@ -7,31 +7,32 @@ layout: null
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>AAA Insider | Autocratic Association of Autism</title>
-<link rel="stylesheet" href="{{ '/styles.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/styles.css' | relative_url }}?v=rolling-wire-20261023">
 </head>
 <body class="insider-page">
 <nav><div class="container nav-inner">
 <a class="league-brand" href="{{ '/index.html' | relative_url }}">Autocratic Association of Autism</a>
-<div class="nav-links"><a href="{{ '/index.html' | relative_url }}">History</a><a class="active" href="{{ '/ledger.html' | relative_url }}">AAA Insider</a><a href="#latest">Latest</a><a href="#archive">Articles</a><a href="{{ '/insiders.html' | relative_url }}">Insiders</a><a class="tip-nav" href="{{ '/submit-tip.html' | relative_url }}">Submit a Tip</a></div>
+<div class="nav-links"><a href="{{ '/index.html' | relative_url }}">History</a><a class="active" href="{{ '/ledger.html' | relative_url }}">AAA Insider</a><a href="#feed">The Wire</a><a href="#archive">Long Reads</a><a href="{{ '/insiders.html' | relative_url }}">Insiders</a><a class="tip-nav" href="{{ '/submit-tip.html' | relative_url }}">Submit a Tip</a></div>
 </div></nav>
 <main class="container ledger-shell">
   <header class="insider-masthead">
     <div class="insider-kicker">News · Rumors · Trades · Analysis · League Politics</div>
     <h1><span>AAA</span> Insider</h1>
     <div class="ledger-rule"></div>
-    <div class="ledger-deck">Same league. More access. Reporting on transactions, controversies, rivalries and whatever else league members would prefer remain unreported.</div>
+    <div class="ledger-deck">A rolling newsroom for transactions, controversies, rivalries, and whatever else the league would prefer remain unreported.</div>
     <div class="ledger-disclaimer">Sources are everywhere.</div>
   </header>
 
-  <section class="ledger-status"><span class="status-dot"></span><strong>AAA Insider is live.</strong> The newsroom operates independently of the league-history archive, to the extent anyone believes that.</section>
+  <section class="ledger-status"><span class="status-dot"></span><strong>No publishing schedule. No news blackout.</strong> New reports appear whenever the story is worth telling. Every dispatch has a permanent link.</section>
 
   {% assign issues = site.ledger | where_exp: "item", "item.draft != true" | sort: "date" | reverse %}
-  {% assign latest = issues | first %}
+  {% assign stories = site.ledger | concat: site.wire | where_exp: "item", "item.draft != true" | sort: "date" | reverse %}
+  {% assign latest = stories | first %}
   {% if latest %}
   <section class="ledger-latest" id="latest">
     <div class="issue-card featured insider-feature">
-      <div class="insider-tag">Lead Story</div>
-      <div class="issue-meta">{% if latest.article_type %}<span>{{ latest.article_type }}</span>{% else %}<span>Issue No. {{ latest.issue_number }}</span><span>After Week {{ latest.week }} · {{ latest.season }}</span>{% endif %}</div>
+      <div class="insider-tag">Latest report</div>
+      <div class="issue-meta"><span>{% if latest.format == "wire" %}The Wire · {{ latest.category | default: "News" }}{% elsif latest.article_type %}{{ latest.article_type }}{% else %}Issue No. {{ latest.issue_number }}{% endif %}</span><span>{{ latest.date | date: "%b %-d, %Y" }}</span></div>
       <h2>{{ latest.title }}</h2>
       <p>{{ latest.summary }}</p>
       <a class="button" href="{{ latest.url | relative_url }}">Read the story →</a>
@@ -39,13 +40,34 @@ layout: null
   </section>
   {% endif %}
 
+  <section id="feed" class="wire-feed-section">
+    <header class="wire-feed-header">
+      <div><div class="insider-kicker">Rolling coverage</div><h2>The Wire</h2><p>Individual reports, newest first. No scheduled editions, no catching up required.</p></div>
+      <span class="wire-feed-label">LATEST → ARCHIVE</span>
+    </header>
+    <div class="wire-feed-list">
+      {% for story in stories offset:1 %}
+      <a class="wire-feed-card" href="{{ story.url | relative_url }}">
+        <div class="wire-feed-date"><strong>{{ story.date | date: "%b %-d" }}</strong><span>{{ story.date | date: "%Y" }}</span></div>
+        <div class="wire-feed-copy">
+          <div class="wire-feed-meta">{% if story.format == "wire" %}<span class="wire-feed-pill">Wire</span><span>{{ story.category | default: "News" }}</span>{% elsif story.article_type %}<span>Long read</span><span>{{ story.article_type }}</span>{% else %}<span>Long read</span><span>League archive</span>{% endif %}</div>
+          <h3>{{ story.title }}</h3><p>{{ story.summary | default: story.deck | strip_html | truncate: 195 }}</p>
+        </div>
+        <span class="wire-feed-arrow" aria-hidden="true">↗</span>
+      </a>
+      {% else %}
+      <p class="wire-feed-empty">Nothing else filed yet. The newsroom will report back when it has something worth saying.</p>
+      {% endfor %}
+    </div>
+  </section>
+
   <section class="insider-directory-promo">
     <div><div class="label">The newsroom</div><h2>Meet the Insiders</h2><p>Sources, scoops, league politics and a troubling willingness to preserve receipts.</p></div>
     <a class="button button-outline" href="{{ '/insiders.html' | relative_url }}">Insider profiles →</a>
   </section>
 
-  <section id="archive">
-    <div class="section-title"><div><h2>Articles</h2><div class="note">The permanent AAA Insider archive.</div></div></div>
+  <details id="archive" class="wire-feature-archive">
+    <summary><span><strong>Long Reads &amp; Special Editions</strong><small>The complete feature archive, preserved for the record.</small></span><span aria-hidden="true">＋</span></summary>
     <div class="archive-grid">
       {% for issue in issues %}
       <a class="archive-card" href="{{ issue.url | relative_url }}">
@@ -54,7 +76,7 @@ layout: null
       </a>
       {% endfor %}
     </div>
-  </section>
+  </details>
   <footer>AAA Insider is an unofficial newsroom within the Autocratic Association of Autism league site. Statistics come from the league archive. Editorial restraint comes from nowhere in particular.</footer>
 </main>
 </body>

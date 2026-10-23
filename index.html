@@ -7,7 +7,7 @@ layout: null
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Autocratic Association of Autism | League History</title>
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="{{ '/styles.css' | relative_url }}?v=rolling-wire-20261023">
 </head>
 <body>
 <nav><div class="container nav-inner">
@@ -24,7 +24,7 @@ layout: null
 <section class="construction-banner">
   <div>
     <div class="status-line"><span class="status-dot"></span><strong>Site status: under construction</strong></div>
-    <p><strong>AAA Insider is live and updating weekly.</strong> The historical side currently includes the baseline stats and records from the ESPN archive. Manager profiles, rivalries, custom awards, deeper storylines, and additional league-specific history will be added as the archive is curated.</p>
+    <p><strong>AAA Insider publishes on a rolling basis.</strong> The historical side currently includes the baseline stats and records from the ESPN archive. Manager profiles, rivalries, custom awards, deeper storylines, and additional league-specific history will be added as the archive is curated.</p>
   </div>
   <span class="status-badge">EARLY ACCESS</span>
 </section>
@@ -36,7 +36,7 @@ layout: null
   <div class="card"><div class="label">1-week score entries</div><div class="stat" id="scores"></div></div>
 </div>
 
-{% assign issues = site.ledger | where_exp: "item", "item.draft != true" | sort: "date" | reverse %}
+{% assign stories = site.ledger | concat: site.wire | where_exp: "item", "item.draft != true" | sort: "date" | reverse %}
 <section class="home-insider-latest">
   <div class="home-insider-heading">
     <div>
@@ -48,14 +48,14 @@ layout: null
   </div>
 
   <div class="home-story-grid">
-    {% assign lead_issue = issues | first %}
-    {% assign larry_issue = site.ledger | where: "title", "Meet the League: Larry Terrell" | first %}
+    {% assign lead_issue = stories | first %}
+    {% assign second_issue = stories | slice: 1, 1 | first %}
 
     {% if lead_issue %}
     <a class="home-story-card home-story-lead" href="{{ lead_issue.url | relative_url }}">
-      <div class="insider-tag">Lead Story</div>
+      <div class="insider-tag">Latest report</div>
       <div class="issue-meta">
-        <span>{% if lead_issue.article_type %}{{ lead_issue.article_type }}{% else %}Issue No. {{ lead_issue.issue_number }}{% endif %}</span>
+        <span>{% if lead_issue.format == "wire" %}The Wire · {{ lead_issue.category }}{% elsif lead_issue.article_type %}{{ lead_issue.article_type }}{% else %}Issue No. {{ lead_issue.issue_number }}{% endif %}</span>
         <span>{{ lead_issue.date | date: "%b %-d" }}</span>
       </div>
       <h3>{{ lead_issue.title }}</h3>
@@ -64,14 +64,14 @@ layout: null
     </a>
     {% endif %}
 
-    {% if larry_issue %}
-    <a class="home-story-card" href="{{ larry_issue.url | relative_url }}">
+    {% if second_issue %}
+    <a class="home-story-card" href="{{ second_issue.url | relative_url }}">
       <div class="issue-meta">
-        <span>{% if larry_issue.article_type %}{{ larry_issue.article_type }}{% else %}Issue No. {{ larry_issue.issue_number }}{% endif %}</span>
-        <span>{{ larry_issue.date | date: "%b %-d" }}</span>
+        <span>{% if second_issue.format == "wire" %}The Wire · {{ second_issue.category }}{% elsif second_issue.article_type %}{{ second_issue.article_type }}{% else %}Issue No. {{ second_issue.issue_number }}{% endif %}</span>
+        <span>{{ second_issue.date | date: "%b %-d" }}</span>
       </div>
-      <h3>{{ larry_issue.title }}</h3>
-      <p>{{ larry_issue.summary }}</p>
+      <h3>{{ second_issue.title }}</h3>
+      <p>{{ second_issue.summary }}</p>
       <span class="home-story-link">Read the story →</span>
     </a>
     {% endif %}

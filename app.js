@@ -112,7 +112,8 @@ if(championshipRoot){
  // Subdivisions reward every additional finish without allowing bronze to overtake silver or gold.
  const base=t>=2?{n:6,name:'DYNASTY DADDY'}:t&&s?{n:5,name:'PLAYOFF WARLORD'}:t?{n:4,name:'CERTIFIED BALL KNOWER'}:s?{n:3,name:'WAIVER WIRE WARRIOR'}:p?{n:2,name:'BRONZE BENCHWARMER'}:{n:1,name:'THE PODIUM IS A MYTH TO ME'};
  const stars=t>=2?t-1:base.n===5?s:base.n===4?1:base.n===3?s:base.n===2?b:0;
- return {...base,stars,display:base.name+(stars>0?' '+(stars<=5?'★'.repeat(stars):'★ ×'+stars):'')};
+ const name=String(r.Manager||'').trim().toLowerCase()==='chris turner'?'HIT IT AND QUIT IT':base.name;
+ return {...base,stars,display:name+(stars>0?' '+(stars<=5?'★'.repeat(stars):'★ ×'+stars):'')};
 };
  const honors=[...D.career].sort((a,b)=>rankFor(b).n-rankFor(a).n||Number(b.Championships||0)-Number(a.Championships||0)||Number(b['Runner-up']||0)-Number(a['Runner-up']||0)||Number(b['Top-3 Finishes']||0)-Number(a['Top-3 Finishes']||0)||String(a.Manager).localeCompare(String(b.Manager)));
  table('#postseasonHonors',honors,[{key:'Manager',label:'Rank',render:(_,r)=>'<span class="aaa-rank rank-'+String(rankFor(r).n)+'">'+rankFor(r).display+'</span>'},{key:'Manager',label:'Manager'},{key:'Championships',label:'Titles'},{key:'Runner-up',label:'Runner-up Finishes'},{key:'Top-3 Finishes',label:'Top 3 Finishes'}]);

@@ -31,6 +31,10 @@ Incumbent commissioner **Casey Hutchins** reinforced confidence in the current l
 
 Josh subsequently described the developments as a **“Damning point against the Chance campaign”** and invited Chance to defend his position. No response from Chance appears in the supplied exchange.
 
+AAA Insider is also examining the possibility that [Friday night's anonymous expansion manifesto]({{ '/wire/2026-10-23-anonymous-expansion-email.html' | relative_url }}) originated from within the prospective applicant pool. **The author remains unidentified, and there is no verified evidence linking either applicant to the email.**
+
+If confirmed, it would represent a remarkable political journey: anonymously lobbying against the existing establishment on Friday, then praising its leadership by Saturday morning. The writer's identity is still a mystery. **The speed of the potential political realignment, however, is a matter of public record.**
+
 To be clear, **neither prospective member has formally endorsed Casey**, neither has joined the league, and a possible move to 12 teams remains subject to the end-of-season vote Casey previously described. The political movement, however, is now worth watching.
 
 **AAA Insider finding:** Chance entered the expansion debate expecting potential allies. By the end of it, one was floating Ryan for commissioner and another was praising the administration's democratic credentials. The vetting process appears to be producing results.

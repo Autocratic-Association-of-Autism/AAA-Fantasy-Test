@@ -18,16 +18,32 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: pip install espn-api
-      - name: Calculate record
+      - name: Install dependencies
+        run: pip install pandas openpyxl
+      - name: Download latest successful production ESPN export
         env:
-          ESPN_SWID: ${{ secrets.ESPN_SWID }}
-          ESPN_S2: ${{ secrets.ESPN_S2 }}
-        run: python build_blowout_losses.py
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python - <<'PY'
+          import json, os, urllib.request
+          api = "https://api.github.com/repos/Autocratic-Association-of-Autism/AAA-Fantasy/actions/runs?per_page=100"
+          request = urllib.request.Request(api, headers={"Accept":"application/vnd.github+json","Authorization":"Bearer "+os.environ["GH_TOKEN"],"User-Agent":"AAA-staging-records"})
+          with urllib.request.urlopen(request) as response:
+              runs=json.load(response)["workflow_runs"]
+          run=next((r for r in runs if r["name"]=="ESPN Fantasy Export" and r["conclusion"]=="success"),None)
+          if not run:
+              raise RuntimeError("No successful production ESPN export found")
+          print("Latest successful production ESPN export:",run["id"])
+          with open(os.environ["GITHUB_ENV"],"a") as f:
+              f.write("ESPN_EXPORT_RUN_ID="+str(run["id"])+"\n")
+          PY
+          gh run download "$ESPN_EXPORT_RUN_ID" -R Autocratic-Association-of-Autism/AAA-Fantasy -n ESPN-League-1438350867-2026 -D espn-export
+      - name: Calculate record from ESPN export
+        run: python build_blowout_losses.py --snapshot espn-export
       - name: Commit generated data
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.email "41898282+users.noreply.github.com"
           git add blowout-losses.js
           git diff --cached --quiet && exit 0
           git commit -m "Update 35+ point loss records"

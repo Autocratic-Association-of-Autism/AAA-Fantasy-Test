@@ -1018,3 +1018,9 @@ nav a.active{background:#1e293b;color:white}
   .source-transcript-cta-copy{flex-basis:calc(100% - 54px)}
   .source-transcript-action{margin-left:50px}
 }
+
+/* Playoff honors: all-time podium drought treatment */
+#postseasonHonors tr.honors-no-podium{background:repeating-linear-gradient(135deg,rgba(176,52,63,.10) 0px,rgba(176,52,63,.10) 8px,rgba(176,52,63,.035) 8px,rgba(176,52,63,.035) 16px)}
+#postseasonHonors tr.honors-no-podium td:first-child{font-weight:800;text-decoration:underline wavy #d75b65;text-underline-offset:4px}
+#postseasonHonors .honors-shame{display:inline-block;border:1px dashed #d75b65;border-radius:5px;padding:4px 8px;color:#ff9aa1;font-size:.76rem;font-weight:800;letter-spacing:.035em}
+#postseasonHonors .honors-earned{font-weight:700;color:#b6d5b9}

@@ -1,6 +1,6 @@
-# AAA Insider — The Wire: quick publishing
+# AAA Insider — The Petty Files: quick publishing
 
-The Wire is AAA Insider's default format. No fixed schedule. Each short story is an independent Markdown file with its own shareable URL, automatically included in the unified newest-first feed at `ledger.html`.
+The Petty Files is AAA Insider's default format. Each short story is an independent Markdown file with its own shareable URL, automatically included in the unified newest-first feed at `ledger.html`.
 
 ## Publish in 2 minutes
 
@@ -35,5 +35,5 @@ Two to four short paragraphs with the facts, the reaction, and one good punchlin
 - Label rumors as unverified; seek responses on potentially damaging claims.
 - Quotes must be accurate; don't convert a paraphrase into a purported direct quote.
 - The full website article is the permanent record. GroupMe receives a short link and teaser; ESPN can feature the link.
-- No need to retroactively summarize quiet weeks. Write whenever something genuinely merits a report.
+- Report what matters; skip stale chatter rather than turning it into filler.
 - To update a developing story, edit its existing file and add a dated update; keep the same URL. Create a second story for a truly separate development.

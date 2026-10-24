@@ -1,22 +1,22 @@
 ---
-title: "AAA Insider Takes a Week Off. League Immediately Loses Its Mind."
+title: "League Left Without Adult Supervision; Extensive Damage Reported"
 article_type: "Insider Briefing · Catch-Up"
 season: 2026
 week: 7
 date: 2026-10-23 15:00:00 -0400
 read_time: "~5 min read"
 deck: "Chance loses his first game by 42, Casey discovers winning, and the trade market becomes an active crime scene."
-summary: "Chance's unbeaten run collapses, Casey wins by 35.20, and Ryan trades with three managers. The newsroom returns to find no adults in charge."
+summary: "Chance's unbeaten run collapses, Casey wins by 35.20, and Ryan trades with three managers. Investigators find no adults in charge."
 draft: false
 ---
 
 *By the AAA Insider Newsroom*
 
-AAA Insider left its desk unattended for approximately one week.
+In one week, a candidate for commissioner was publicly dismantled, the sitting commissioner discovered the concept of winning, three teams got dangerously close to losing the right to choose their own names, and Ryan conducted enough trades to furnish a second fantasy league.
 
-During that time, a candidate for commissioner was publicly dismantled, the sitting commissioner discovered the concept of winning, three teams got dangerously close to losing the right to choose their own names, and Ryan conducted enough trades to furnish a second fantasy league.
+AAA Insider has examined the available evidence and reached a preliminary conclusion: **there is no functioning adult supervision anywhere in this organization.**
 
-The newspaper would like to apologize for its absence. Unfortunately, the league did all of this without adult supervision, so there's nobody to apologize to.
+The league declined to appoint an adult, citing concerns about competitive balance.
 
 ## CHANCE CAMPAIGNS ON CHANGE; RECEIVES 41.88 POINTS OF IT
 
@@ -84,6 +84,4 @@ Glen's **Champ** and Chance's team are 5–1. Macon's **Coke(r) Caine** and Ryan
 
 The league's future is uncertain. Its ability to embarrass itself without warning is not.
 
-AAA Insider will now publish stories when they merit publication rather than on a schedule that assumes the editor does not have an actual life.
-
-**The newsroom is back. Nobody has been cleared of anything.**
+**The case remains open. Nobody has been cleared of anything.**

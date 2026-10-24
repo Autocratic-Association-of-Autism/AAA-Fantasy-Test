@@ -1,19 +1,19 @@
 ---
-title: "The Wire Is Open"
+title: "Entire League Named Persons of Interest in New AAA Insider Investigation"
 date: 2026-10-23
 format: wire
 category: "Newsroom"
 author: "AAA Insider Newsroom"
-summary: "Short reports now get their own headlines, permanent links, and absolutely no scheduled publishing deadline."
+summary: "A new investigative division opens its files on questionable trades, campaign promises, and the league's ongoing war with basic arithmetic."
 draft: false
 ---
 
-AAA Insider has made a decision that will surprise absolutely nobody familiar with its staffing: **the newspaper will no longer pretend it has a regular publishing schedule.**
+AAA Insider has formally established **The Petty Files**, a permanent investigative record of decisions that probably did not require an investigation until somebody decided they were worth defending.
 
-From here on, trades, tips, commissioner-election developments, quotes, and matters of questionable importance will be reported as they happen—or whenever the newsroom manages to open its laptop.
+Early persons of interest include candidates promising prizes of friendship, managers treating their rosters like revolving doors, and a punishment committee whose understanding of the metric system has raised concerns at the highest levels of the newsroom.
 
-Each dispatch gets its own headline and permanent link. Larger investigations will still receive full-length coverage when they deserve it.
+The new division will also investigate suspicious confidence, unsolicited football expertise, and any instance in which Ryan Hutchins says the words **“I called it.”**
 
-The standard remains unchanged: anonymous claims are allegations, not facts. The delivery system, however, is considerably less ambitious.
+All managers are advised that their statements may be quoted, their predictions may be revisited, and their opponents may be asked to explain why they continue losing to them.
 
-**More news when there's news. Fewer missed deadlines.**
+No arrests are anticipated. **The editorial board remains hopeful.**

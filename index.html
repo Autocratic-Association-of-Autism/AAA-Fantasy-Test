@@ -18,13 +18,13 @@ layout: null
 <header>
   <div class="label">League archive · early access</div>
   <h1>Autocratic Association<br>of Autism</h1>
-  <div class="subtitle">League history, records, weekly journalism, and the beginnings of an unnecessarily serious fantasy football archive.</div>
+  <div class="subtitle">League history, records, investigative journalism, and an unnecessarily serious fantasy football archive.</div>
 </header>
 
 <section class="construction-banner">
   <div>
     <div class="status-line"><span class="status-dot"></span><strong>Site status: under construction</strong></div>
-    <p><strong>AAA Insider publishes on a rolling basis.</strong> The historical side currently includes the baseline stats and records from the ESPN archive. Manager profiles, rivalries, custom awards, deeper storylines, and additional league-specific history will be added as the archive is curated.</p>
+    <p><strong>AAA Insider is investigating the league.</strong> The historical side currently includes the baseline stats and records from the ESPN archive. Manager profiles, rivalries, custom awards, deeper storylines, and additional league-specific history will be added as the archive is curated.</p>
   </div>
   <span class="status-badge">EARLY ACCESS</span>
 </section>
@@ -55,7 +55,7 @@ layout: null
     <a class="home-story-card home-story-lead" href="{{ lead_issue.url | relative_url }}">
       <div class="insider-tag">Latest report</div>
       <div class="issue-meta">
-        <span>{% if lead_issue.format == "wire" %}The Wire · {{ lead_issue.category }}{% elsif lead_issue.article_type %}{{ lead_issue.article_type }}{% else %}Issue No. {{ lead_issue.issue_number }}{% endif %}</span>
+        <span>{% if lead_issue.format == "wire" %}The Petty Files · {{ lead_issue.category }}{% elsif lead_issue.article_type %}{{ lead_issue.article_type }}{% else %}Issue No. {{ lead_issue.issue_number }}{% endif %}</span>
         <span>{{ lead_issue.date | date: "%b %-d" }}</span>
       </div>
       <h3>{{ lead_issue.title }}</h3>
@@ -67,7 +67,7 @@ layout: null
     {% if second_issue %}
     <a class="home-story-card" href="{{ second_issue.url | relative_url }}">
       <div class="issue-meta">
-        <span>{% if second_issue.format == "wire" %}The Wire · {{ second_issue.category }}{% elsif second_issue.article_type %}{{ second_issue.article_type }}{% else %}Issue No. {{ second_issue.issue_number }}{% endif %}</span>
+        <span>{% if second_issue.format == "wire" %}The Petty Files · {{ second_issue.category }}{% elsif second_issue.article_type %}{{ second_issue.article_type }}{% else %}Issue No. {{ second_issue.issue_number }}{% endif %}</span>
         <span>{{ second_issue.date | date: "%b %-d" }}</span>
       </div>
       <h3>{{ second_issue.title }}</h3>

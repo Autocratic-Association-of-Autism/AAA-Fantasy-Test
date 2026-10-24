@@ -14,7 +14,7 @@
 
 ## Developing — hold
 
-1. **Proposed 10→12 expansion**: informal discussion only. Anonymous tip alleges Larry and Frankie oppose it; **not independently verified**. Chance favors expanding; Casey's position unclear. Ask Larry, Frankie, Casey separately for responses, then decide whether story merits a public Wire report. Saved as `_wire/2026-10-23-expansion-tip-held.md` with `draft: true`; it is NOT on the public feed.
+1. **Proposed 10→12 expansion**: informal discussion only. Anonymous tip alleges Larry and Frankie oppose it; **not independently verified**. Chance favors expanding; Casey's position unclear. Ask Larry, Frankie, Casey separately for responses, then decide whether story merits a public Wire report. Held as an editorial lead in this backlog only; no article has been published.
 2. **Week 7 results**: games are still underway as of the Oct 23 snapshot; do not publish final scores or outcomes.
 3. **Post-Oct20 GroupMe**: last archive checkpoint predates some Oct 21–23 conversation. Refresh the GroupMe export before attributing any new quote.
 4. **Trade reviews**: completion is verified, outcomes are not; use current/forward-looking analysis before declaring winners.

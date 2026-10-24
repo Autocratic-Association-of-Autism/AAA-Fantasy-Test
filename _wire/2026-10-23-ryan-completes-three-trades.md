@@ -18,7 +18,7 @@ ESPN's transaction log confirms three completed deals involving Ryan on October 
 
 **October 21, with Coke(r) Caine (Macon):** Ryan sent **Alvin Kamara and Jameson Williams**, receiving **Chuba Hubbard**.
 
-That's seven outgoing players and six incoming players across three completed trades. Wilson was subsequently dropped, according to ESPN's October 21 transaction history.
+That's six outgoing players and six incoming players across three completed trades. Wilson was subsequently dropped, according to ESPN's October 21 transaction history.
 
 Chance now has Bijan; Ryan Hutchins has Caleb; Macon has Kamara. Ryan, meanwhile, has effectively replaced a recognizable chunk of his opening roster.
 

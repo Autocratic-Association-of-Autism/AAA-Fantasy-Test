@@ -106,7 +106,9 @@ if(championshipRoot){
   return {Season:year,Champion:winner?.Manager||'Not verified','Champion Team':winner?.Team||'—','Runner-up':runner?.Manager||'Not verified','Runner-up Team':runner?.Team||'—'};
  });
  table('#championshipHistory',rows,[{key:'Season',label:'Season'},{key:'Champion',label:'Champion'},{key:'Champion Team',label:'Championship Team'},{key:'Runner-up',label:'Runner-up'},{key:'Runner-up Team',label:'Runner-up Team'}]);
- table('#postseasonHonors',[...D.career].filter(r=>r.Championships||r['Runner-up']||r['Top-3 Finishes']).sort((a,b)=>b.Championships-a.Championships||b['Runner-up']-a['Runner-up']),[{key:'Manager',label:'Manager'},{key:'Championships',label:'Titles'},{key:'Runner-up',label:'Runner-up Finishes'},{key:'Top-3 Finishes',label:'Top 3 Finishes'}]);
+ const honors=[...D.career].sort((a,b)=>Number(b.Championships||0)-Number(a.Championships||0)||Number(b['Runner-up']||0)-Number(a['Runner-up']||0)||Number(b['Top-3 Finishes']||0)-Number(a['Top-3 Finishes']||0)||String(a.Manager).localeCompare(String(b.Manager)));
+ table('#postseasonHonors',honors,[{key:'Manager',label:'Manager'},{key:'Championships',label:'Titles'},{key:'Runner-up',label:'Runner-up Finishes'},{key:'Top-3 Finishes',label:'Top 3 Finishes'},{key:'Manager',label:'Distinction',render:(_,r)=>Number(r['Top-3 Finishes']||0)>0?'<span class="honors-earned">Podium finisher</span>':'<span class="honors-shame">THE PODIUM IS A MYTH TO ME</span>'}]);
+ document.querySelectorAll('#postseasonHonors tbody tr').forEach((tr,i)=>{if(Number(honors[i]?.['Top-3 Finishes']||0)===0)tr.classList.add('honors-no-podium');});
 }
 
 if(document.querySelector('#sackoHistory')){

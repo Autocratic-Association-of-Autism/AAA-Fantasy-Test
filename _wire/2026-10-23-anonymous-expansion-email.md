@@ -13,6 +13,8 @@ AAA Insider has received an anonymous email entitled **“The League Is Expandin
 
 After an extensive investigation, the newsroom can confirm that **an email was received**.
 
+**Read the source:** [Full transcript of the anonymous expansion email →]({{ '/sources/2026-10-23-expansion-email.html' | relative_url }})
+
 The document accuses **Larry Terrell and Frankie Yentz** of opposing a move from 10 to 12 teams, describing their alleged stance as **“a suspicious lack of ball knowledge disguised as league governance.”** It repeatedly demands to know what the two men are afraid of.
 
 There is, however, an administrative complication: **nobody has formally proposed expanding the league.** The idea has been discussed informally, and the newsroom has not independently verified that Larry or Frankie opposes it. At present, the anonymous author has successfully started a fight with two men over a vote that does not exist.

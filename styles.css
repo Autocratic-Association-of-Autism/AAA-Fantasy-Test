@@ -964,3 +964,16 @@ nav a.active{background:#1e293b;color:white}
  .story-category{font-size:9px;padding:4px 7px}
  .wire-feed-meta{gap:6px}
 }
+
+/* Editorial source-document archive: submitted claims are not reported findings. */
+.source-document .source-archive-disclaimer{
+  padding:16px 19px;margin:0 0 28px;background:#eee3d3;border-left:4px solid #a51e2a;
+  border-radius:3px;color:#514235;font:14px/1.65 ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial;
+}
+.source-document .source-archive-disclaimer strong{display:block;margin-bottom:3px;color:#6b202b}
+.source-document .source-transcript{border-top:1px solid #c4b9a9;padding-top:25px}
+.source-document .source-transcript p{overflow-wrap:break-word}
+.source-document .source-transcript>p:first-child{
+  font-size:clamp(23px,3.6vw,31px);line-height:1.25;color:#27201b;
+}
+.source-document .source-transcript>p:last-child{border-top:1px solid #b6a899;padding-top:16px;font-size:15px}

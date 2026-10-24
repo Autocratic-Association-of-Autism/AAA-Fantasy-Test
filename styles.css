@@ -1072,3 +1072,14 @@ nav a.active{background:#1e293b;color:white}
 .aaa-bracket-details{margin-top:12px}
 .aaa-bracket-archive{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;padding:15px 0}
 @media(max-width:650px){.aaa-bracket-board{flex-direction:column;align-items:stretch;gap:25px;padding:16px}.aaa-bracket-stage{min-width:0;max-width:none}}
+
+/* Three-stage advancement bracket */
+.aaa-bracket-board{justify-content:stretch;align-items:stretch;gap:28px}
+.aaa-bracket-stage{min-width:205px;max-width:none;flex:1}
+.aaa-bracket-stage-games{display:flex;flex-direction:column;justify-content:space-around;gap:20px;flex:1}
+.aaa-bracket-missing{min-height:76px;display:flex;align-items:center;justify-content:center;text-align:center}
+.aaa-third-place{display:flex;align-items:center;justify-content:space-between;gap:24px;border:1px solid #34465c;border-radius:10px;margin-top:14px;padding:14px 20px}
+.aaa-third-place p{margin:5px 0 0;font-size:12px;opacity:.7}
+.aaa-third-place .aaa-bracket-game,.aaa-third-place .aaa-bracket-missing{min-width:240px;max-width:360px;flex:1}
+.aaa-sacko-compact{margin-top:14px}
+@media(max-width:650px){.aaa-third-place{flex-direction:column;align-items:stretch}.aaa-third-place .aaa-bracket-game,.aaa-third-place .aaa-bracket-missing{min-width:0;max-width:none}}

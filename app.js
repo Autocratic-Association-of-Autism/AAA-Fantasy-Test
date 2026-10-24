@@ -108,3 +108,15 @@ if(championshipRoot){
  table('#championshipHistory',rows,[{key:'Season',label:'Season'},{key:'Champion',label:'Champion'},{key:'Champion Team',label:'Championship Team'},{key:'Runner-up',label:'Runner-up'},{key:'Runner-up Team',label:'Runner-up Team'}]);
  table('#postseasonHonors',[...D.career].filter(r=>r.Championships||r['Runner-up']||r['Top-3 Finishes']).sort((a,b)=>b.Championships-a.Championships||b['Runner-up']-a['Runner-up']),[{key:'Manager',label:'Manager'},{key:'Championships',label:'Titles'},{key:'Runner-up',label:'Runner-up Finishes'},{key:'Top-3 Finishes',label:'Top 3 Finishes'}]);
 }
+
+if(document.querySelector('#sackoHistory')){
+ const complete=D.seasons.filter(r=>Number(r.Season)<2026&&Number.isFinite(Number(r['Final Finish'])));
+ const years=[...new Set(complete.map(r=>r.Season))].sort((a,b)=>b-a);
+ const rows=years.map(year=>{const season=complete.filter(r=>r.Season===year);const last=Math.max(...season.map(r=>Number(r['Final Finish'])));const candidate=season.find(r=>Number(r['Final Finish'])===last);return {Season:year,Manager:candidate?.Manager||'Not verified',Team:candidate?.Team||'—',Finish:last,Status:'Sacko not verified'};});
+ table('#sackoHistory',rows,[{key:'Season',label:'Season'},{key:'Manager',label:'Last-place manager'},{key:'Team',label:'Team'},{key:'Finish',label:'Finish'},{key:'Status',label:'Sacko status'}]);
+ const all=(D.multiWeekPlayoffs||[]).map(normalizeGame);
+ const sacko=all.filter(r=>/LOSERS|CONSOLATION|SACKO/i.test(String(r['Matchup Type']||'')));
+ const championship=all.filter(r=>/WINNERS|CHAMPIONSHIP/i.test(String(r['Matchup Type']||'')));
+ table('#sackoMultiWeek',sacko,multiWeekCols);
+ table('#championshipMultiWeek',championship,multiWeekCols);
+}

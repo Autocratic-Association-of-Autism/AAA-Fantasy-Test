@@ -136,7 +136,7 @@ if(document.querySelector('#sackoHistory')){
  2025:'Stand-up comedy at an open mic night'
  };
  const rows=years.map(year=>{const season=complete.filter(r=>Number(r.Season)===Number(year));const last=Math.max(...season.map(r=>Number(r['Final Finish'])));const candidate=season.find(r=>Number(r['Final Finish'])===last);return {Season:String(year)+'–'+String(Number(year)+1).slice(-2),Manager:candidate?.Manager||'Not verified',Team:candidate?.Team||'—',Finish:last,Punishment:punishments[year]||'Not recorded',Status:(punishments[year]&&candidate)?'Verified Sacko':'Sacko not verified'};});
- table('#sackoHistory',rows,[{key:'Season',label:'Season'},{key:'Manager',label:'Sacko recipient'},{key:'Team',label:'Team'},{key:'Finish',label:'Finish'},{key:'Punishment',label:'Punishment'},{key:'Status',label:'Sacko status'}]);
+ table('#sackoHistory',rows,[{key:'Season',label:'Season'},{key:'Manager',label:'Sacko recipient'},{key:'Team',label:'Team'},{key:'Finish',label:'Finish'},{key:'Punishment',label:'Punishment'}]);
  const all=(D.multiWeekPlayoffs||[]).map(normalizeGame);
  const sacko=all.filter(r=>/LOSERS|CONSOLATION|SACKO/i.test(String(r['Matchup Type']||'')));
  const championship=all.filter(r=>/WINNERS|CHAMPIONSHIP/i.test(String(r['Matchup Type']||'')));

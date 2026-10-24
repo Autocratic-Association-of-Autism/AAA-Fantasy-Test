@@ -1,25 +1,31 @@
 ---
-title: "Candidate Promises Bigger Prizes; Cites Friendship"
+title: "League Requests Prize Money; Chance Offers Friendship"
 date: 2026-10-23 13:00:00 -0400
 format: wire
 category: "League Politics"
 author: "AAA Insider Newsroom"
-summary: "An October 17 campaign exchange left Chance Robinson discussing great prizes, friendship, and the unresolved question of how to fund either."
+summary: "Pressed about bigger commissioner prizes without higher dues, Chance introduced an ambitious new financial instrument: friendship."
 draft: false
 ---
 
-Chance Robinson's bid for commissioner has produced a campaign-finance question more difficult than its slogan.
+Chance Robinson wants to be commissioner. He wants bigger prizes. He does not want the league to be overly concerned with where those prizes come from.
 
-In the October 17 GroupMe exchange, a league member questioned how the campaign could offer larger prizes without raising annual dues. Chance initially joked about a plant. When pressed about the promised prizes, he offered the following clarification:
+On October 17, a GroupMe discussion turned to an elementary budget question: **How do you offer larger prizes without raising dues?**
+
+Chance initially joked about a plant. Asked what the actual prizes would be, the candidate supplied a clear, stirring, fiscally catastrophic answer:
 
 **“The prize of friendship.”**
 
-Another member replied: **“Sounds like empty promises.”**
+Another league member replied: **“Sounds like empty promises.”** Chance subsequently promised **“great prizes.”**
 
-Chance subsequently promised **“great prizes.”** No specific funding mechanism appeared in the archived exchange.
+AAA Insider's financial desk has reviewed these statements and can confirm that friendship is not currently accepted by Venmo, PayPal, or the person who wins your fantasy league.
 
-The candidate's week did not get easier. His then-undefeated **Njigba please** lost to Ryan Hutchins's **Lamborghini Murci**, **119.08–77.20**, ending his 5–0 run with a 41.88-point defeat.
+The candidate's proposal does have certain advantages. A friendship-based prize pool would eliminate the need for cash reserves, bank transfers, and winners receiving anything.
 
-Commissioner Casey Hutchins, meanwhile, earned her first win of the season, defeating Ryan **132.58–97.38**. The two campaigns thus received very different Sunday-night press packages.
+The timing was especially unfortunate. Chance's undefeated **Njigba please** soon lost **119.08–77.20** to Ryan Hutchins's **Lamborghini Murci**. If friendship were awarded for every point scored, Chance would still have been **41.88 friendships** short.
 
-**AAA Insider finding:** Friendship may be priceless, but the league still has not been shown an itemized budget.
+The incumbent commissioner won her matchup that same week. No reports have emerged of Casey attempting to pay anyone in companionship.
+
+The newsroom welcomes a more detailed prize proposal from Chance, ideally one containing at least one U.S. dollar.
+
+**AAA Insider finding:** The campaign has identified a new currency. Its exchange rate remains zero.

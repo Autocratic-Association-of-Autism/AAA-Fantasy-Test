@@ -1,25 +1,32 @@
 ---
-title: "Ryan Completes Three Trades in Two Days"
+title: "Ryan Opens Roster for Renovations; Three Teams Leave With Souvenirs"
 date: 2026-10-23 14:00:00 -0400
 format: wire
 category: "Trades"
 author: "AAA Insider Newsroom"
-summary: "ESPN confirms completed deals with Chance, Ryan Hutchins, and Macon, with Bijan Robinson, Caleb Williams, and Alvin Kamara all changing hands."
+summary: "Six players out, six in, three trades completed. ESPN confirms Ryan has been operating the fantasy equivalent of a construction site."
 draft: false
 ---
 
-The AAA trade market has discovered a previously underappreciated commodity: **Ryan's willingness to answer the phone**.
+There are fantasy managers who make a trade to improve their roster. Then there is Ryan, who apparently looked at his roster and decided **the building had structural problems**.
 
-ESPN's transaction log confirms three completed deals involving Ryan on October 20–21.
+According to ESPN, he completed three trades with three different managers on October 20–21.
 
-**October 20, with Chance's team:** Ryan sent **Bijan Robinson and Brian Robinson Jr.**, receiving **Jaxon Smith-Njigba, J.K. Dobbins, and Emanuel Wilson**.
+**Chance received:** Bijan Robinson and Brian Robinson Jr.  
+**Ryan received:** Jaxon Smith-Njigba, J.K. Dobbins and Emanuel Wilson.
 
-**October 21, with Lamborghini Murci (Ryan Hutchins):** Ryan sent **Caleb Williams and Hunter Henry**, receiving **Bhayshul Tuten and Rachaad White**.
+**Ryan Hutchins received:** Caleb Williams and Hunter Henry.  
+**Ryan received:** Bhayshul Tuten and Rachaad White.
 
-**October 21, with Coke(r) Caine (Macon):** Ryan sent **Alvin Kamara and Jameson Williams**, receiving **Chuba Hubbard**.
+**Macon received:** Alvin Kamara and Jameson Williams.  
+**Ryan received:** Chuba Hubbard.
 
-That's six outgoing players and six incoming players across three completed trades. Wilson was subsequently dropped, according to ESPN's October 21 transaction history.
+That's **six players out and six in**. The commissioner election is currently full of promises about bringing change to AAA. Ryan, who is not even running, appears to be the only person who thought to bring receipts.
 
-Chance now has Bijan; Ryan Hutchins has Caleb; Macon has Kamara. Ryan, meanwhile, has effectively replaced a recognizable chunk of his opening roster.
+Emanuel Wilson was dropped the next day. The newsroom is still attempting to determine whether he learned where the locker room was.
 
-**AAA Insider finding:** No other manager involved in these three deals was asked to process this much change at once. The verdict on who won remains pending.
+Macon participated, which is perhaps the least surprising development in this entire report. Ryan Hutchins now has Caleb Williams, a promising Chicago Bears quarterback, and will presumably spend the next several weeks finding a way to make that acquisition about himself.
+
+As for who won these trades, the results are not yet in. Ryan has acquired pieces to reshape his lineup; three opponents have acquired the opportunity to explain why they think they won.
+
+**AAA Insider finding:** The roster is under new management. The management has not changed.

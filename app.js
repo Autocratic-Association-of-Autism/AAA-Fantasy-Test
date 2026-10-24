@@ -128,8 +128,8 @@ if(championshipRoot){
 if(document.querySelector('#sackoHistory')){
  const complete=D.seasons.filter(r=>Number(r.Season)<2026&&Number.isFinite(Number(r['Final Finish'])));
  const years=[...new Set(complete.map(r=>r.Season))].sort((a,b)=>b-a);
- const rows=years.map(year=>{const season=complete.filter(r=>r.Season===year);const last=Math.max(...season.map(r=>Number(r['Final Finish'])));const candidate=season.find(r=>Number(r['Final Finish'])===last);return {Season:year,Manager:candidate?.Manager||'Not verified',Team:candidate?.Team||'—',Finish:last,Status:'Sacko not verified'};});
- table('#sackoHistory',rows,[{key:'Season',label:'Season'},{key:'Manager',label:'Last-place manager'},{key:'Team',label:'Team'},{key:'Finish',label:'Finish'},{key:'Status',label:'Sacko status'}]);
+ const rows=years.map(year=>{const season=complete.filter(r=>r.Season===year);const last=Math.max(...season.map(r=>Number(r['Final Finish'])));const candidate=season.find(r=>Number(r['Final Finish'])===last);return {Season:year,Manager:candidate?.Manager||'Not verified',Team:candidate?.Team||'—',Finish:last,Status:([2021,2022,2023,2024,2025].includes(Number(year))&&candidate)?'Verified Sacko':'Sacko not verified'};});
+ table('#sackoHistory',rows,[{key:'Season',label:'Season'},{key:'Manager',label:'Sacko recipient'},{key:'Team',label:'Team'},{key:'Finish',label:'Finish'},{key:'Status',label:'Sacko status'}]);
  const all=(D.multiWeekPlayoffs||[]).map(normalizeGame);
  const sacko=all.filter(r=>/LOSERS|CONSOLATION|SACKO/i.test(String(r['Matchup Type']||'')));
  const championship=all.filter(r=>/WINNERS|CHAMPIONSHIP/i.test(String(r['Matchup Type']||'')));

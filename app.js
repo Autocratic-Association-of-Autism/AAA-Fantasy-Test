@@ -145,29 +145,28 @@ if(document.querySelector('#sackoHistory')){
 }
 
 
-// Historical bracket view: only verified matchups are shown; missing rounds are never inferred.
+// Compact, verified postseason bracket view.
 if(document.getElementById('aaaBracketSeason')){
- const seasonSelect=document.getElementById('aaaBracketSeason');
- const years=[2025,2024,2023,2022,2021];
- seasonSelect.innerHTML=years.map(y=>'<option value="'+y+'">'+y+'–'+String(y+1).slice(-2)+'</option>').join('');
- const escapeHtml=value=>String(value??'').replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
- const games=D.multiWeekPlayoffs||[];
- const card=g=>{
-  const home=Number(g['Home Score']),away=Number(g['Away Score']);
-  const row=(name,score,win)=>'<div class="bracket-team'+(win?' bracket-winner':'')+'"><span>'+escapeHtml(name)+'</span><strong>'+ (Number.isFinite(score)?score.toFixed(2):'—')+'</strong></div>';
-  return '<div class="bracket-match">'+row(g['Home Manager'],home,g.Winner===g['Home Manager'])+row(g['Away Manager'],away,g.Winner===g['Away Manager'])+'</div>';
+ const select=document.getElementById('aaaBracketSeason');
+ const esc=v=>String(v??'').replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
+ select.innerHTML=[2025,2024,2023,2022,2021].map(y=>'<option value="'+y+'">'+y+'–'+String(y+1).slice(-2)+'</option>').join('');
+ const match=g=>{
+  const line=(manager,score)=>'<div class="aaa-bracket-team'+(g.Winner===manager?' is-winner':'')+'"><span>'+esc(manager)+'</span><b>'+Number(score).toFixed(2)+'</b></div>';
+  return '<div class="aaa-bracket-game">'+line(g['Home Manager'],g['Home Score'])+line(g['Away Manager'],g['Away Score'])+'</div>';
  };
  const render=()=>{
-  const year=Number(seasonSelect.value);
-  const all=games.filter(g=>Number(g.Season)===year);
-  const winners=all.filter(g=>g['Matchup Type']==='WINNERS_BRACKET').sort((a,b)=>a.Week-b.Week);
-  const other=all.filter(g=>g['Matchup Type']==='WINNERS_CONSOLATION_LADDER').sort((a,b)=>a.Week-b.Week);
-  const losers=all.filter(g=>g['Matchup Type']==='LOSERS_CONSOLATION_LADDER').sort((a,b)=>a.Week-b.Week);
-  const rounds=(items,title)=>'<div class="bracket-round"><h4>'+title+'</h4>'+(items.length?items.map(card).join(''):'<div class="bracket-unavailable">Matchups not in archive</div>')+'</div>';
-  const final=winners.filter(g=>Number(g.Week)===18),semi=winners.filter(g=>Number(g.Week)<18);
-  document.getElementById('aaaChampBracket').innerHTML='<div class="bracket-flow">'+rounds([], 'Quarterfinals / opening round')+rounds(semi,'Semifinals')+rounds(final,'Championship')+'</div>'+(other.length?'<details><summary>Other championship-bracket placement games</summary><div class="bracket-placement">'+other.map(card).join('')+'</div></details>':'');
-  document.getElementById('aaaSackoBracket').innerHTML='<div class="bracket-flow">'+rounds(losers.filter(g=>Number(g.Week)<18),'Earlier consolation games')+rounds(losers.filter(g=>Number(g.Week)===18),'Final consolation matchups')+'</div><p class="bracket-caution">Consolation matchups are placement games, not a verified elimination path. The Sacko recipient is confirmed separately in the history table.</p>';
+  const year=Number(select.value),games=(D.multiWeekPlayoffs||[]).filter(g=>Number(g.Season)===year);
+  const title=games.filter(g=>g['Matchup Type']==='WINNERS_BRACKET');
+  const semi=title.filter(g=>Number(g.Week)<18),final=title.find(g=>Number(g.Week)===18);
+  const champ=document.getElementById('aaaChampBracket');
+  champ.innerHTML='<div class="aaa-bracket-board">'+
+   (semi.length?'<div class="aaa-bracket-stage"><div class="aaa-bracket-stage-label">Semifinals</div>'+semi.map(match).join('')+'</div>':'')+
+   '<div class="aaa-bracket-stage"><div class="aaa-bracket-stage-label">Championship</div>'+(final?match(final):'<div class="aaa-bracket-missing">Championship matchup unavailable</div>')+'</div>'+
+   '</div>'+(semi.length?'<p class="aaa-bracket-footnote">Earlier opening-round matchups are not available in the archive.</p>':'<p class="aaa-bracket-footnote">Earlier championship rounds are not available in the archive.</p>');
+  const sacko=D.seasons.find(r=>Number(r.Season)===year&&Number(r['Final Finish'])===10);
+  const consolation=games.filter(g=>g['Matchup Type']==='LOSERS_CONSOLATION_LADDER').sort((a,b)=>a.Week-b.Week);
+  document.getElementById('aaaSackoBracket').innerHTML='<div class="aaa-sacko-compact"><div><div class="aaa-bracket-stage-label">Sacko recipient</div><strong>'+esc(sacko?.Manager||'Not recorded')+'</strong><div class="aaa-bracket-footnote">Confirmed by the league</div></div></div>'+
+  (consolation.length?'<details class="aaa-bracket-details"><summary>View '+consolation.length+' archived consolation matchups</summary><div class="aaa-bracket-archive">'+consolation.map(match).join('')+'</div></details>':'');
  };
- seasonSelect.addEventListener('change',render);
- render();
+ select.addEventListener('change',render);render();
 }

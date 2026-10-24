@@ -15,6 +15,8 @@
 4. **Around the League: the 5K committee needs a ruler**: `_wire/2026-10-23-five-kilometers-of-confusion.md` — sourced Oct 22 GroupMe discussion; participants disagree on route length, suggest loser funds a bar tab and perhaps wears costume. **Proposal, not finalized rules.** Published on test only.
 5. **Around the League: Bears–Patriots GroupMe watch party**: `_wire/2026-10-23-patriots-invade-bears-porridge.md` — Ryan Hutchins's porridge prophecy, his admission about math, and Ryan's claimed $50 winning bet. **Transfer of money unverified.** Published on test only.
 
+6. **Around the League: anonymous expansion manifesto**: `_wire/2026-10-23-anonymous-expansion-email.md` — reports the existence and language of the submitted email, while explicitly stating that Larry and Frankie's alleged opposition has not been verified and no proposal has been filed. Published on test only.
+
 ## GroupMe audit — Oct 22–23
 
 - **Punishment policy:** at least 5K/3K/10K, 2.5-mile out-and-back, bar tab, possible costume, Super Bowl vs draft date discussed. No settled policy. Chance incorrectly said 5K was roughly 3.6 miles. A 5K is ~3.1 miles. Ryan Hutchins suggested Chance campaign money for a furry costume.
@@ -26,7 +28,7 @@
 
 ## Developing — hold
 
-1. **Proposed 10→12 expansion**: informal discussion only. Anonymous tip alleges Larry and Frankie oppose it; **not independently verified**. Chance favors expanding; Casey's position unclear. Ask Larry, Frankie, Casey separately for responses, then decide whether story merits a public Around the League report. Held as an editorial lead in this backlog only; no article has been published.
+1. **Proposed 10→12 expansion**: informal discussion only. Anonymous tip alleges Larry and Frankie oppose it; **not independently verified**. Chance favors expanding; Casey's position unclear. Ask Larry, Frankie, Casey separately for responses, then decide whether story merits a public Around the League report. The **anonymous email itself** has been reported on test, but Larry and Frankie's positions remain unconfirmed. Do not frame their alleged opposition as fact until each responds.
 2. **Week 7 results**: games are still underway as of the Oct 23 snapshot; do not publish final scores or outcomes.
 3. **Post-Oct23 GroupMe**: next audit should collect messages after Oct 23 19:51 Eastern; fresh reaction/response could alter which stories deserve updates.
 4. **Trade reviews**: completion is verified, outcomes are not; use current/forward-looking analysis before declaring winners.

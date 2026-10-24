@@ -163,7 +163,7 @@ if(document.getElementById('aaaBracketSeason')){
   const semis=title.filter(g=>Number(g.Week)<18),final=title.find(g=>Number(g.Week)===18);
   const placements=all.filter(g=>g['Matchup Type']==='WINNERS_CONSOLATION_LADDER');
   const third=semis.length===2?placements.find(g=>Number(g.Week)===18&&[g['Home Manager'],g['Away Manager']].every(n=>semis.some(s=>s.Loser===n))):null;
-  const championship=round('Round 1',[missing('Opening matchups not archived'),missing('Opening matchups not archived')])+round('Semifinals',semis.length?semis.map(g=>match(g)): [missing('Semifinal results not archived')])+round('Championship',[final?match(final):missing('Final not archived')]);
+  const championship=year===2021?round('Round 1',semis.map(g=>match(g)))+round('Championship',[final?match(final):missing('Final not archived')]):round('Round 1',[missing('Opening matchups not archived')])+round('Semifinals',semis.length?semis.map(g=>match(g)):[missing('Semifinal results not archived')])+round('Championship',[final?match(final):missing('Final not archived')]);
   document.getElementById('aaaChampBracket').innerHTML='<div class="aaa-bracket-board">'+championship+'</div><div class="aaa-third-place"><div><strong>Third-place game</strong><p>Semifinal losers compete separately.</p></div>'+(third?match(third):missing('Third-place matchup not verified'))+'</div>';
   const consolation=all.filter(g=>g['Matchup Type']==='LOSERS_CONSOLATION_LADDER');
   const early=consolation.filter(g=>Number(g.Week)<18);

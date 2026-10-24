@@ -189,8 +189,20 @@ if(document.getElementById('aaaBracketSeason')){
       match({'Home Manager':'Ryan Mays','Home Score':182.92,'Away Manager':'Larry Terrell','Away Score':160.14,Winner:'Ryan Mays'})
     ])+
     round('Championship',[match({'Home Manager':'Frankie Yentz','Home Score':164.42,'Away Manager':'Ryan Mays','Away Score':163.58,Winner:'Frankie Yentz'})])
+   :year===2025
+   ?round('Round 1',[
+      '<div class="aaa-bracket-game"><div class="aaa-bracket-team is-winner"><span>#1 Glen Hutchins</span><b>BYE</b></div></div>',
+      match({'Home Manager':'Casey Hutchins','Home Score':160.32,'Away Manager':'Ryan Mays','Away Score':88.76,Winner:'Casey Hutchins'}),
+      match({'Home Manager':'Frankie Yentz','Home Score':129.92,'Away Manager':'Zak Wesolek','Away Score':148.90,Winner:'Zak Wesolek'}),
+      '<div class="aaa-bracket-game"><div class="aaa-bracket-team is-winner"><span>#2 Larry Terrell</span><b>BYE</b></div></div>'
+    ])+
+    round('Semifinals',[
+      match({'Home Manager':'Casey Hutchins','Home Score':141.96,'Away Manager':'Glen Hutchins','Away Score':174.38,Winner:'Glen Hutchins'}),
+      match({'Home Manager':'Zak Wesolek','Home Score':159.90,'Away Manager':'Larry Terrell','Away Score':91.30,Winner:'Zak Wesolek'})
+    ])+
+    round('Championship',[match({'Home Manager':'Zak Wesolek','Home Score':129.72,'Away Manager':'Glen Hutchins','Away Score':131.60,Winner:'Glen Hutchins'})])
    :round('Round 1',[missing('Opening matchups not archived')])+round('Semifinals',semis.length?semis.map(g=>match(g)):[missing('Semifinal results not archived')])+round('Championship',[final?match(final):missing('Final not archived')]);
-  document.getElementById('aaaChampBracket').innerHTML='<div class="aaa-bracket-board">'+championship+'</div><div class="aaa-third-place"><div><strong>Third-place game</strong><p>Semifinal losers compete separately.</p></div>'+(third?match(third):missing('Third-place matchup not verified'))+'</div>';
+  document.getElementById('aaaChampBracket').innerHTML='<div class="aaa-bracket-board">'+championship+'</div><div class="aaa-third-place"><div><strong>Third-place game</strong><p>Semifinal losers compete separately.</p></div>'+(year===2025?match({'Home Manager':'Casey Hutchins','Home Score':138.88,'Away Manager':'Larry Terrell','Away Score':119.48,Winner:'Casey Hutchins'}):third?match(third):missing('Third-place matchup not verified'))+'</div>';
   const consolation=all.filter(g=>g['Matchup Type']==='LOSERS_CONSOLATION_LADDER');
   const early=consolation.filter(g=>Number(g.Week)<18);
   const sackoRow=(D.seasons||[]).find(r=>Number(r.Season)===year&&Number(r['Final Finish'])===10);

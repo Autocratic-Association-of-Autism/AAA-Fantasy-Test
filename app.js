@@ -145,28 +145,35 @@ if(document.querySelector('#sackoHistory')){
 }
 
 
-// Compact, verified postseason bracket view.
+// Tournament brackets: winners advance to the title, losers advance to the Sacko.
 if(document.getElementById('aaaBracketSeason')){
  const select=document.getElementById('aaaBracketSeason');
  const esc=v=>String(v??'').replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
- select.innerHTML=[2025,2024,2023,2022,2021].map(y=>'<option value="'+y+'">'+y+'–'+String(y+1).slice(-2)+'</option>').join('');
- const match=g=>{
-  const line=(manager,score)=>'<div class="aaa-bracket-team'+(g.Winner===manager?' is-winner':'')+'"><span>'+esc(manager)+'</span><b>'+Number(score).toFixed(2)+'</b></div>';
+ const years=[2025,2024,2023,2022,2021];
+ select.innerHTML=years.map(y=>'<option value="'+y+'">'+y+'–'+String(y+1).slice(-2)+'</option>').join('');
+ const match=(g,reverse=false)=>{
+  const line=(manager,score)=>'<div class="aaa-bracket-team'+((reverse?g.Loser:g.Winner)===manager?' is-winner':'')+'"><span>'+esc(manager)+'</span><b>'+Number(score).toFixed(2)+'</b></div>';
   return '<div class="aaa-bracket-game">'+line(g['Home Manager'],g['Home Score'])+line(g['Away Manager'],g['Away Score'])+'</div>';
  };
+ const missing=(label='Result unavailable')=>'<div class="aaa-bracket-missing">'+esc(label)+'</div>';
+ const round=(name,cards)=>'<div class="aaa-bracket-stage"><div class="aaa-bracket-stage-label">'+esc(name)+'</div><div class="aaa-bracket-stage-games">'+cards.join('')+'</div></div>';
  const render=()=>{
-  const year=Number(select.value),games=(D.multiWeekPlayoffs||[]).filter(g=>Number(g.Season)===year);
-  const title=games.filter(g=>g['Matchup Type']==='WINNERS_BRACKET');
-  const semi=title.filter(g=>Number(g.Week)<18),final=title.find(g=>Number(g.Week)===18);
-  const champ=document.getElementById('aaaChampBracket');
-  champ.innerHTML='<div class="aaa-bracket-board">'+
-   (semi.length?'<div class="aaa-bracket-stage"><div class="aaa-bracket-stage-label">Semifinals</div>'+semi.map(match).join('')+'</div>':'')+
-   '<div class="aaa-bracket-stage"><div class="aaa-bracket-stage-label">Championship</div>'+(final?match(final):'<div class="aaa-bracket-missing">Championship matchup unavailable</div>')+'</div>'+
-   '</div>'+(semi.length?'<p class="aaa-bracket-footnote">Earlier opening-round matchups are not available in the archive.</p>':'<p class="aaa-bracket-footnote">Earlier championship rounds are not available in the archive.</p>');
-  const sacko=D.seasons.find(r=>Number(r.Season)===year&&Number(r['Final Finish'])===10);
-  const consolation=games.filter(g=>g['Matchup Type']==='LOSERS_CONSOLATION_LADDER').sort((a,b)=>a.Week-b.Week);
-  document.getElementById('aaaSackoBracket').innerHTML='<div class="aaa-sacko-compact"><div><div class="aaa-bracket-stage-label">Sacko recipient</div><strong>'+esc(sacko?.Manager||'Not recorded')+'</strong><div class="aaa-bracket-footnote">Confirmed by the league</div></div></div>'+
-  (consolation.length?'<details class="aaa-bracket-details"><summary>View '+consolation.length+' archived consolation matchups</summary><div class="aaa-bracket-archive">'+consolation.map(match).join('')+'</div></details>':'');
+  const year=Number(select.value),all=(D.multiWeekPlayoffs||[]).filter(g=>Number(g.Season)===year);
+  const title=all.filter(g=>g['Matchup Type']==='WINNERS_BRACKET');
+  const semis=title.filter(g=>Number(g.Week)<18),final=title.find(g=>Number(g.Week)===18);
+  const placements=all.filter(g=>g['Matchup Type']==='WINNERS_CONSOLATION_LADDER');
+  const third=semis.length===2?placements.find(g=>Number(g.Week)===18&&[g['Home Manager'],g['Away Manager']].every(n=>semis.some(s=>s.Loser===n))):null;
+  const championship=round('Round 1',[missing('Opening matchups not archived'),missing('Opening matchups not archived')])+round('Semifinals',semis.length?semis.map(g=>match(g)): [missing('Semifinal results not archived')])+round('Championship',[final?match(final):missing('Final not archived')]);
+  document.getElementById('aaaChampBracket').innerHTML='<div class="aaa-bracket-board">'+championship+'</div><div class="aaa-third-place"><div><strong>Third-place game</strong><p>Semifinal losers compete separately.</p></div>'+(third?match(third):missing('Third-place matchup not verified'))+'</div>';
+  const consolation=all.filter(g=>g['Matchup Type']==='LOSERS_CONSOLATION_LADDER');
+  const early=consolation.filter(g=>Number(g.Week)<18);
+  const sackoRow=(D.seasons||[]).find(r=>Number(r.Season)===year&&Number(r['Final Finish'])===10);
+  const sackoName=sackoRow?.Manager;
+  // A Sacko final can only be identified when the confirmed recipient lost that game.
+  const sackoFinal=consolation.find(g=>Number(g.Week)===18&&g.Loser===sackoName);
+  const rest=consolation.filter(g=>g!==sackoFinal);
+  const sackoBoard=round('Round 1',early.length?early.map(g=>match(g,true)):[missing('Opening matchups not archived')])+round('Next round',[missing('Advancement not fully archived')])+round('Sacko final',[sackoFinal?match(sackoFinal,true):missing('Final matchup not verified')]);
+  document.getElementById('aaaSackoBracket').innerHTML='<div class="aaa-bracket-board">'+sackoBoard+'</div><p class="aaa-bracket-footnote">Highlighted teams lose and continue toward the Sacko. Other teams exit Sacko contention. Matchups without a verified advancement path are not connected.</p><div class="aaa-sacko-compact"><div class="aaa-bracket-stage-label">Confirmed Sacko recipient</div><strong>'+esc(sackoName||'Not recorded')+'</strong></div>'+(rest.length?'<details class="aaa-bracket-details"><summary>Other archived consolation matchups ('+rest.length+')</summary><div class="aaa-bracket-archive">'+rest.map(g=>match(g,true)).join('')+'</div></details>':'');
  };
  select.addEventListener('change',render);render();
 }

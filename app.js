@@ -177,6 +177,18 @@ if(document.getElementById('aaaBracketSeason')){
      match({'Home Manager':'Casey Hutchins','Home Score':151.68,'Away Manager':'Chance Robinson','Away Score':143.62,Winner:'Casey Hutchins'})
     ])+
     round('Championship',[match({'Home Manager':'Casey Hutchins','Home Score':107.30,'Away Manager':'Larry Terrell','Away Score':145.38,Winner:'Larry Terrell'})])
+   :year===2024
+   ?round('Round 1',[
+      '<div class="aaa-bracket-game"><div class="aaa-bracket-team is-winner"><span>#1 Chance Robinson</span><b>BYE</b></div></div>',
+      match({'Home Manager':'Macon Moore','Home Score':127.84,'Away Manager':'Frankie Yentz','Away Score':172.10,Winner:'Frankie Yentz'}),
+      match({'Home Manager':'Casey Hutchins','Home Score':147.52,'Away Manager':'Ryan Mays','Away Score':173.34,Winner:'Ryan Mays'}),
+      '<div class="aaa-bracket-game"><div class="aaa-bracket-team is-winner"><span>#2 Larry Terrell</span><b>BYE</b></div></div>'
+    ])+
+    round('Semifinals',[
+      match({'Home Manager':'Frankie Yentz','Home Score':166.58,'Away Manager':'Chance Robinson','Away Score':122.38,Winner:'Frankie Yentz'}),
+      match({'Home Manager':'Ryan Mays','Home Score':182.92,'Away Manager':'Larry Terrell','Away Score':160.14,Winner:'Ryan Mays'})
+    ])+
+    round('Championship',[match({'Home Manager':'Frankie Yentz','Home Score':164.42,'Away Manager':'Ryan Mays','Away Score':163.58,Winner:'Frankie Yentz'})])
    :round('Round 1',[missing('Opening matchups not archived')])+round('Semifinals',semis.length?semis.map(g=>match(g)):[missing('Semifinal results not archived')])+round('Championship',[final?match(final):missing('Final not archived')]);
   document.getElementById('aaaChampBracket').innerHTML='<div class="aaa-bracket-board">'+championship+'</div><div class="aaa-third-place"><div><strong>Third-place game</strong><p>Semifinal losers compete separately.</p></div>'+(third?match(third):missing('Third-place matchup not verified'))+'</div>';
   const consolation=all.filter(g=>g['Matchup Type']==='LOSERS_CONSOLATION_LADDER');

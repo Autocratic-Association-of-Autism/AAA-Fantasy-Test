@@ -223,7 +223,7 @@ if(document.getElementById('aaaBracketSeason')){
       {'Home Manager':'Glen Hutchins','Home Score':70.78,'Away Manager':'Ryan Hutchins','Away Score':112.50,Loser:'Glen Hutchins'}
     ].map(g=>match(g,true)))+
     round('Sacko final · 2-week aggregate',[
-      '<div class="aaa-bracket-game"><div class="aaa-bracket-team"><span>Glen Hutchins</span><b>341.86</b></div><div class="aaa-bracket-team is-winner"><span>Zak Wesolek · SACKO</span><b>316.60</b></div><div class="aaa-bracket-footnote" style="padding:10px 12px">GmC4 (Week 16): Glen 118.64 · Zak 112.80<br>GmC6 (Week 17): Glen 223.22 · Zak 203.80<br>Aggregate margin: 25.26</div></div>'
+      '<div class="aaa-bracket-game"><div class="aaa-bracket-team"><span>Glen Hutchins</span><b>223.22</b></div><div class="aaa-bracket-team is-winner"><span>Zak Wesolek · SACKO</span><b>203.80</b></div><div class="aaa-bracket-footnote" style="padding:10px 12px">GmC4 (Week 16): Glen 118.64 · Zak 112.80<br>GmC6 (Week 17, cumulative final): Glen 223.22 · Zak 203.80<br>Final margin: 19.42</div></div>'
     ])
    :year===2025
    ?round('Round 1',[
@@ -231,7 +231,7 @@ if(document.getElementById('aaaBracketSeason')){
       {'Home Manager':'Ryan Hutchins','Home Score':114.30,'Away Manager':'Louis Swanson','Away Score':139.60,Loser:'Ryan Hutchins'}
     ].map(g=>match(g,true)))+
     round('Sacko final · 2-week aggregate',[
-      '<div class="aaa-bracket-game"><div class="aaa-bracket-team"><span>Macon Moore</span><b>371.04</b></div><div class="aaa-bracket-team is-winner"><span>Ryan Hutchins · SACKO</span><b>349.04</b></div><div class="aaa-bracket-footnote" style="padding:10px 12px">GmC4 (Week 16): Macon 123.82 · Ryan 120.10<br>GmC6 (Week 17): Macon 247.22 · Ryan 228.94<br>Aggregate margin: 22.00</div></div>'
+      '<div class="aaa-bracket-game"><div class="aaa-bracket-team"><span>Macon Moore</span><b>247.22</b></div><div class="aaa-bracket-team is-winner"><span>Ryan Hutchins · SACKO</span><b>228.94</b></div><div class="aaa-bracket-footnote" style="padding:10px 12px">GmC4 (Week 16): Macon 123.82 · Ryan 120.10<br>GmC6 (Week 17, cumulative final): Macon 247.22 · Ryan 228.94<br>Final margin: 18.28</div></div>'
     ])
    :year===2022
    ?round('Round 1',[

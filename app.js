@@ -48,6 +48,7 @@ const weeklyCols=[
 ];
 table('#highest',D.highest,weeklyCols); table('#lowest',D.lowest,weeklyCols);
 
+if(document.querySelector('#blowoutLosses')){const el=document.querySelector('#blowoutLosses');const scope=document.createElement('p');scope.className='note';scope.textContent=window.BLOWOUT_SCOPE||'35+ point loss records are awaiting a complete ESPN historical export.';el.parentNode.insertBefore(scope,el);}
 table('#blowoutLosses',(window.BLOWOUT_LOSSES||[]),[
  {key:'Rank',label:'Rank'},
  {key:'Manager',label:'Manager'},

@@ -41,7 +41,7 @@ for season in SEASONS:
     league = League(league_id=LEAGUE_ID, year=season, swid=swid, espn_s2=espn_s2)
     settings = getattr(league, "settings", None)
     reg_weeks = int(getattr(settings, "reg_season_count", 14) or 14)
-    final_week = 18 if season == 2021 else 17
+    final_week = min(int(getattr(league, "current_week", 1) or 1) - 1, 18) if season == 2026 else (18 if season == 2021 else 17)
     for week in range(1, final_week + 1):
         try:
             boxes = league.box_scores(week)
@@ -56,12 +56,14 @@ for season in SEASONS:
             if hs == aws:
                 continue
             is_playoff = bool(getattr(box,"is_playoff",False)) or week > reg_weeks
-            # 2021-23 used multi-week playoff matchups. Those aggregates are excluded
-            # from one-week records. 2024+ playoff matchups are one week.
-            if is_playoff and season <= 2023:
+            # The league record counts completed single-week matchups only.
+            # ESPN playoff finals can contain cumulative multi-week scores.
+            # Exclude all playoff box scores to avoid counting cumulative
+            # results or counting the same two-week matchup twice.
+            if is_playoff:
                 continue
             margin = abs(hs-aws)
-            if margin <= THRESHOLD:
+            if margin < THRESHOLD:
                 continue
             loser = home if hs < aws else away
             winner = away if hs < aws else home
@@ -83,3 +85,4 @@ Path("blowout-losses.js").write_text(
     encoding="utf-8"
 )
 print(json.dumps(rows, indent=2))
+print(f"Verified {len(details)} regular-season losses of 35+ points.")

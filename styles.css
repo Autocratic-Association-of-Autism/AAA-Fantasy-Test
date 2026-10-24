@@ -977,3 +977,44 @@ nav a.active{background:#1e293b;color:white}
   font-size:clamp(23px,3.6vw,31px);line-height:1.25;color:#27201b;
 }
 .source-document .source-transcript>p:last-child{border-top:1px solid #b6a899;padding-top:16px;font-size:15px}
+
+
+/* Prominent, fully clickable source-transcript card inside AAA Insider articles. */
+.wire-story-content a.source-transcript-cta{
+  display:flex;align-items:center;gap:16px;position:relative;
+  margin:22px 0 30px;padding:20px 22px;
+  background:#1b263b;color:#fff;border:1px solid #41516b;border-left:6px solid #c52b43;
+  border-radius:9px;text-decoration:none;box-shadow:0 5px 15px rgba(27,38,59,.14);
+  transition:background .16s ease,border-color .16s ease,transform .16s ease,box-shadow .16s ease;
+  font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial;
+}
+.wire-story-content a.source-transcript-cta:hover{
+  background:#273b57;border-color:#7088aa;border-left-color:#f04b65;
+  transform:translateY(-2px);box-shadow:0 9px 21px rgba(27,38,59,.24);
+}
+.wire-story-content a.source-transcript-cta:focus-visible{
+  outline:4px solid #b45309;outline-offset:4px;
+}
+.source-transcript-icon{
+  flex:0 0 auto;width:44px;height:44px;display:grid;place-items:center;
+  border-radius:9px;background:rgba(255,255,255,.11);font-size:29px;color:#f8fafc;
+}
+.source-transcript-cta-copy{display:flex;flex:1 1 auto;flex-direction:column;gap:4px;min-width:0}
+.source-transcript-eyebrow{font-size:10px;font-weight:850;letter-spacing:.14em;color:#fda4af}
+.wire-story-content .source-transcript-cta-copy strong{
+  color:#fff;font-size:clamp(19px,2.6vw,24px);line-height:1.16;font-weight:850;
+}
+.source-transcript-note{font-size:12px;line-height:1.35;color:#cbd5e1}
+.source-transcript-action{
+  flex:0 0 auto;display:flex;align-items:center;gap:8px;border-radius:6px;
+  padding:11px 12px;background:#c22943;color:#fff;font-size:11px;font-weight:900;
+  letter-spacing:.035em;white-space:nowrap;
+}
+.source-transcript-action span{font-size:18px;line-height:1}
+.wire-story-content a.source-transcript-cta:hover .source-transcript-action{background:#e23d58}
+@media(max-width:650px){
+  .wire-story-content a.source-transcript-cta{gap:12px;flex-wrap:wrap;padding:17px}
+  .source-transcript-icon{width:38px;height:38px;font-size:23px}
+  .source-transcript-cta-copy{flex-basis:calc(100% - 54px)}
+  .source-transcript-action{margin-left:50px}
+}

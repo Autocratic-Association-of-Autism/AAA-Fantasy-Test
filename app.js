@@ -110,7 +110,7 @@ if(championshipRoot){
  const t=Number(r.Championships||0),s=Number(r['Runner-up']||0),p=Number(r['Top-3 Finishes']||0),b=Math.max(0,p-t-s);
  // Career honors are lexicographic: titles > runner-up finishes > third places.
  // Subdivisions reward every additional finish without allowing bronze to overtake silver or gold.
- const base=t>=2?{n:6,name:'DYNASTY DADDY'}:t&&s?{n:5,name:'PLAYOFF WARLORD'}:t?{n:4,name:'CERTIFIED BALL KNOWER'}:s?{n:3,name:'WAIVER WIRE WARRIOR'}:p?{n:2,name:'BRONZE BENCHWARMER'}:{n:1,name:'BYE WEEK MERCHANT'};
+ const base=t>=2?{n:6,name:'DYNASTY DADDY'}:t&&s?{n:5,name:'PLAYOFF WARLORD'}:t?{n:4,name:'CERTIFIED BALL KNOWER'}:s?{n:3,name:'WAIVER WIRE WARRIOR'}:p?{n:2,name:'BRONZE BENCHWARMER'}:{n:1,name:'THE PODIUM IS A MYTH TO ME'};
  const stars=t>=2?t-1:base.n===5?s:base.n===4?1:base.n===3?s:base.n===2?b:0;
  return {...base,stars,display:base.name+(stars>0?' '+(stars<=5?'★'.repeat(stars):'★ ×'+stars):'')};
 };

@@ -197,7 +197,7 @@ if(document.getElementById('aaaBracketSeason')){
   const sackoName=sackoRow?.Manager;
   // A Sacko final can only be identified when the confirmed recipient lost that game.
   const sackoFinal=consolation.find(g=>Number(g.Week)===18&&g.Loser===sackoName);
-  const rest=([2021,2022,2023,2024].includes(year))?[]:consolation.filter(g=>g!==sackoFinal);
+  const rest=([2021,2022,2023,2024,2025].includes(year))?[]:consolation.filter(g=>g!==sackoFinal);
   const sackoBoard=year===2021
    ?round('Round 1',[
      { 'Home Manager':'Ryan Mays','Home Score':227.22,'Away Manager':'Casey Hutchins','Away Score':238.24,Loser:'Ryan Mays' },
@@ -224,6 +224,19 @@ if(document.getElementById('aaaBracketSeason')){
     ].map(g=>match(g,true)))+
     round('Sacko final · 2-week aggregate',[
       '<div class="aaa-bracket-game"><div class="aaa-bracket-team"><span>Glen Hutchins</span><b>341.86</b></div><div class="aaa-bracket-team is-winner"><span>Zak Wesolek · SACKO</span><b>316.60</b></div><div class="aaa-bracket-footnote" style="padding:10px 12px">GmC4 (Week 16): Glen 118.64 · Zak 112.80<br>GmC6 (Week 17): Glen 223.22 · Zak 203.80<br>Aggregate margin: 25.26</div></div>'
+    ])
+   :year===2025
+   ?round('Round 1',[
+      {'Home Manager':'Chance Robinson','Home Score':151.04,'Away Manager':'Macon Moore','Away Score':96.80,Loser:'Macon Moore'},
+      {'Home Manager':'Ryan Hutchins','Home Score':114.30,'Away Manager':'Louis Swanson','Away Score':139.60,Loser:'Ryan Hutchins'}
+    ].map(g=>match(g,true)))+
+    round('Round 2',[
+      match({'Home Manager':'Louis Swanson','Home Score':150.06,'Away Manager':'Chance Robinson','Away Score':131.00,Loser:'Chance Robinson'},true),
+      match({'Home Manager':'Ryan Hutchins','Home Score':120.10,'Away Manager':'Macon Moore','Away Score':123.82,Loser:'Ryan Hutchins'},true)
+    ])+
+    round('Round 3',[
+      match({'Home Manager':'Louis Swanson','Home Score':165.92,'Away Manager':'Chance Robinson','Away Score':118.58,Loser:'Chance Robinson'},false),
+      match({'Home Manager':'Ryan Hutchins','Home Score':228.94,'Away Manager':'Macon Moore','Away Score':247.22,Loser:'Ryan Hutchins'},true)
     ])
    :year===2022
    ?round('Round 1',[

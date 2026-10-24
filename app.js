@@ -174,10 +174,10 @@ if(document.getElementById('aaaBracketSeason')){
   const rest=consolation.filter(g=>g!==sackoFinal);
   const sackoBoard=year===2021
    ?round('Round 1',[
-     { 'Home Manager':'Ryan Hutchins','Home Score':227.22,'Away Manager':'Casey Hutchins','Away Score':238.24,Loser:'Ryan Hutchins' },
-     { 'Home Manager':'Larry Terrell','Home Score':224.28,'Away Manager':'Frankie Yentz','Away Score':195.64,Loser:'Frankie Yentz' }
+     { 'Home Manager':'Ryan Mays','Home Score':227.22,'Away Manager':'Casey Hutchins','Away Score':238.24,Loser:'Ryan Mays' },
+     { 'Home Manager':'Larry Terrell','Home Score':224.28,'Away Manager':'Ryan Hutchins','Away Score':195.64,Loser:'Ryan Hutchins' }
     ].map(g=>match(g,true)))+
-    round('Sacko final',[match({'Home Manager':'Ryan Hutchins','Home Score':250.86,'Away Manager':'Frankie Yentz','Away Score':222.44,Loser:'Frankie Yentz'},true)])
+    round('Sacko final',[match({'Home Manager':'Ryan Mays','Home Score':250.86,'Away Manager':'Ryan Hutchins','Away Score':222.44,Loser:'Ryan Hutchins'},true)])
    :round('Round 1',early.length?early.map(g=>match(g,true)):[missing('Opening matchups not archived')])+round('Next round',[missing('Advancement not fully archived')])+round('Sacko final',[sackoFinal?match(sackoFinal,true):missing('Final matchup not verified')]);
   document.getElementById('aaaSackoBracket').innerHTML='<div class="aaa-bracket-board">'+sackoBoard+'</div><p class="aaa-bracket-footnote">Highlighted teams lose and continue toward the Sacko. Other teams exit Sacko contention. Matchups without a verified advancement path are not connected.</p><div class="aaa-sacko-compact"><div class="aaa-bracket-stage-label">Confirmed Sacko recipient</div><strong>'+esc(sackoName||'Not recorded')+'</strong></div>'+(rest.length?'<details class="aaa-bracket-details"><summary>Other archived consolation matchups ('+rest.length+')</summary><div class="aaa-bracket-archive">'+rest.map(g=>match(g,true)).join('')+'</div></details>':'');
  };

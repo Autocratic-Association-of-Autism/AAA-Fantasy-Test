@@ -843,10 +843,10 @@ nav a.active{background:#1e293b;color:white}
 }
 
 
-/* AAA Insider rolling newsroom: chronological mixed feed and individual Wire stories. */
+/* AAA Insider Bureau of Unnecessary Investigations: chronological news feed. */
 .wire-feed-section{margin:30px 0 42px;border:1px solid #334155;border-radius:14px;background:#111827;overflow:hidden}
 .wire-feed-header{padding:26px 28px 22px;border-bottom:1px solid #334155;display:flex;align-items:flex-end;justify-content:space-between;gap:20px}
-.wire-feed-header h2{font-family:Georgia,'Times New Roman',serif;font-size:clamp(37px,5vw,53px);margin:4px 0 6px;letter-spacing:-.035em;color:#f8fafc}
+.wire-feed-header h2{font-family:Georgia,'Times New Roman',serif;font-size:clamp(29px,4.1vw,43px);line-height:1.07;margin:5px 0 11px;letter-spacing:-.035em;color:#f8fafc;max-width:780px}
 .wire-feed-header p{color:#94a3b8;line-height:1.5;margin:0;font-size:14px}
 .wire-feed-label{font-size:10px;color:#94a3b8;letter-spacing:.17em;font-weight:800;white-space:nowrap}
 .wire-feed-list{display:flex;flex-direction:column}

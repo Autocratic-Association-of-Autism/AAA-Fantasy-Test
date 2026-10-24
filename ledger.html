@@ -12,7 +12,7 @@ layout: null
 <body class="insider-page">
 <nav><div class="container nav-inner">
 <a class="league-brand" href="{{ '/index.html' | relative_url }}">Autocratic Association of Autism</a>
-<div class="nav-links"><a href="{{ '/index.html' | relative_url }}">History</a><a class="active" href="{{ '/ledger.html' | relative_url }}">AAA Insider</a><a href="#feed">The Petty Files</a><a href="#archive">Long Reads</a><a href="{{ '/insiders.html' | relative_url }}">Insiders</a><a class="tip-nav" href="{{ '/submit-tip.html' | relative_url }}">Submit a Tip</a></div>
+<div class="nav-links"><a href="{{ '/index.html' | relative_url }}">History</a><a class="active" href="{{ '/ledger.html' | relative_url }}">AAA Insider</a><a href="#feed">The Bureau</a><a href="#archive">Long Reads</a><a href="{{ '/insiders.html' | relative_url }}">Insiders</a><a class="tip-nav" href="{{ '/submit-tip.html' | relative_url }}">Submit a Tip</a></div>
 </div></nav>
 <main class="container ledger-shell">
   <header class="insider-masthead">
@@ -30,7 +30,7 @@ layout: null
   <section class="ledger-latest" id="latest">
     <div class="issue-card featured insider-feature">
       <div class="insider-tag">Latest report</div>
-      <div class="issue-meta"><span>{% if latest.format == "wire" %}The Petty Files · {{ latest.category | default: "News" }}{% elsif latest.article_type %}{{ latest.article_type }}{% else %}Issue No. {{ latest.issue_number }}{% endif %}</span><span>{{ latest.date | date: "%b %-d, %Y" }}</span></div>
+      <div class="issue-meta"><span>{% if latest.format == "wire" %}The Bureau · {{ latest.category | default: "News" }}{% elsif latest.article_type %}{{ latest.article_type }}{% else %}Issue No. {{ latest.issue_number }}{% endif %}</span><span>{{ latest.date | date: "%b %-d, %Y" }}</span></div>
       <h2>{{ latest.title }}</h2>
       <p>{{ latest.summary }}</p>
       <a class="button" href="{{ latest.url | relative_url }}">Read the story →</a>
@@ -40,7 +40,7 @@ layout: null
 
   <section id="feed" class="wire-feed-section">
     <header class="wire-feed-header">
-      <div><div class="insider-kicker">Petty grievances. Permanent records.</div><h2>The Petty Files</h2><p>Every embarrassment deserves an official record. Browse the latest alleged offenses.</p></div>
+      <div><div class="insider-kicker">AAA Insider Investigative Division</div><h2>The Bureau of Unnecessary Investigations</h2><p>No scandal too small. No resources too excessive.</p></div>
       <span class="wire-feed-label">LATEST → ARCHIVE</span>
     </header>
     <div class="wire-feed-list">
@@ -48,7 +48,7 @@ layout: null
       <a class="wire-feed-card" href="{{ story.url | relative_url }}">
         <div class="wire-feed-date"><strong>{{ story.date | date: "%b %-d" }}</strong><span>{{ story.date | date: "%Y" }}</span></div>
         <div class="wire-feed-copy">
-          <div class="wire-feed-meta">{% if story.format == "wire" %}<span class="wire-feed-pill">Case File</span><span>{{ story.category | default: "News" }}</span>{% elsif story.article_type %}<span>Long read</span><span>{{ story.article_type }}</span>{% else %}<span>Long read</span><span>League archive</span>{% endif %}</div>
+          <div class="wire-feed-meta">{% if story.format == "wire" %}<span class="wire-feed-pill">Bureau File</span><span>{{ story.category | default: "News" }}</span>{% elsif story.article_type %}<span>Long read</span><span>{{ story.article_type }}</span>{% else %}<span>Long read</span><span>League archive</span>{% endif %}</div>
           <h3>{{ story.title }}</h3><p>{{ story.summary | default: story.deck | strip_html | truncate: 195 }}</p>
         </div>
         <span class="wire-feed-arrow" aria-hidden="true">↗</span>

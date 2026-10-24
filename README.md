@@ -3,7 +3,7 @@
 This GitHub Pages site holds the rolling AAA Insider newsroom and the evolving historical archive. It can evolve into whatever you want, pending approval by the mod bros Ryan and Ryan.
 
 ## Current site status
-- **AAA Insider:** live, publishing individual Petty Files reports and long-form features whenever stories warrant it.
+- **AAA Insider:** live, publishing individual Bureau reports and long-form features whenever stories warrant it.
 - **Historical archive:** early access. Baseline career stats, weekly records, game records and season history are live now; manager profiles, rivalries, custom awards, deeper storylines and other league-specific personalization will be added over time.
 
 ## Career-record eligibility
@@ -34,4 +34,4 @@ Future/unplayed matchups with 0 scores must never be imported as completed games
 
 ## Rolling newsroom
 
-AAA Insider publishes The Petty Files from `_wire/*.md` for short, standalone articles, and preserves long-form features under `_ledger/*.md`. Both appear in one newest-first feed at `ledger.html`; every story has a permanent, shareable URL. See `editor-guides/WIRE_EDITOR_GUIDE.md` for the copy/paste template and test-first workflow.
+AAA Insider publishes the Bureau of Unnecessary Investigations from `_wire/*.md` for short, standalone articles, and preserves long-form features under `_ledger/*.md`. Both appear in one newest-first feed at `ledger.html`; every story has a permanent, shareable URL. See `editor-guides/WIRE_EDITOR_GUIDE.md` for the copy/paste template and test-first workflow.

@@ -1,6 +1,6 @@
-# AAA Insider — The Petty Files: quick publishing
+# AAA Insider — The Bureau of Unnecessary Investigations: quick publishing
 
-The Petty Files is AAA Insider's default format. Each short story is an independent Markdown file with its own shareable URL, automatically included in the unified newest-first feed at `ledger.html`.
+The Bureau of Unnecessary Investigations is AAA Insider's default format. Each short story is an independent Markdown file with its own shareable URL, automatically included in the unified newest-first feed at `ledger.html`.
 
 ## Publish in 2 minutes
 

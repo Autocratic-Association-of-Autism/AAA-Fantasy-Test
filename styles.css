@@ -1055,3 +1055,20 @@ nav a.active{background:#1e293b;color:white}
 .bracket-placement{display:flex;flex-wrap:wrap;gap:12px;padding:12px 0}
 .bracket-placement .bracket-match{min-width:210px;flex:1}
 .bracket-caution{font-size:13px;opacity:.8}
+
+/* Compact playoff bracket layout */
+.aaa-bracket-board{display:flex;align-items:center;justify-content:center;gap:44px;padding:26px 18px;border:1px solid #34465c;border-radius:12px;background:#111c2b;overflow-x:auto}
+.aaa-bracket-stage{display:flex;flex-direction:column;gap:18px;min-width:245px;max-width:350px;flex:1}
+.aaa-bracket-stage-label{text-transform:uppercase;letter-spacing:.11em;font-size:12px;font-weight:700;opacity:.7;margin-bottom:4px}
+.aaa-bracket-game{border:1px solid #485a71;border-radius:9px;overflow:hidden;background:#1b2b3f}
+.aaa-bracket-team{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:13px 15px;font-size:14px}
+.aaa-bracket-team+.aaa-bracket-team{border-top:1px solid #38485e}
+.aaa-bracket-team.is-winner{background:#234636;font-weight:700}
+.aaa-bracket-team b{font-variant-numeric:tabular-nums;white-space:nowrap}
+.aaa-bracket-missing{border:1px dashed #52647b;border-radius:9px;padding:25px 14px;font-size:13px;opacity:.7}
+.aaa-bracket-footnote{font-size:12px;opacity:.65;margin-top:10px}
+.aaa-sacko-compact{padding:19px 22px;border:1px solid #34465c;border-radius:10px;background:#111c2b}
+.aaa-sacko-compact strong{display:block;font-size:20px;margin-top:6px}
+.aaa-bracket-details{margin-top:12px}
+.aaa-bracket-archive{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;padding:15px 0}
+@media(max-width:650px){.aaa-bracket-board{flex-direction:column;align-items:stretch;gap:25px;padding:16px}.aaa-bracket-stage{min-width:0;max-width:none}}

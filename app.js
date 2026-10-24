@@ -163,7 +163,21 @@ if(document.getElementById('aaaBracketSeason')){
   const semis=title.filter(g=>Number(g.Week)<18),final=title.find(g=>Number(g.Week)===18);
   const placements=all.filter(g=>g['Matchup Type']==='WINNERS_CONSOLATION_LADDER');
   const third=semis.length===2?placements.find(g=>Number(g.Week)===18&&[g['Home Manager'],g['Away Manager']].every(n=>semis.some(s=>s.Loser===n))):null;
-  const championship=(year===2021||year===2022)?round('Round 1',semis.map(g=>match(g)))+round('Championship',[final?match(final):missing('Final not archived')]):round('Round 1',[missing('Opening matchups not archived')])+round('Semifinals',semis.length?semis.map(g=>match(g)):[missing('Semifinal results not archived')])+round('Championship',[final?match(final):missing('Final not archived')]);
+  const championship=(year===2021||year===2022)
+   ?round('Round 1',semis.map(g=>match(g)))+round('Championship',[final?match(final):missing('Final not archived')])
+   :year===2023
+   ?round('Round 1',[
+     '<div class="aaa-bracket-game"><div class="aaa-bracket-team is-winner"><span>#1 Larry Terrell</span><b>BYE</b></div></div>',
+     match({'Home Manager':'Louis Swanson','Home Score':131.72,'Away Manager':'Macon Moore','Away Score':68.46,Winner:'Louis Swanson'}),
+     match({'Home Manager':'Casey Hutchins','Home Score':139.38,'Away Manager':'Frankie Yentz','Away Score':120.36,Winner:'Casey Hutchins'}),
+     '<div class="aaa-bracket-game"><div class="aaa-bracket-team is-winner"><span>#2 Chance Robinson</span><b>BYE</b></div></div>'
+    ])+
+    round('Semifinals',[
+     match({'Home Manager':'Louis Swanson','Home Score':97.98,'Away Manager':'Larry Terrell','Away Score':152.54,Winner:'Larry Terrell'}),
+     match({'Home Manager':'Casey Hutchins','Home Score':151.68,'Away Manager':'Chance Robinson','Away Score':143.62,Winner:'Casey Hutchins'})
+    ])+
+    round('Championship',[match({'Home Manager':'Casey Hutchins','Home Score':107.30,'Away Manager':'Larry Terrell','Away Score':145.38,Winner:'Larry Terrell'})])
+   :round('Round 1',[missing('Opening matchups not archived')])+round('Semifinals',semis.length?semis.map(g=>match(g)):[missing('Semifinal results not archived')])+round('Championship',[final?match(final):missing('Final not archived')]);
   document.getElementById('aaaChampBracket').innerHTML='<div class="aaa-bracket-board">'+championship+'</div><div class="aaa-third-place"><div><strong>Third-place game</strong><p>Semifinal losers compete separately.</p></div>'+(third?match(third):missing('Third-place matchup not verified'))+'</div>';
   const consolation=all.filter(g=>g['Matchup Type']==='LOSERS_CONSOLATION_LADDER');
   const early=consolation.filter(g=>Number(g.Week)<18);

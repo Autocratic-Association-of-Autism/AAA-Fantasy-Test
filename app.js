@@ -128,8 +128,15 @@ if(championshipRoot){
 if(document.querySelector('#sackoHistory')){
  const complete=D.seasons.filter(r=>Number(r.Season)<2026&&Number.isFinite(Number(r['Final Finish'])));
  const years=[...new Set(complete.map(r=>r.Season))].sort((a,b)=>b-a);
- const rows=years.map(year=>{const season=complete.filter(r=>r.Season===year);const last=Math.max(...season.map(r=>Number(r['Final Finish'])));const candidate=season.find(r=>Number(r['Final Finish'])===last);return {Season:year,Manager:candidate?.Manager||'Not verified',Team:candidate?.Team||'—',Finish:last,Status:([2021,2022,2023,2024,2025].includes(Number(year))&&candidate)?'Verified Sacko':'Sacko not verified'};});
- table('#sackoHistory',rows,[{key:'Season',label:'Season'},{key:'Manager',label:'Sacko recipient'},{key:'Team',label:'Team'},{key:'Finish',label:'Finish'},{key:'Status',label:'Sacko status'}]);
+ const punishments={
+ 2021:'Sexy calendar',
+ 2022:'Sexual Wine & Design (Damar Hamlin controversy)',
+ 2023:'Wear a league-selected dress out for 18 rounds',
+ 2024:'Beer bitch in a custom league-made T-shirt',
+ 2025:'Stand-up comedy at an open mic night'
+ };
+ const rows=years.map(year=>{const season=complete.filter(r=>Number(r.Season)===Number(year));const last=Math.max(...season.map(r=>Number(r['Final Finish'])));const candidate=season.find(r=>Number(r['Final Finish'])===last);return {Season:String(year)+'–'+String(Number(year)+1).slice(-2),Manager:candidate?.Manager||'Not verified',Team:candidate?.Team||'—',Finish:last,Punishment:punishments[year]||'Not recorded',Status:(punishments[year]&&candidate)?'Verified Sacko':'Sacko not verified'};});
+ table('#sackoHistory',rows,[{key:'Season',label:'Season'},{key:'Manager',label:'Sacko recipient'},{key:'Team',label:'Team'},{key:'Finish',label:'Finish'},{key:'Punishment',label:'Punishment'},{key:'Status',label:'Sacko status'}]);
  const all=(D.multiWeekPlayoffs||[]).map(normalizeGame);
  const sacko=all.filter(r=>/LOSERS|CONSOLATION|SACKO/i.test(String(r['Matchup Type']||'')));
  const championship=all.filter(r=>/WINNERS|CHAMPIONSHIP/i.test(String(r['Matchup Type']||'')));

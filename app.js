@@ -95,3 +95,16 @@ table('#seasonsTable',D.seasons,[
 ]);
 
 const managerSearch=document.getElementById('managerSearch'); if(managerSearch) managerSearch.addEventListener('input', e=>renderCareer(e.target.value));
+
+const championshipRoot=document.querySelector('#championshipHistory');
+if(championshipRoot){
+ const completed=D.seasons.filter(r=>Number.isFinite(Number(r['Final Finish'])) && Number(r.Season)<2026);
+ const rows=[...new Set(completed.map(r=>r.Season))].sort((a,b)=>b-a).map(year=>{
+  const season=completed.filter(r=>r.Season===year);
+  const winner=season.find(r=>Number(r['Final Finish'])===1);
+  const runner=season.find(r=>Number(r['Final Finish'])===2);
+  return {Season:year,Champion:winner?.Manager||'Not verified','Champion Team':winner?.Team||'—','Runner-up':runner?.Manager||'Not verified','Runner-up Team':runner?.Team||'—'};
+ });
+ table('#championshipHistory',rows,[{key:'Season',label:'Season'},{key:'Champion',label:'Champion'},{key:'Champion Team',label:'Championship Team'},{key:'Runner-up',label:'Runner-up'},{key:'Runner-up Team',label:'Runner-up Team'}]);
+ table('#postseasonHonors',[...D.career].filter(r=>r.Championships||r['Runner-up']||r['Top-3 Finishes']).sort((a,b)=>b.Championships-a.Championships||b['Runner-up']-a['Runner-up']),[{key:'Manager',label:'Manager'},{key:'Championships',label:'Titles'},{key:'Runner-up',label:'Runner-up Finishes'},{key:'Top-3 Finishes',label:'Top 3 Finishes'}]);
+}

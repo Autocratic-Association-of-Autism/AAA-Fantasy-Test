@@ -7,7 +7,7 @@ layout: null
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Autocratic Association of Autism | League History</title>
-<link rel="stylesheet" href="{{ '/styles.css' | relative_url }}?v=rolling-wire-20261023">
+<link rel="stylesheet" href="{{ '/styles.css' | relative_url }}?v=category-palette-20261023">
 </head>
 <body>
 <nav><div class="container nav-inner">
@@ -55,7 +55,7 @@ layout: null
     <a class="home-story-card home-story-lead" href="{{ lead_issue.url | relative_url }}">
       <div class="insider-tag">Latest report</div>
       <div class="issue-meta">
-        <span>{% if lead_issue.format == "wire" %}{{ lead_issue.category | default: 'League News' }}{% elsif lead_issue.article_type %}{{ lead_issue.article_type }}{% else %}Issue No. {{ lead_issue.issue_number }}{% endif %}</span>
+        {% if lead_issue.format == "wire" %}<span class="story-category story-category--{{ lead_issue.category | default: 'League News' | slugify }}">{{ lead_issue.category | default: "League News" }}</span>{% else %}<span class="story-category story-category--long-read">{{ lead_issue.article_type | default: "Long Read" }}</span>{% endif %}
         <span>{{ lead_issue.date | date: "%b %-d" }}</span>
       </div>
       <h3>{{ lead_issue.title }}</h3>
@@ -67,7 +67,7 @@ layout: null
     {% if second_issue %}
     <a class="home-story-card" href="{{ second_issue.url | relative_url }}">
       <div class="issue-meta">
-        <span>{% if second_issue.format == "wire" %}{{ second_issue.category | default: 'League News' }}{% elsif second_issue.article_type %}{{ second_issue.article_type }}{% else %}Issue No. {{ second_issue.issue_number }}{% endif %}</span>
+        {% if second_issue.format == "wire" %}<span class="story-category story-category--{{ second_issue.category | default: 'League News' | slugify }}">{{ second_issue.category | default: "League News" }}</span>{% else %}<span class="story-category story-category--long-read">{{ second_issue.article_type | default: "Long Read" }}</span>{% endif %}
         <span>{{ second_issue.date | date: "%b %-d" }}</span>
       </div>
       <h3>{{ second_issue.title }}</h3>

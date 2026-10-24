@@ -891,3 +891,76 @@ nav a.active{background:#1e293b;color:white}
   .wire-feed-arrow{grid-column:2;grid-row:1}
   .wire-feature-archive .archive-grid{grid-template-columns:1fr}
 }
+
+
+/* AAA Insider: color-coded editorial category badges.
+   Category class is derived from Jekyll front matter with Liquid slugify.
+   Each category has a high-contrast dark-site palette and a paper-article palette. */
+.story-category{
+  display:inline-flex;align-items:center;justify-content:center;max-width:100%;
+  padding:4px 9px;border:1px solid var(--cat-stroke,#536276);border-radius:5px;
+  background:var(--cat-bg,#29364a);color:var(--cat-fg,#e2e8f0);
+  font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial;
+  font-size:10px;font-weight:850;line-height:1.3;letter-spacing:.075em;text-transform:uppercase;
+  text-align:center;white-space:normal;
+  --paper-bg:#e4e7ec;--paper-fg:#344054;--paper-stroke:#bfc6d1;
+}
+.story-category--league-politics{
+  --cat-bg:#37244e;--cat-fg:#e9ceff;--cat-stroke:#77569b;
+  --paper-bg:#eee0fa;--paper-fg:#6b258d;--paper-stroke:#c7a0dd;
+}
+.story-category--league-governance{
+  --cat-bg:#493512;--cat-fg:#ffe29a;--cat-stroke:#8b6b2e;
+  --paper-bg:#f9e9bd;--paper-fg:#765010;--paper-stroke:#d0ad58;
+}
+.story-category--trades{
+  --cat-bg:#103e49;--cat-fg:#a5f2f5;--cat-stroke:#287788;
+  --paper-bg:#d5f4f3;--paper-fg:#146672;--paper-stroke:#83bfc3;
+}
+.story-category--league-news{
+  --cat-bg:#19385c;--cat-fg:#c5dfff;--cat-stroke:#396f9f;
+  --paper-bg:#dfebfa;--paper-fg:#214f83;--paper-stroke:#91b2d9;
+}
+.story-category--newsroom{
+  --cat-bg:#333d4d;--cat-fg:#e0e6ef;--cat-stroke:#58677b;
+  --paper-bg:#e3e6ea;--paper-fg:#49576c;--paper-stroke:#bac3ce;
+}
+.story-category--developing{
+  --cat-bg:#4b2b18;--cat-fg:#ffcca8;--cat-stroke:#9d5930;
+  --paper-bg:#f9e2d1;--paper-fg:#994616;--paper-stroke:#d9a17b;
+}
+.story-category--breaking-news{
+  --cat-bg:#5a1e2b;--cat-fg:#ffcad2;--cat-stroke:#af4156;
+  --paper-bg:#f9dade;--paper-fg:#9d263a;--paper-stroke:#d78f9d;
+}
+.story-category--waivers{
+  --cat-bg:#16483e;--cat-fg:#b2f8e1;--cat-stroke:#2e806e;
+  --paper-bg:#d9f4e7;--paper-fg:#176e4d;--paper-stroke:#83c6a7;
+}
+.story-category--matchups{
+  --cat-bg:#25451d;--cat-fg:#c8efae;--cat-stroke:#5c8650;
+  --paper-bg:#e3f2d7;--paper-fg:#416c24;--paper-stroke:#a5c48a;
+}
+.story-category--investigations{
+  --cat-bg:#523422;--cat-fg:#ffd0b1;--cat-stroke:#9a6946;
+  --paper-bg:#f6e2d4;--paper-fg:#945021;--paper-stroke:#d3a684;
+}
+.story-category--long-read{
+  --cat-bg:#4d273f;--cat-fg:#ffd5ef;--cat-stroke:#935775;
+  --paper-bg:#f4e1ee;--paper-fg:#863c65;--paper-stroke:#d0a4bc;
+}
+.wire-feed-meta .story-category{font-size:10px;letter-spacing:.08em}
+.issue-meta .story-category{font-size:10px}
+.wire-feed-meta time,.wire-feed-meta-sep{color:#9ba7ba;font-weight:650;letter-spacing:.06em}
+.wire-story-eyebrow{display:flex;flex-wrap:wrap;align-items:center;gap:6px;line-height:1.5}
+.wire-story-eyebrow .wire-story-source{color:#a51e2a;margin:0}
+.wire-story-eyebrow .wire-story-slash{color:#a8a29e;margin:0 4px}
+.wire-story-eyebrow .wire-story-date{color:#78716c;margin:0 0 0 2px}
+.ledger-article .story-category{
+  background:var(--paper-bg);color:var(--paper-fg);border-color:var(--paper-stroke);
+}
+.wire-story-eyebrow .story-category{color:var(--paper-fg);margin:0}
+@media(max-width:430px){
+ .story-category{font-size:9px;padding:4px 7px}
+ .wire-feed-meta{gap:6px}
+}

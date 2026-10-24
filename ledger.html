@@ -7,7 +7,7 @@ layout: null
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>AAA Insider | Autocratic Association of Autism</title>
-<link rel="stylesheet" href="{{ '/styles.css' | relative_url }}?v=rolling-wire-20261023">
+<link rel="stylesheet" href="{{ '/styles.css' | relative_url }}?v=category-palette-20261023">
 </head>
 <body class="insider-page">
 <nav><div class="container nav-inner">
@@ -30,7 +30,7 @@ layout: null
   <section class="ledger-latest" id="latest">
     <div class="issue-card featured insider-feature">
       <div class="insider-tag">Latest report</div>
-      <div class="issue-meta"><span>{% if latest.format == "wire" %}{{ latest.category | default: "League News" }}{% elsif latest.article_type %}{{ latest.article_type }}{% else %}Issue No. {{ latest.issue_number }}{% endif %}</span><span>{{ latest.date | date: "%b %-d, %Y" }}</span></div>
+      <div class="issue-meta">{% if latest.format == "wire" %}<span class="story-category story-category--{{ latest.category | default: 'League News' | slugify }}">{{ latest.category | default: "League News" }}</span>{% else %}<span class="story-category story-category--long-read">{{ latest.article_type | default: "Long Read" }}</span>{% endif %}<span>{{ latest.date | date: "%b %-d, %Y" }}</span></div>
       <h2>{{ latest.title }}</h2>
       <p>{{ latest.summary }}</p>
       <a class="button" href="{{ latest.url | relative_url }}">Read the story →</a>
@@ -47,7 +47,7 @@ layout: null
       {% for story in stories offset:1 %}
       <a class="wire-feed-card" href="{{ story.url | relative_url }}">
         <div class="wire-feed-copy">
-          <div class="wire-feed-meta">{% if story.format == "wire" %}<span>{{ story.category | default: "League News" }}</span>{% elsif story.article_type %}<span>{{ story.article_type }}</span>{% else %}<span>League News</span>{% endif %}<span class="wire-feed-meta-sep" aria-hidden="true">·</span><time datetime="{{ story.date | date: '%Y-%m-%d' }}">{{ story.date | date: "%b %-d" }}</time></div>
+          <div class="wire-feed-meta">{% if story.format == "wire" %}<span class="story-category story-category--{{ story.category | default: 'League News' | slugify }}">{{ story.category | default: "League News" }}</span>{% else %}<span class="story-category story-category--long-read">{{ story.article_type | default: "Long Read" }}</span>{% endif %}<span class="wire-feed-meta-sep" aria-hidden="true">·</span><time datetime="{{ story.date | date: '%Y-%m-%d' }}">{{ story.date | date: "%b %-d" }}</time></div>
           <h3>{{ story.title }}</h3><p>{{ story.summary | default: story.deck | strip_html | truncate: 195 }}</p>
         </div>
         <span class="wire-feed-arrow" aria-hidden="true">↗</span>
@@ -68,7 +68,7 @@ layout: null
     <div class="archive-grid">
       {% for issue in issues %}
       <a class="archive-card" href="{{ issue.url | relative_url }}">
-        <div class="issue-meta">{% if issue.article_type %}<span>{{ issue.article_type }}</span>{% else %}<span>Issue No. {{ issue.issue_number }}</span><span>Week {{ issue.week }}</span>{% endif %}</div>
+        <div class="issue-meta">{% if issue.article_type %}<span class="story-category story-category--long-read">{{ issue.article_type }}</span>{% else %}<span class="story-category story-category--long-read">Long Read</span><span>Issue No. {{ issue.issue_number }}</span><span>Week {{ issue.week }}</span>{% endif %}</div>
         <h3>{{ issue.title }}</h3><p>{{ issue.summary }}</p>
       </a>
       {% endfor %}

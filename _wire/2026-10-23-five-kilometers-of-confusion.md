@@ -18,7 +18,7 @@ Chance Robinson assured the group that a 5K was **“like 3.6 miles.”** Anothe
 
 For the record, five kilometers is approximately **3.1 miles**. The newsroom has submitted this finding for peer review, which is an unnecessarily dangerous thing to do around these particular peers.
 
-The real Chris Turner's current GroupMe namesake, **Louis**, announced ambitions of finishing in under 20 minutes. Others expressed interest in the more traditional spectator disciplines of drinking and heckling. Ryan Hutchins proposed using **Chance's fundraiser money to buy a furry costume** for the loser, which is either campaign-finance innovation or the beginning of a very troubling ethics inquiry.
+A manager posting as **“The real Chris turner”** announced ambitions of finishing in under 20 minutes. Others expressed interest in the more traditional spectator disciplines of drinking and heckling. Ryan Hutchins proposed using **Chance's fundraiser money to buy a furry costume** for the loser, which is either campaign-finance innovation or the beginning of a very troubling ethics inquiry.
 
 No final route, costume, or date is established by the conversation. At present, the most complete part of the punishment is the plan to have somebody else pay for alcohol.
 

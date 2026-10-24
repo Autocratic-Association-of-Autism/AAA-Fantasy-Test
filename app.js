@@ -185,13 +185,26 @@ if(document.getElementById('aaaBracketSeason')){
   const sackoName=sackoRow?.Manager;
   // A Sacko final can only be identified when the confirmed recipient lost that game.
   const sackoFinal=consolation.find(g=>Number(g.Week)===18&&g.Loser===sackoName);
-  const rest=(year===2021||year===2022)?[]:consolation.filter(g=>g!==sackoFinal);
+  const rest=(year===2021||year===2022||year===2023)?[]:consolation.filter(g=>g!==sackoFinal);
   const sackoBoard=year===2021
    ?round('Round 1',[
      { 'Home Manager':'Ryan Mays','Home Score':227.22,'Away Manager':'Casey Hutchins','Away Score':238.24,Loser:'Ryan Mays' },
      { 'Home Manager':'Larry Terrell','Home Score':224.28,'Away Manager':'Ryan Hutchins','Away Score':195.64,Loser:'Ryan Hutchins' }
     ].map(g=>match(g,true)))+
     round('Sacko final',[match({'Home Manager':'Ryan Mays','Home Score':250.86,'Away Manager':'Ryan Hutchins','Away Score':222.44,Loser:'Ryan Hutchins'},true)])
+   :year===2023
+   ?round('Round 1',[
+      {'Home Manager':'Macon Moore','Home Score':133.18,'Away Manager':'Glen Hutchins','Away Score':89.00,Loser:'Glen Hutchins'},
+      {'Home Manager':'Zak Wesolek','Home Score':130.36,'Away Manager':'Ryan Mays','Away Score':68.44,Loser:'Ryan Mays'}
+    ].map(g=>match(g,true)))+
+    round('Round 2',[
+      match({'Home Manager':'Zak Wesolek','Home Score':83.96,'Away Manager':'Macon Moore','Away Score':91.20,Loser:'Zak Wesolek'},true),
+      match({'Home Manager':'Ryan Mays','Home Score':133.88,'Away Manager':'Glen Hutchins','Away Score':110.82,Loser:'Glen Hutchins'},true)
+    ])+
+    round('Round 3',[
+      match({'Home Manager':'Ryan Mays','Home Score':140.82,'Away Manager':'Macon Moore','Away Score':111.60,Loser:'Macon Moore'},false),
+      match({'Home Manager':'Zak Wesolek','Home Score':146.74,'Away Manager':'Glen Hutchins','Away Score':106.38,Loser:'Glen Hutchins'},true)
+    ])
    :year===2022
    ?round('Round 1',[
      {'Home Manager':'Ryan Hutchins','Home Score':255.68,'Away Manager':'Glen Hutchins','Away Score':224.34,Loser:'Glen Hutchins'},

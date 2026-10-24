@@ -15,11 +15,11 @@ function table(el, rows, cols){
     '</tbody></table>';
 }
 
-document.getElementById('games').textContent=D.meta.games;
-document.getElementById('scores').textContent=D.meta.weeklyScores;
+const gameCount=document.getElementById('games'); if(gameCount && gameCount.tagName!=='SECTION') gameCount.textContent=D.meta.games;
+const scoreCount=document.getElementById('scores'); if(scoreCount) scoreCount.textContent=D.meta.weeklyScores;
 const mwc=document.getElementById('multiWeekCount'); if(mwc) mwc.textContent=D.meta.multiWeekMatchups;
-document.getElementById('managers').textContent=D.career.length;
-document.getElementById('years').textContent=D.meta.years;
+const managerCount=document.getElementById('managers'); if(managerCount) managerCount.textContent=D.career.length;
+const yearsCount=document.getElementById('years'); if(yearsCount) yearsCount.textContent=D.meta.years;
 const ct=document.getElementById('currentThrough'); if(ct) ct.textContent=D.meta.currentThrough||D.meta.years;
 
 const careerCols=[
@@ -94,4 +94,4 @@ table('#seasonsTable',D.seasons,[
  {key:'Final Finish',label:'Finish'},{key:'Acquisitions',label:'Adds'},{key:'Trades',label:'Trades'}
 ]);
 
-document.getElementById('managerSearch').addEventListener('input', e=>renderCareer(e.target.value));
+const managerSearch=document.getElementById('managerSearch'); if(managerSearch) managerSearch.addEventListener('input', e=>renderCareer(e.target.value));

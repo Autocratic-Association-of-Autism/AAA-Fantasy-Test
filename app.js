@@ -230,13 +230,8 @@ if(document.getElementById('aaaBracketSeason')){
       {'Home Manager':'Chance Robinson','Home Score':151.04,'Away Manager':'Macon Moore','Away Score':96.80,Loser:'Macon Moore'},
       {'Home Manager':'Ryan Hutchins','Home Score':114.30,'Away Manager':'Louis Swanson','Away Score':139.60,Loser:'Ryan Hutchins'}
     ].map(g=>match(g,true)))+
-    round('Round 2',[
-      match({'Home Manager':'Louis Swanson','Home Score':150.06,'Away Manager':'Chance Robinson','Away Score':131.00,Loser:'Chance Robinson'},true),
-      match({'Home Manager':'Ryan Hutchins','Home Score':120.10,'Away Manager':'Macon Moore','Away Score':123.82,Loser:'Ryan Hutchins'},true)
-    ])+
-    round('Round 3',[
-      match({'Home Manager':'Louis Swanson','Home Score':165.92,'Away Manager':'Chance Robinson','Away Score':118.58,Loser:'Chance Robinson'},false),
-      match({'Home Manager':'Ryan Hutchins','Home Score':228.94,'Away Manager':'Macon Moore','Away Score':247.22,Loser:'Ryan Hutchins'},true)
+    round('Sacko final · 2-week aggregate',[
+      '<div class="aaa-bracket-game"><div class="aaa-bracket-team"><span>Macon Moore</span><b>371.04</b></div><div class="aaa-bracket-team is-winner"><span>Ryan Hutchins · SACKO</span><b>349.04</b></div><div class="aaa-bracket-footnote" style="padding:10px 12px">GmC4 (Week 16): Macon 123.82 · Ryan 120.10<br>GmC6 (Week 17): Macon 247.22 · Ryan 228.94<br>Aggregate margin: 22.00</div></div>'
     ])
    :year===2022
    ?round('Round 1',[

@@ -8,7 +8,7 @@ summary: "A new investigative division opens its files on questionable trades, c
 draft: false
 ---
 
-AAA Insider has formally established **the Bureau of Unnecessary Investigations**, a permanent investigative record of decisions that probably did not require an investigation until somebody decided they were worth defending.
+AAA Insider has expanded its coverage of the league's worst decisions, especially the ones that probably did not require an investigation until somebody decided they were worth defending.
 
 Early persons of interest include candidates promising prizes of friendship, managers treating their rosters like revolving doors, and a punishment committee whose understanding of the metric system has raised concerns at the highest levels of the newsroom.
 

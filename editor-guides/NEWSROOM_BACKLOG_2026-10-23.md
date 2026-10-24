@@ -9,11 +9,11 @@
 ## Filed on TEST (not production)
 
 1. **Catch-up briefing**: `_ledger/2026-10-23-newsroom-looked-away.md` — Week 6 all five matches, league standings, trade spree, campaign, expansion allegations. Published on test only.
-2. **Bureau: three completed trades**: `_wire/2026-10-23-ryan-completes-three-trades.md` — confirmed ESPN Oct 20–21. Published on test only.
-3. **Bureau: Chance's campaign promises**: `_wire/2026-10-23-chance-learns-the-price-of-friendship.md` — quotes from archived Oct 17 GroupMe and verified Week 6 score. Published on test only.
+2. **Around the League: three completed trades**: `_wire/2026-10-23-ryan-completes-three-trades.md` — confirmed ESPN Oct 20–21. Published on test only.
+3. **Around the League: Chance's campaign promises**: `_wire/2026-10-23-chance-learns-the-price-of-friendship.md` — quotes from archived Oct 17 GroupMe and verified Week 6 score. Published on test only.
 
-4. **Bureau: the 5K committee needs a ruler**: `_wire/2026-10-23-five-kilometers-of-confusion.md` — sourced Oct 22 GroupMe discussion; participants disagree on route length, suggest loser funds a bar tab and perhaps wears costume. **Proposal, not finalized rules.** Published on test only.
-5. **Bureau: Bears–Patriots GroupMe watch party**: `_wire/2026-10-23-patriots-invade-bears-porridge.md` — Ryan Hutchins's porridge prophecy, his admission about math, and Ryan's claimed $50 winning bet. **Transfer of money unverified.** Published on test only.
+4. **Around the League: the 5K committee needs a ruler**: `_wire/2026-10-23-five-kilometers-of-confusion.md` — sourced Oct 22 GroupMe discussion; participants disagree on route length, suggest loser funds a bar tab and perhaps wears costume. **Proposal, not finalized rules.** Published on test only.
+5. **Around the League: Bears–Patriots GroupMe watch party**: `_wire/2026-10-23-patriots-invade-bears-porridge.md` — Ryan Hutchins's porridge prophecy, his admission about math, and Ryan's claimed $50 winning bet. **Transfer of money unverified.** Published on test only.
 
 ## GroupMe audit — Oct 22–23
 
@@ -26,7 +26,7 @@
 
 ## Developing — hold
 
-1. **Proposed 10→12 expansion**: informal discussion only. Anonymous tip alleges Larry and Frankie oppose it; **not independently verified**. Chance favors expanding; Casey's position unclear. Ask Larry, Frankie, Casey separately for responses, then decide whether story merits a public Bureau report. Held as an editorial lead in this backlog only; no article has been published.
+1. **Proposed 10→12 expansion**: informal discussion only. Anonymous tip alleges Larry and Frankie oppose it; **not independently verified**. Chance favors expanding; Casey's position unclear. Ask Larry, Frankie, Casey separately for responses, then decide whether story merits a public Around the League report. Held as an editorial lead in this backlog only; no article has been published.
 2. **Week 7 results**: games are still underway as of the Oct 23 snapshot; do not publish final scores or outcomes.
 3. **Post-Oct23 GroupMe**: next audit should collect messages after Oct 23 19:51 Eastern; fresh reaction/response could alter which stories deserve updates.
 4. **Trade reviews**: completion is verified, outcomes are not; use current/forward-looking analysis before declaring winners.
@@ -41,6 +41,6 @@
 
 ## Editorial operating rules
 
-The Bureau is the default format. Publish only when something matters. Preserve major long-form features when earned. Website is permanent record; GroupMe gets a short teaser/link; ESPN is a billboard. Equal team coverage in periodic recaps; portray Ryan with restrained editorial generosity. No unsupported personal accusations as fact.
+The Around the League is the default format. Publish only when something matters. Preserve major long-form features when earned. Website is permanent record; GroupMe gets a short teaser/link; ESPN is a billboard. Equal team coverage in periodic recaps; portray Ryan with restrained editorial generosity. No unsupported personal accusations as fact.
 
 **Next action:** Ryan reviews the five test stories and pending expansion questions; promote only explicitly approved stories to production.

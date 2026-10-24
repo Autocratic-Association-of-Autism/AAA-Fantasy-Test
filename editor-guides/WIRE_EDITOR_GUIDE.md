@@ -1,6 +1,6 @@
-# AAA Insider — The Bureau of Unnecessary Investigations: quick publishing
+# AAA Insider — Around the League: quick publishing
 
-The Bureau of Unnecessary Investigations is AAA Insider's default format. Each short story is an independent Markdown file with its own shareable URL, automatically included in the unified newest-first feed at `ledger.html`.
+Around the League is AAA Insider's default format. Each short story is an independent Markdown file with its own shareable URL, automatically included in the unified newest-first feed at `ledger.html`.
 
 ## Publish in 2 minutes
 

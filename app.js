@@ -147,7 +147,7 @@ if(championshipRoot){
   sackoSeasons.get(manager).push(Number(r.Season));
  });
  for(const years of sackoSeasons.values())years.sort((a,b)=>a-b);
- const sackoLabel=manager=>(sackoSeasons.get(String(manager||'').trim())||[]).map(y=>String(y)+'–'+String(y+1).slice(-2)).join(', ')||'—';
+ const sackoLabel=manager=>(sackoSeasons.get(String(manager||'').trim())||[]).map(y=>String(y)).join(', ')||'—';
  const honors=[...D.career].sort((a,b)=>Number(b.Championships||0)-Number(a.Championships||0)||Number(b['Runner-up']||0)-Number(a['Runner-up']||0)||Number(b['Top-3 Finishes']||0)-Number(a['Top-3 Finishes']||0)||(playoffAppearances.get(String(b.Manager||'').trim())||0)-(playoffAppearances.get(String(a.Manager||'').trim())||0)||String(a.Manager).localeCompare(String(b.Manager)));
  table('#postseasonHonors',honors,[{key:'Manager',label:'Rank',render:(_,r)=>'<span class="aaa-rank rank-'+String(rankFor(r).n)+'">'+rankFor(r).display+'</span>'},{key:'Manager',label:'Manager'},{key:'Championships',label:'Titles'},{key:'Runner-up',label:'Runner-up Finishes'},{key:'Top-3 Finishes',label:'Top 3 Finishes'},{key:'Manager',label:'Championship Playoff Appearances',render:(_,r)=>String(playoffAppearances.get(String(r.Manager||'').trim())||0)},{key:'Manager',label:'Sacko Finishes',render:(_,r)=>String((sackoSeasons.get(String(r.Manager||'').trim())||[]).length)},{key:'Manager',label:'Sacko Seasons',render:(_,r)=>sackoLabel(r.Manager)}]);
  document.querySelectorAll('#postseasonHonors tbody tr').forEach((tr,i)=>{if(rankFor(honors[i]).n===1)tr.classList.add('honors-no-podium');});

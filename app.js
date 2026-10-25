@@ -140,8 +140,8 @@ if(championshipRoot){
   else if(titles>=1){n=4;name='LEAGUE CHAMPION';stars=thirds;}
   else if(runners>=1){n=3;name='TITLE GAME FINALIST';stars=(runners-1)+thirds;}
   else if(thirds>=1){n=2;name='PODIUM FINISHER';stars=thirds-1;}
-  else if(appearances>=1){n=1;name='PLAYOFF QUALIFIER';stars=appearances-1;}
-  else{n=0;name='THE PODIUM IS A MYTH TO ME';stars=0;}
+  else if(appearances>=1){n=1;name='THE PODIUM IS A MYTH TO ME';stars=appearances-1;}
+  else{n=0;name='HUMAN BYE WEEK';stars=0;}
   // Chris Turner's two-title career retains his league-specific honorary title.
   if(String(r.Manager||'').trim().toLowerCase()==='chris turner')name='HIT IT AND QUIT IT';
   return {n,stars,display:name+(stars>0?' '+(stars<=5?'★'.repeat(stars):'★ ×'+stars):'')};

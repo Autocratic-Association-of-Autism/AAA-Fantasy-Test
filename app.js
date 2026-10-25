@@ -126,15 +126,27 @@ if(championshipRoot){
   return {Season:year,Champion:winner?.Manager||'Not verified','Champion Team':winner?.Team||'—','Runner-up':runner?.Manager||'Not verified','Runner-up Team':runner?.Team||'—'};
  });
  table('#championshipHistory',rows,[{key:'Season',label:'Season'},{key:'Champion',label:'Champion'},{key:'Champion Team',label:'Championship Team'},{key:'Runner-up',label:'Runner-up'},{key:'Runner-up Team',label:'Runner-up Team'}]);
+ // Career postseason tiers are achievement milestones, not an arbitrary point scale.
+ // Stars acknowledge additional achievements within a tier; earning a new tier resets them.
  const rankFor=r=>{
- const t=Number(r.Championships||0),s=Number(r['Runner-up']||0),p=Number(r['Top-3 Finishes']||0),b=Math.max(0,p-t-s);
- // Career honors are lexicographic: titles > runner-up finishes > third places.
- // Subdivisions reward every additional finish without allowing bronze to overtake silver or gold.
- const base=t>=2?{n:6,name:'DYNASTY DADDY'}:t&&s?{n:5,name:'PLAYOFF WARLORD'}:t?{n:4,name:'CERTIFIED BALL KNOWER'}:s?{n:3,name:'WAIVER WIRE WARRIOR'}:p?{n:2,name:'BRONZE BENCHWARMER'}:{n:1,name:'THE PODIUM IS A MYTH TO ME'};
- const stars=t>=2?t-1:base.n===5?s:base.n===4?1:base.n===3?s:base.n===2?b:0;
- const name=String(r.Manager||'').trim().toLowerCase()==='chris turner'?'HIT IT AND QUIT IT':base.name;
- return {...base,stars,display:name+(stars>0?' '+(stars<=5?'★'.repeat(stars):'★ ×'+stars):'')};
-};
+  const titles=Number(r.Championships||0);
+  const runners=Number(r['Runner-up']||0);
+  const podiums=Number(r['Top-3 Finishes']||0);
+  const thirds=Math.max(0,podiums-titles-runners);
+  const appearances=playoffAppearances.get(String(r.Manager||'').trim())||0;
+  let n,name,stars;
+  if(titles>=2){n=6;name='DYNASTY BUILDER';stars=titles-2;}
+  else if(titles>=1&&runners>=1){n=5;name='CHAMPIONSHIP VETERAN';stars=(runners-1)+thirds;}
+  else if(titles>=1){n=4;name='LEAGUE CHAMPION';stars=thirds;}
+  else if(runners>=1){n=3;name='TITLE GAME FINALIST';stars=(runners-1)+thirds;}
+  else if(thirds>=1){n=2;name='PODIUM FINISHER';stars=thirds-1;}
+  else if(appearances>=1){n=1;name='PLAYOFF QUALIFIER';stars=appearances-1;}
+  else{n=0;name='THE PODIUM IS A MYTH TO ME';stars=0;}
+  // Chris Turner's two-title career retains his league-specific honorary title.
+  if(String(r.Manager||'').trim().toLowerCase()==='chris turner')name='HIT IT AND QUIT IT';
+  return {n,stars,display:name+(stars>0?' '+(stars<=5?'★'.repeat(stars):'★ ×'+stars):'')};
+ };
+
  const playoffAppearances=new Map();
  D.seasons.filter(r=>Number(r.Season)<2026&&Number.isFinite(Number(r['Final Finish']))).forEach(r=>{
   const seed=Number(r['Playoff Seed']);
@@ -146,9 +158,16 @@ if(championshipRoot){
   if(!sackoSeasons.has(manager))sackoSeasons.set(manager,[]);
   sackoSeasons.get(manager).push(Number(r.Season));
  });
- const honors=[...D.career].sort((a,b)=>Number(b.Championships||0)-Number(a.Championships||0)||Number(b['Runner-up']||0)-Number(a['Runner-up']||0)||Number(b['Top-3 Finishes']||0)-Number(a['Top-3 Finishes']||0)||(playoffAppearances.get(String(b.Manager||'').trim())||0)-(playoffAppearances.get(String(a.Manager||'').trim())||0)||String(a.Manager).localeCompare(String(b.Manager)));
+ const honors=[...D.career].sort((a,b)=>{
+  const ar=rankFor(a),br=rankFor(b);
+  const aa=playoffAppearances.get(String(a.Manager||'').trim())||0;
+  const ba=playoffAppearances.get(String(b.Manager||'').trim())||0;
+  const arate=aa/Math.max(1,Number(a.Seasons||0));
+  const brate=ba/Math.max(1,Number(b.Seasons||0));
+  return br.n-ar.n||br.stars-ar.stars||ba-aa||brate-arate||String(a.Manager).localeCompare(String(b.Manager));
+ });
  table('#postseasonHonors',honors,[{key:'Manager',label:'Rank',render:(_,r)=>'<span class="aaa-rank rank-'+String(rankFor(r).n)+'">'+rankFor(r).display+'</span>'},{key:'Manager',label:'Manager'},{key:'Championships',label:'Titles'},{key:'Runner-up',label:'Runner-up Finishes'},{key:'Top-3 Finishes',label:'Top 3 Finishes'},{key:'Manager',label:'Playoff Appearances',render:(_,r)=>String(playoffAppearances.get(String(r.Manager||'').trim())||0)},{key:'Manager',label:'Sacko Finishes',render:(_,r)=>String((sackoSeasons.get(String(r.Manager||'').trim())||[]).length)}}]);
- document.querySelectorAll('#postseasonHonors tbody tr').forEach((tr,i)=>{if(rankFor(honors[i]).n===1)tr.classList.add('honors-no-podium');});
+ document.querySelectorAll('#postseasonHonors tbody tr').forEach((tr,i)=>{if(rankFor(honors[i]).n===0)tr.classList.add('honors-no-podium');});
 }
 
 if(document.querySelector('#sackoHistory')){

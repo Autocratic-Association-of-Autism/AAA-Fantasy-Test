@@ -1027,6 +1027,7 @@ nav a.active{background:#1e293b;color:white}
 
 .aaa-rank{display:inline-block;min-width:86px;text-align:center;padding:5px 9px;border:1px solid currentColor;border-radius:6px;font-weight:900;font-size:.73rem;letter-spacing:.075em}.rank-diamond{color:#78bdf6;background:#173753}.rank-platinum{color:#80d9cb;background:#183e3c}.rank-gold{color:#e9bf65;background:#493718}.rank-silver{color:#c9d0de;background:#343c4a}.rank-bronze{color:#dda577;background:#493023}.rank-unranked{color:#b2a4aa;background:#3a292e;border-style:dashed}
 
+.aaa-rank.rank-0{color:#e39199;background:rgba(80,20,31,.26);border-color:#c55460}
 .aaa-rank.rank-1{color:#b2a4aa;background:rgba(30,43,61,.85);border-color:currentColor}
 
 .aaa-rank.rank-2{color:#dda577;background:rgba(30,43,61,.85);border-color:currentColor}

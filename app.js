@@ -48,11 +48,30 @@ const weeklyCols=[
 ];
 table('#highest',D.highest,weeklyCols); table('#lowest',D.lowest,weeklyCols);
 
-if(document.querySelector('#blowoutLosses')){const el=document.querySelector('#blowoutLosses');const scope=document.createElement('p');scope.className='note';scope.textContent=window.BLOWOUT_SCOPE||'35+ point loss records are awaiting a complete ESPN historical export.';el.parentNode.insertBefore(scope,el);}
+const blowoutCount = document.getElementById('blowoutCount');
+if(blowoutCount) blowoutCount.textContent = (window.BLOWOUT_TOTAL||0).toLocaleString();
+const blowoutScope = document.getElementById('blowoutScope');
+if(blowoutScope) blowoutScope.textContent = window.BLOWOUT_SCOPE || 'Complete 35+ point results are unavailable.';
+
+table('#blowoutWins',(window.BLOWOUT_WINS||[]),[
+ {key:'Rank',label:'Rank'},
+ {key:'Manager',label:'Manager'},
+ {key:'Wins',label:'35+ Point Wins',render:v=>`<span class="highlight">${v}</span>`}
+]);
 table('#blowoutLosses',(window.BLOWOUT_LOSSES||[]),[
  {key:'Rank',label:'Rank'},
  {key:'Manager',label:'Manager'},
  {key:'Losses',label:'35+ Point Losses',render:v=>`<span class="highlight">${v}</span>`}
+]);
+table('#blowoutDetails',(window.BLOWOUT_DETAILS||[]),[
+ {key:'Season',label:'Season'},
+ {key:'Week',label:'Week'},
+ {key:'Winner',label:'Winner'},
+ {key:'Winner Score',label:'Winner Score',render:v=>fmt(v)},
+ {key:'Loser',label:'Loser'},
+ {key:'Loser Score',label:'Loser Score',render:v=>fmt(v)},
+ {key:'Margin',label:'Margin',render:v=>`<span class="highlight">${fmt(v)}</span>`},
+ {key:'Stage',label:'Stage',render:v=>`<span class="badge">${v}</span>`}
 ]);
 
 function normalizeGame(r){

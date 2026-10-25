@@ -166,7 +166,7 @@ if(championshipRoot){
   const brate=ba/Math.max(1,Number(b.Seasons||0));
   return br.n-ar.n||br.stars-ar.stars||ba-aa||brate-arate||String(a.Manager).localeCompare(String(b.Manager));
  });
- table('#postseasonHonors',honors,[{key:'Manager',label:'Rank',render:(_,r)=>'<span class="aaa-rank rank-'+String(rankFor(r).n)+'">'+rankFor(r).display+'</span>'},{key:'Manager',label:'Manager'},{key:'Championships',label:'Titles'},{key:'Runner-up',label:'Runner-up Finishes'},{key:'Top-3 Finishes',label:'Top 3 Finishes'},{key:'Manager',label:'Playoff Appearances',render:(_,r)=>String(playoffAppearances.get(String(r.Manager||'').trim())||0)},{key:'Manager',label:'Sacko Finishes',render:(_,r)=>String((sackoSeasons.get(String(r.Manager||'').trim())||[]).length)}}]);
+ table('#postseasonHonors',honors,[{key:'Manager',label:'Rank',render:(_,r)=>'<span class="aaa-rank rank-'+String(rankFor(r).n)+'">'+rankFor(r).display+'</span>'},{key:'Manager',label:'Manager'},{key:'Championships',label:'Titles'},{key:'Runner-up',label:'Runner-up Finishes'},{key:'Top-3 Finishes',label:'Top 3 Finishes'},{key:'Manager',label:'Playoff Appearances',render:(_,r)=>String(playoffAppearances.get(String(r.Manager||'').trim())||0)},{key:'Manager',label:'Sacko Finishes',render:(_,r)=>String((sackoSeasons.get(String(r.Manager||'').trim())||[]).length)}]);
  document.querySelectorAll('#postseasonHonors tbody tr').forEach((tr,i)=>{if(rankFor(honors[i]).n===0)tr.classList.add('honors-no-podium');});
 }
 
